@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "BlueRetro"
 Date "2020-05-20"
 Rev "v0.1"
@@ -1741,5 +1741,11 @@ S 1850 7250 1050 600
 U 5F127084
 F0 "Saturn" 50
 F1 "saturn.sch" 50
+$EndSheet
+$Sheet
+S 4350 7450 1550 350 
+U 5F1E85DD
+F0 "NES" 50
+F1 "NES.sch" 50
 $EndSheet
 $EndSCHEMATC

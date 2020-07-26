@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "BlueRetro - Saturn adapter cable"
 Date "2020-07-16"
 Rev "v1.0"
@@ -282,7 +282,7 @@ Wire Wire Line
 	9350 3300 9150 3300
 Connection ~ 9150 3300
 Wire Wire Line
-	9150 3300 9150 4000
+	9150 3300 9150 3500
 Wire Wire Line
 	9350 4000 9150 4000
 Connection ~ 9150 4000
@@ -883,8 +883,6 @@ Wire Wire Line
 	9350 3400 8950 3400
 Wire Wire Line
 	9350 3200 8950 3200
-NoConn ~ 9350 3500
-NoConn ~ 9350 3900
 NoConn ~ 9350 2000
 NoConn ~ 9350 2600
 NoConn ~ 9350 2800
@@ -909,4 +907,14 @@ Text Label 8950 3800 0    50   ~ 0
 I36
 Text Label 8950 4100 0    50   ~ 0
 I35
+Wire Wire Line
+	9350 3900 9150 3900
+Connection ~ 9150 3900
+Wire Wire Line
+	9150 3900 9150 4000
+Wire Wire Line
+	9350 3500 9150 3500
+Connection ~ 9150 3500
+Wire Wire Line
+	9150 3500 9150 3900
 $EndSCHEMATC
