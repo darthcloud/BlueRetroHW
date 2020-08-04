@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "BlueRetro"
 Date "2020-05-20"
 Rev "v0.1"
@@ -1828,4 +1828,10 @@ Wire Wire Line
 Connection ~ 3100 6250
 Wire Wire Line
 	3100 6250 3100 6050
+$Sheet
+S 6200 10100 1400 700 
+U 5F2C5C0D
+F0 "SNES" 50
+F1 "SNES.sch" 50
+$EndSheet
 $EndSCHEMATC
