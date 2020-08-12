@@ -56,6 +56,18 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x06_Odd_Even
+D Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x07_Odd_Even
+D Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_02x13_Odd_Even
 D Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
@@ -124,6 +136,12 @@ $CMP Micro_SD_Card
 D Micro SD Card Socket
 K connector SD microsd
 F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_Det
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
 $ENDCMP
 #
 $CMP MountingHole
