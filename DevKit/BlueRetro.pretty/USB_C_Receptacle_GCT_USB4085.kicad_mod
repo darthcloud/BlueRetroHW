@@ -1,4 +1,4 @@
-(module USB_C_Receptacle_GCT_USB4085 (layer F.Cu) (tedit 5F332BE0)
+(module USB_C_Receptacle_GCT_USB4085 (layer F.Cu) (tedit 5F351514)
   (descr "USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf")
   (tags "USB Type-C Receptacle Through-hole Right angle")
   (fp_text reference REF** (at 2.975 -1.8) (layer F.SilkS)
@@ -14,12 +14,9 @@
   (fp_line (start -2.3 -1.06) (end -2.3 9.11) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.62 2.4) (end -1.62 3.3) (layer F.SilkS) (width 0.12))
   (fp_line (start 7.57 2.4) (end 7.57 3.3) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.62 6) (end -1.62 8.73) (layer F.SilkS) (width 0.12))
-  (fp_line (start 7.57 6) (end 7.57 8.73) (layer F.SilkS) (width 0.12))
   (fp_line (start 7.45 -0.56) (end 7.45 8.61) (layer F.Fab) (width 0.1))
   (fp_line (start -1.5 -0.56) (end -1.5 8.61) (layer F.Fab) (width 0.1))
   (fp_line (start -1.5 -0.68) (end 7.45 -0.68) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.62 8.73) (end 7.57 8.73) (layer F.SilkS) (width 0.12))
   (fp_line (start -1.5 8.61) (end 7.45 8.61) (layer F.Fab) (width 0.1))
   (fp_line (start -1.5 -0.56) (end 7.45 -0.56) (layer F.Fab) (width 0.1))
   (fp_text user "PCB Edge" (at 2.975 6.1) (layer Dwgs.User)
@@ -48,7 +45,7 @@
   (pad S1 thru_hole oval (at 7.3 0.98) (size 0.9 2.4) (drill oval 0.6 2.1) (layers *.Cu *.Mask))
   (pad S1 thru_hole oval (at -1.35 4.36) (size 0.9 1.7) (drill oval 0.6 1.4) (layers *.Cu *.Mask))
   (pad S1 thru_hole oval (at 7.3 4.36) (size 0.9 1.7) (drill oval 0.6 1.4) (layers *.Cu *.Mask))
-  (model C:/Users/Jacques/Downloads/USB4085-GF-A--3DModel-STEP-56544.STEP
+  (model Z:/kicad/USB4085-GF-A--3DModel-STEP-56544.STEP
     (offset (xyz 3 -4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
