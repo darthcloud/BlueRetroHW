@@ -109,6 +109,10 @@ D Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Sig
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/3a/28/cf/d0/31/63/48/8c/CD00282307.pdf/files/CD00282307.pdf/jcr:content/translations/en.CD00282307.pdf
 $ENDCMP
 #
+$CMP ESP32-WROOM-32E
+D Source: https://github.com/adamjvr/ESP32-kiCAD-Footprints
+$ENDCMP
+#
 $CMP FT2232HL
 D Hi Speed Double Channel USB UART/FIFO, LQFP-64
 K USB Double UART FIFO
