@@ -86,7 +86,7 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
-$CMP DB25_Female_MountingHoles
+$CMP DB25_Female_MH
 D 25-pin female D-SUB connector, Mounting Hole
 K female D-SUB connector
 F  ~

@@ -40,11 +40,11 @@ F 5 "AP7361C-33E-13" H 10600 9650 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BlueRetro:DB25_Female_MountingHoles J5
+L BlueRetro:DB25_Female_MH J5
 U 1 1 5F316A7E
 P 2350 11750
 F 0 "J5" H 2268 13242 50  0000 C CNN
-F 1 "DB25_Female_MountingHoles" H 2268 13151 50  0000 C CNN
+F 1 "DB25_Female" H 2268 13151 50  0000 C CNN
 F 2 "BlueRetro:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset8.1mm_Housed_MountingHolesOffset9.5mm" H 2350 11750 50  0001 C CNN
 F 3 "~" H 2350 11750 50  0001 C CNN
 F 4 "AE10935-ND" H 2350 11750 50  0001 C CNN "DigiKey Part Number"
@@ -3762,10 +3762,10 @@ Connection ~ 6700 4400
 Wire Wire Line
 	6700 4400 6700 4300
 $Comp
-L BlueRetro:+3V3 #PWR?
+L BlueRetro:+3V3 #PWR0103
 U 1 1 5F4893B6
 P 6700 4000
-F 0 "#PWR?" H 6700 3850 50  0001 C CNN
+F 0 "#PWR0103" H 6700 3850 50  0001 C CNN
 F 1 "+3V3" H 6715 4173 50  0000 C CNN
 F 2 "" H 6700 4000 50  0001 C CNN
 F 3 "" H 6700 4000 50  0001 C CNN

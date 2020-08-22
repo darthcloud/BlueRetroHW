@@ -17,46 +17,47 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 16,"Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x06_Odd_Even,J2,Conn_02x06,PinHeader_2x06_P2.54mm_Vertical,1,~,S2011EC-40-ND,PRPC040DAAN-RC
 17,"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x07_Odd_Even,J7,Conn_02x07,PinHeader_2x07_P2.54mm_Vertical,1,~,,
 18,"Generic connector, double row, 02x13, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x13_Top_Bottom,J6,Conn_02x13,PinHeader_2x13_P2.54mm_Vertical_TB,1,~,,
-19,Micro SD Card Socket with card detection pins,Micro_SD_Card_Det,J3,Micro_SD_Card,microSD_HC_Molex_104031-0811,1,~,WM6357TR-ND,1040310811
-20,USB 2.0-only Type-C Receptacle connector,USB_C_Receptacle_USB2.0,J1,USB_C_Receptacle_USB2.0,USB_C_Receptacle_GCT_USB4085,1,~,2073-USB4085-GF-ATR-ND,USB4085-GF-A
-21,"Inductor, small symbol",L_Small,L1 L2,1K@100MHz,L_0603_1608Metric,2,~,732-4670-2-ND,742792662
-22,"50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23",BSS138,Q1 Q2,BSS138,SOT-23,2,~,BSS138LT1GOSTR-ND,BSS138LT1G
-23,"0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92",S8050,Q3 Q4 Q5,S8050,SOT-23,3,~,MMBT3904-FDITR-ND,MMBT3904-7-F
-24,"Resistor, US symbol",R_US,R14 R23 R25 R31,0,R_0603_1608Metric,4,~,311-0.0GRTR-ND,RC0603JR-070RL
-25,"Resistor, US symbol",R_0P,R2,0,R_0603_1608Metric,1,~,311-0.0GRTR-ND,RC0603JR-070RL
-26,"Resistor, US symbol",R_US,R10 R11 R12,33,R_0402_1005Metric,3,~,311-33.0LRTR-ND,RC0402FR-0733RL
-27,"Resistor, US symbol",R_US,R15 R16 R36,64.9,R_0402_1005Metric,3,~,RMCF0402FT64R9CT-ND,RMCF0402FT64R9
-28,"Resistor, US symbol",R_US,R26 R27,150,R_0402_1005Metric,2,~,P150LCT-ND,ERJ-2RKF1500X
-29,"Resistor, US symbol",R_US,R6 R24 R32,1K,R_0402_1005Metric,3,~,311-1.0KJRTR-ND,RC0402JR-071KL
-30,"Resistor, US symbol",R_US,R13,2.2K,R_0402_1005Metric,1,~,P2.20KLTR-ND,ERJ-2RKF2201X
-31,"Resistor, US symbol",R_US,R4,2.7K,R_0402_1005Metric,1,~,311-2.70KLRTR-ND,RC0402FR-072K7L
-32,"Resistor, US symbol",R_US,R3 R7 R8 R9 R17 R18 R19 R20 R21 R22 R28,10K,R_0402_1005Metric,11,~,311-10.0KLRTR-ND,RC0402FR-0710KL
-33,"Resistor, US symbol",R_US,R1 R5,12K,R_0402_1005Metric,2,~,311-12.0KLRTR-ND,RC0402FR-0712KL
-34,"Resistor, US symbol",R_US,R33 R34 R35,100K,R_0402_1005Metric,3,~,RMCF0402JT100KCT-ND,RMCF0402JT100K
-35,"Push button switch, generic, two pins",SW_Push,SW1,BOOT,SW_Tactile_SPST_Angled_PTS645Vx83-2LFS,1,~,CKN9121-ND,PTS645VH83-2 LFS
-36,"Push button switch, generic, two pins",SW_Push,SW2,EN,SW_Tactile_SPST_Angled_PTS645Vx83-2LFS,1,~,CKN9121-ND,PTS645VH83-2 LFS
-37,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",AP7361C-33E,U8 U9,AP7361C-33E,SOT-223-3_TabPin3,2,~,AP7361C-33E-13DITR-ND,AP7361C-33E-13
-38,"Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Signal Filter, 200mA uQFN SMD, Flat Contact Termination, 1.8 x 1.6 x 0.5mm",ECMF02-2AMX6,U6,ECMF02-2AMX6,ST_UQFN-6L_1.5x1.7mm_Pitch0.5mm,1,~,497-10773-2-ND,ECMF02-2AMX6
-39,Source: https://github.com/adamjvr/ESP32-kiCAD-Footprints,ESP32-WROOM-32E,U1,ESP32-WROOM-32E,ESP32-WROOM-32,1,,1965-ESP32-WROOM-32E(4MB)CT-ND,ESP32-WROOM-32E (4MB)
-40,"Hi Speed Double Channel USB UART/FIFO, LQFP-64",FT2232HL,U2,FT2232HL,LQFP-64_10x10mm_P0.5mm,1,~,768-1024-2-ND,FT2232HL-REEL
-41,"Serial EEPROM, 93 Series, 5.0V, DIP-8/SOIC-8",93CxxA,U5,M93C46,SOIC-8_3.9x4.9mm_P1.27mm,1,~,497-8590-5-ND,M93C46-WMN6P
-42,"STMicroelectronics STL6N3LLH6 N-channel MOSFET Transistor, 6 A, 30 V, 6-Pin PowerFLAT",STL6N3LLH6,U3,STL6N3LLH6,POWERFLAT-2X2,1,~,497-13651-2-ND,STL6N3LLH6
-43,USB type-C port protection,TCPP01-M12,U4,TCPP01-M12,QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm,1,~,497-TCPP01-M12TR-ND,TCPP01-M12
-44,6 channel EMI filters with integrated ESD protection,TPD6F003,U7 U10 U11 U12 U13,TPD6F003,Texas_R-PWSON-N12_EP0.4x2mm,5,~,296-25802-2-ND,TPD6F003DQDR
-45,Two pin crystal,Crystal,Y1,12MHz,Crystal_SMD_HC49-SD,1,~,535-9869-2-ND,ABLS2-12.000MHZ-D4Y-T
+19,"25-pin female D-SUB connector, Mounting Hole",DB25_Female_MH,J5,DB25_Female,DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset8.1mm_Housed_MountingHolesOffset9.5mm,1,~,AE10935-ND,A-DF 25 A/KG-T2S
+20,Micro SD Card Socket with card detection pins,Micro_SD_Card_Det,J3,Micro_SD_Card,microSD_HC_Molex_104031-0811,1,~,WM6357TR-ND,1040310811
+21,USB 2.0-only Type-C Receptacle connector,USB_C_Receptacle_USB2.0,J1,USB_C_Receptacle_USB2.0,USB_C_Receptacle_GCT_USB4085,1,~,2073-USB4085-GF-ATR-ND,USB4085-GF-A
+22,"Inductor, small symbol",L_Small,L1 L2,1K@100MHz,L_0603_1608Metric,2,~,732-4670-2-ND,742792662
+23,"50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23",BSS138,Q1 Q2,BSS138,SOT-23,2,~,BSS138LT1GOSTR-ND,BSS138LT1G
+24,"0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92",S8050,Q3 Q4 Q5,S8050,SOT-23,3,~,MMBT3904-FDITR-ND,MMBT3904-7-F
+25,"Resistor, US symbol",R_US,R14 R23 R25 R31,0,R_0603_1608Metric,4,~,311-0.0GRTR-ND,RC0603JR-070RL
+26,"Resistor, US symbol",R_0P,R2,0,R_0603_1608Metric,1,~,311-0.0GRTR-ND,RC0603JR-070RL
+27,"Resistor, US symbol",R_US,R10 R11 R12,33,R_0402_1005Metric,3,~,311-33.0LRTR-ND,RC0402FR-0733RL
+28,"Resistor, US symbol",R_US,R15 R16 R36,64.9,R_0402_1005Metric,3,~,RMCF0402FT64R9CT-ND,RMCF0402FT64R9
+29,"Resistor, US symbol",R_US,R26 R27,150,R_0402_1005Metric,2,~,P150LCT-ND,ERJ-2RKF1500X
+30,"Resistor, US symbol",R_US,R6 R24 R32,1K,R_0402_1005Metric,3,~,311-1.0KJRTR-ND,RC0402JR-071KL
+31,"Resistor, US symbol",R_US,R13,2.2K,R_0402_1005Metric,1,~,P2.20KLTR-ND,ERJ-2RKF2201X
+32,"Resistor, US symbol",R_US,R4,2.7K,R_0402_1005Metric,1,~,311-2.70KLRTR-ND,RC0402FR-072K7L
+33,"Resistor, US symbol",R_US,R3 R7 R8 R9 R17 R18 R19 R20 R21 R22 R28,10K,R_0402_1005Metric,11,~,311-10.0KLRTR-ND,RC0402FR-0710KL
+34,"Resistor, US symbol",R_US,R1 R5,12K,R_0402_1005Metric,2,~,311-12.0KLRTR-ND,RC0402FR-0712KL
+35,"Resistor, US symbol",R_US,R33 R34 R35,100K,R_0402_1005Metric,3,~,RMCF0402JT100KCT-ND,RMCF0402JT100K
+36,"Push button switch, generic, two pins",SW_Push,SW1,BOOT,SW_Tactile_SPST_Angled_PTS645Vx83-2LFS,1,~,CKN9121-ND,PTS645VH83-2 LFS
+37,"Push button switch, generic, two pins",SW_Push,SW2,EN,SW_Tactile_SPST_Angled_PTS645Vx83-2LFS,1,~,CKN9121-ND,PTS645VH83-2 LFS
+38,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",AP7361C-33E,U8 U9,AP7361C-33E,SOT-223-3_TabPin3,2,~,AP7361C-33E-13DITR-ND,AP7361C-33E-13
+39,"Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Signal Filter, 200mA uQFN SMD, Flat Contact Termination, 1.8 x 1.6 x 0.5mm",ECMF02-2AMX6,U6,ECMF02-2AMX6,ST_UQFN-6L_1.5x1.7mm_Pitch0.5mm,1,~,497-10773-2-ND,ECMF02-2AMX6
+40,Source: https://github.com/adamjvr/ESP32-kiCAD-Footprints,ESP32-WROOM-32E,U1,ESP32-WROOM-32E,ESP32-WROOM-32,1,,1965-ESP32-WROOM-32E(4MB)CT-ND,ESP32-WROOM-32E (4MB)
+41,"Hi Speed Double Channel USB UART/FIFO, LQFP-64",FT2232HL,U2,FT2232HL,LQFP-64_10x10mm_P0.5mm,1,~,768-1024-2-ND,FT2232HL-REEL
+42,"Serial EEPROM, 93 Series, 5.0V, DIP-8/SOIC-8",93CxxA,U5,M93C46,SOIC-8_3.9x4.9mm_P1.27mm,1,~,497-8590-5-ND,M93C46-WMN6P
+43,"STMicroelectronics STL6N3LLH6 N-channel MOSFET Transistor, 6 A, 30 V, 6-Pin PowerFLAT",STL6N3LLH6,U3,STL6N3LLH6,POWERFLAT-2X2,1,~,497-13651-2-ND,STL6N3LLH6
+44,USB type-C port protection,TCPP01-M12,U4,TCPP01-M12,QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm,1,~,497-TCPP01-M12TR-ND,TCPP01-M12
+45,6 channel EMI filters with integrated ESD protection,TPD6F003,U7 U10 U11 U12 U13,TPD6F003,Texas_R-PWSON-N12_EP0.4x2mm,5,~,296-25802-2-ND,TPD6F003DQDR
+46,Two pin crystal,Crystal,Y1,12MHz,Crystal_SMD_HC49-SD,1,~,535-9869-2-ND,ABLS2-12.000MHZ-D4Y-T
 
 
 
 
 
-Component Groups:,45
-Component Count:,101
-Fitted Components:,101
+Component Groups:,46
+Component Count:,102
+Fitted Components:,102
 Number of PCBs:,1
-Total components:,101
+Total components:,102
 Schematic Version:,v1.0
 Schematic Date:,2020-08-05
 PCB Variant:,[u'default']
-BoM Date:,2020-08-17 8:02:03 AM
+BoM Date:,2020-08-20 8:55:23 AM
 Schematic Source:,BlueRetroCore.sch
 KiCad Version:,Eeschema (5.1.6)-1
