@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 4
+Sheet 2 7
 Title "BlueRetro - Saturn adapter cable"
-Date "2020-07-16"
-Rev "v1.0"
+Date "2020-08-22"
+Rev "v1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -247,8 +247,6 @@ $EndComp
 Wire Wire Line
 	9050 1700 9350 1700
 Wire Wire Line
-	9050 1900 9350 1900
-Wire Wire Line
 	9050 2100 9350 2100
 Wire Wire Line
 	9050 2300 9350 2300
@@ -277,17 +275,9 @@ $EndComp
 Wire Wire Line
 	9350 2500 9150 2500
 Wire Wire Line
-	9150 2500 9150 3300
+	9150 2500 9150 3100
 Wire Wire Line
 	9350 3300 9150 3300
-Connection ~ 9150 3300
-Wire Wire Line
-	9150 3300 9150 3500
-Wire Wire Line
-	9350 4000 9150 4000
-Connection ~ 9150 4000
-Wire Wire Line
-	9150 4000 9150 4200
 Wire Wire Line
 	9250 1600 9250 2900
 Wire Wire Line
@@ -851,13 +841,13 @@ Text Label 1400 4250 2    50   ~ 0
 R2
 Text Label 1400 4350 2    50   ~ 0
 L2
-Text Label 9050 1700 0    50   ~ 0
+Text Label 9050 2200 0    50   ~ 0
 IO19
-Text Label 9050 1900 0    50   ~ 0
-IO21
 Text Label 9050 2100 0    50   ~ 0
+IO21
+Text Label 9050 1800 0    50   ~ 0
 IO22
-Text Label 9050 2300 0    50   ~ 0
+Text Label 8950 3900 0    50   ~ 0
 IO25
 Wire Wire Line
 	9350 1800 9050 1800
@@ -870,51 +860,65 @@ Wire Wire Line
 Wire Wire Line
 	8950 2700 9350 2700
 Wire Wire Line
-	9350 3700 8950 3700
-Wire Wire Line
-	8950 3000 9350 3000
-Wire Wire Line
 	9350 4100 8950 4100
 Wire Wire Line
 	9350 3800 8950 3800
 Wire Wire Line
 	9350 3600 8950 3600
 Wire Wire Line
-	9350 3400 8950 3400
-Wire Wire Line
 	9350 3200 8950 3200
-NoConn ~ 9350 2000
-NoConn ~ 9350 2600
-NoConn ~ 9350 2800
-NoConn ~ 9350 3100
-Text Label 9050 1800 0    50   ~ 0
-IO0
-Text Label 9050 2200 0    50   ~ 0
+Text Label 8950 2800 0    50   ~ 0
+IO16
+Text Label 9050 2000 0    50   ~ 0
 IO3
 Text Label 9050 2400 0    50   ~ 0
 IO5
-Text Label 8950 3000 0    50   ~ 0
-IO18
-Text Label 8950 3200 0    50   ~ 0
+Text Label 9050 1700 0    50   ~ 0
 IO23
-Text Label 8950 3400 0    50   ~ 0
+Text Label 8950 4000 0    50   ~ 0
 IO26
-Text Label 8950 3600 0    50   ~ 0
-IO27
-Text Label 8950 3700 0    50   ~ 0
-IO33
-Text Label 8950 3800 0    50   ~ 0
-I36
 Text Label 8950 4100 0    50   ~ 0
+IO27
+Text Label 8950 3800 0    50   ~ 0
+IO33
+Text Label 8950 3200 0    50   ~ 0
+I36
+Text Label 8950 3600 0    50   ~ 0
 I35
 Wire Wire Line
-	9350 3900 9150 3900
-Connection ~ 9150 3900
+	9350 3100 9150 3100
+Connection ~ 9150 3100
 Wire Wire Line
-	9150 3900 9150 4000
+	9150 3100 9150 3300
+Wire Wire Line
+	9150 3300 9150 3400
+Connection ~ 9150 3300
+Wire Wire Line
+	9350 3400 9150 3400
+Connection ~ 9150 3400
+Wire Wire Line
+	9150 3400 9150 3500
+Wire Wire Line
+	9350 2800 8950 2800
+Wire Wire Line
+	9350 2000 9050 2000
+Wire Wire Line
+	9350 3900 8950 3900
+Text Label 9050 2300 0    50   ~ 0
+IO18
+Wire Wire Line
+	8950 4000 9350 4000
+Wire Wire Line
+	9350 3700 9150 3700
+Connection ~ 9150 3700
+Wire Wire Line
+	9150 3700 9150 4200
+NoConn ~ 9350 1900
+NoConn ~ 9350 2600
 Wire Wire Line
 	9350 3500 9150 3500
 Connection ~ 9150 3500
 Wire Wire Line
-	9150 3500 9150 3900
+	9150 3500 9150 3700
+NoConn ~ 9350 3000
 $EndSCHEMATC

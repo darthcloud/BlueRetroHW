@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 4
+Sheet 4 7
 Title "BlueRetro - SFC/SNES adapter cable"
-Date "2020-08-04"
-Rev "v1.0"
+Date "2020-08-22"
+Rev "v1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -170,8 +170,6 @@ $EndComp
 Wire Wire Line
 	9250 1550 9550 1550
 Wire Wire Line
-	9250 1750 9550 1750
-Wire Wire Line
 	9250 1950 9550 1950
 Wire Wire Line
 	9250 2150 9550 2150
@@ -207,7 +205,6 @@ Wire Wire Line
 	9550 2350 9350 2350
 Wire Wire Line
 	9550 3150 9350 3150
-Connection ~ 9350 3150
 Wire Wire Line
 	9450 1450 9450 2750
 Wire Wire Line
@@ -512,13 +509,13 @@ F 3 "" H 1500 1500 50  0001 C CNN
 	1    1500 1500
 	1    0    0    -1  
 $EndComp
-Text Label 9250 1550 0    50   ~ 0
+Text Label 9250 2050 0    50   ~ 0
 IO19
-Text Label 9250 1750 0    50   ~ 0
-IO21
 Text Label 9250 1950 0    50   ~ 0
+IO21
+Text Label 9250 1650 0    50   ~ 0
 IO22
-Text Label 9250 2150 0    50   ~ 0
+Text Label 9150 3750 0    50   ~ 0
 IO25
 Wire Wire Line
 	9550 2250 9250 2250
@@ -526,15 +523,9 @@ Wire Wire Line
 	9150 2550 9150 2500
 Wire Wire Line
 	9150 2550 9550 2550
-Wire Wire Line
-	9150 2850 9550 2850
-NoConn ~ 9550 1850
-NoConn ~ 9550 2450
-NoConn ~ 9550 2650
-NoConn ~ 9550 2950
 Text Label 9250 2250 0    50   ~ 0
 IO5
-Text Label 9150 2850 0    50   ~ 0
+Text Label 9250 2150 0    50   ~ 0
 IO18
 Text Label 1850 3600 2    50   ~ 0
 P2-CLK
@@ -546,28 +537,8 @@ Text Label 1850 1850 2    50   ~ 0
 LATCH
 Text Label 1850 1950 2    50   ~ 0
 P1-D0
-Wire Wire Line
-	9550 3950 9350 3950
-Connection ~ 9350 3950
-Wire Wire Line
-	9350 3950 9350 4050
-Wire Wire Line
-	9550 3750 9350 3750
-Connection ~ 9350 3750
-Wire Wire Line
-	9350 3750 9350 3850
-Wire Wire Line
-	9550 3550 9350 3550
-Connection ~ 9350 3550
-Wire Wire Line
-	9350 3550 9350 3750
-Wire Wire Line
-	9550 3350 9150 3350
-Text Label 9150 3350 0    50   ~ 0
+Text Label 9150 3550 0    50   ~ 0
 IO32
-NoConn ~ 9550 1650
-NoConn ~ 9550 2050
-NoConn ~ 9550 3650
 Text Label 2900 1250 0    50   ~ 0
 IO19
 Text Label 2900 2150 0    50   ~ 0
@@ -815,18 +786,11 @@ F 3 "" H 7250 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7850 3050
-NoConn ~ 9550 3450
 Wire Wire Line
-	9350 2350 9350 3150
-Wire Wire Line
-	9350 3150 9350 3550
-Wire Wire Line
-	9550 3050 9150 3050
-Wire Wire Line
-	9550 3250 9150 3250
-Text Label 9150 3050 0    50   ~ 0
+	9350 2350 9350 2950
+Text Label 9250 1550 0    50   ~ 0
 IO23
-Text Label 9150 3250 0    50   ~ 0
+Text Label 9150 3850 0    50   ~ 0
 IO26
 Wire Notes Line
 	6750 800  8450 800 
@@ -881,11 +845,6 @@ Text Label 1850 3900 2    50   ~ 0
 P2-D1
 Text Label 1850 4000 2    50   ~ 0
 P2-SEL
-Wire Wire Line
-	9550 3850 9350 3850
-Connection ~ 9350 3850
-Wire Wire Line
-	9350 3850 9350 3950
 Wire Notes Line
 	2850 1750 4200 1750
 Wire Notes Line
@@ -904,4 +863,49 @@ Wire Notes Line
 	2850 4450 2850 3550
 Text Notes 3150 4550 0    50   ~ 0
 * Only for Multitap support
+Wire Wire Line
+	9350 4050 9350 3650
+Connection ~ 9350 3150
+Wire Wire Line
+	9550 2950 9350 2950
+Connection ~ 9350 2950
+Wire Wire Line
+	9350 2950 9350 3150
+Wire Wire Line
+	9550 3250 9350 3250
+Connection ~ 9350 3250
+Wire Wire Line
+	9350 3250 9350 3150
+Wire Wire Line
+	9550 2050 9250 2050
+Wire Wire Line
+	9550 1650 9250 1650
+Wire Wire Line
+	9550 3750 9150 3750
+Wire Wire Line
+	9550 3550 9150 3550
+Wire Wire Line
+	9550 3850 9150 3850
+NoConn ~ 9550 3950
+NoConn ~ 9550 1750
+NoConn ~ 9550 1850
+NoConn ~ 9550 2450
+NoConn ~ 9550 2650
+NoConn ~ 9550 2850
+NoConn ~ 9550 3050
+Wire Wire Line
+	9550 3350 9350 3350
+Connection ~ 9350 3350
+Wire Wire Line
+	9350 3350 9350 3250
+Wire Wire Line
+	9550 3450 9350 3450
+Connection ~ 9350 3450
+Wire Wire Line
+	9350 3450 9350 3350
+Wire Wire Line
+	9550 3650 9350 3650
+Connection ~ 9350 3650
+Wire Wire Line
+	9350 3650 9350 3450
 $EndSCHEMATC
