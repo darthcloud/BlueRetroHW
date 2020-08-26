@@ -6,7 +6,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 5,"Unpolarized capacitor, small symbol",C_Small,C3 C4 C14 C16,4.7u,C_0603_1608Metric,4,~,1276-1044-2-ND,CL10A475KP8NNNC
 6,"Unpolarized capacitor, small symbol",C_Small,C21 C24 C25 C26 C27,10u,C_0805_2012Metric,5,~,490-5523-2-ND,GRM21BR61E106KA73L
 7,"Unpolarized capacitor, small symbol",C_Small,C5,100u,C_1210_3225Metric,1,~,1276-3399-2-ND,CL32X107MQVNNNE
-8,Schottky diode,D_Schottky,D3,BAT30F4,D_0201_0603Metric,1,~,497-15253-2-ND,BAT30F4
+8,Schottky diode,D_Schottky,D3,BAT54KFILM,D_SOD-523,1,~,497-5561-1-ND,BAT54KFILM
 9,Schottky diode,D_Schottky,D2 D10,ESDA25P35-1U1M,D_0603_1608Metric,2,~,497-16913-2-ND,ESDA25P35-1U1M
 10,Light emitting diode,LED,D4,GREEN,LED_0603_1608Metric,1,~,160-1446-2-ND,LTST-C191KGKT
 11,Light emitting diode,LED,D6,GREEN_RA,LED_0605_1611Metric,1,~,846-1157-1-ND,SML-A12M8TT86
@@ -58,6 +58,6 @@ Total components:,102
 Schematic Version:,v1.0
 Schematic Date:,2020-08-05
 PCB Variant:,[u'default']
-BoM Date:,2020-08-20 8:55:23 AM
+BoM Date:,2020-08-26 9:50:22 AM
 Schematic Source:,BlueRetroCore.sch
 KiCad Version:,Eeschema (5.1.6)-1
