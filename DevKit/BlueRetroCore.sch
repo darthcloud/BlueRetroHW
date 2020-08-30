@@ -5,8 +5,8 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title "BlueRetro ESP32 DevKit"
-Date "2020-08-05"
-Rev "v1.0"
+Date "2020-08-30"
+Rev "v1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
