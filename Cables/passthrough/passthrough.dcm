@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_01x01
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DB25_Male
+D 25-pin male D-SUB connector
+K male D-SUB connector
+F  ~
+$ENDCMP
+#
+$CMP SolderJumper_3_Open
+D Solder Jumper, 3-pole, open
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name passthrough)(type KiCad)(uri ${KIPRJMOD}/passthrough.pretty)(options "")(descr ""))
+)
