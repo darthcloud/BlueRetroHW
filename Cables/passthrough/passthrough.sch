@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "BlueRetro - Passthrough cable adapter (3.3V)"
-Date "2020-08-23"
-Rev "v1.0"
+Date "2020-09-06"
+Rev "v1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -22,7 +22,7 @@ F 1 "DB25_Male" H 3818 4901 50  0000 C CNN
 F 2 "passthrough:DSUB-25_Male_EdgeMount_P2.77mm" H 3900 3500 50  0001 C CNN
 F 3 " ~" H 3900 3500 50  0001 C CNN
 	1    3900 3500
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L passthrough:Conn_01x01 J5
@@ -532,7 +532,7 @@ VIN
 Text Label 6600 900  0    50   ~ 0
 GND
 Text Label 6600 1100 0    50   ~ 0
-VOUT
+VIN
 $Comp
 L passthrough:Conn_01x01 J29
 U 1 1 5F4C8C4D
