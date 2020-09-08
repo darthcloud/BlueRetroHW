@@ -1119,7 +1119,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 5550 4700 5550
 Text Label 4150 5150 0    50   ~ 0
-GND
+DIR4
 Text Label 4700 5150 2    50   ~ 0
 VOUT
 Text Label 4700 5550 2    50   ~ 0
@@ -1130,8 +1130,6 @@ Wire Wire Line
 	4350 4650 4150 4650
 Wire Wire Line
 	4450 4650 4700 4650
-Text Label 4700 4650 2    50   ~ 0
-GND
 Text Label 4150 4650 0    50   ~ 0
 VIN
 Text Label 4150 5050 0    50   ~ 0
@@ -1495,4 +1493,17 @@ Wire Wire Line
 	1200 4400 1600 4400
 Text Label 1600 4400 2    50   ~ 0
 GND
+$Comp
+L levelshifter:Conn_01x01 J8
+U 1 1 5F58DF76
+P 4900 4650
+F 0 "J8" H 4850 4750 50  0000 L CNN
+F 1 "Conn_01x01" H 4980 4601 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 4900 4650 50  0001 C CNN
+F 3 "~" H 4900 4650 50  0001 C CNN
+	1    4900 4650
+	1    0    0    -1  
+$EndComp
+Text Label 4700 4650 2    50   ~ 0
+DIR4
 $EndSCHEMATC
