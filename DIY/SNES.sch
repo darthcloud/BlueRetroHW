@@ -908,4 +908,6 @@ Wire Wire Line
 Connection ~ 9350 3650
 Wire Wire Line
 	9350 3650 9350 3450
+Text Notes 6350 6900 0    50   ~ 0
+* Very important for DB25 pin 22 (I39/VN) to be connect to GND for proper system detection.
 $EndSCHEMATC

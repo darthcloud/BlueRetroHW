@@ -403,4 +403,6 @@ F 3 " ~" H 7100 3650 50  0001 C CNN
 	1    7100 3650
 	1    0    0    1   
 $EndComp
+Text Notes 6350 6900 0    50   ~ 0
+* Very important for DB25 pin 22 (I39/VN) to be connect to VOUT (3.3V) for proper system detection.
 $EndSCHEMATC

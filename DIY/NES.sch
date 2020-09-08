@@ -669,4 +669,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 3100 9050 2400
 Connection ~ 9050 2400
+Text Notes 6350 6900 0    50   ~ 0
+* Very important for DB25 pin 22 (I39/VN) to be connect to VOUT (3.3V) for proper system detection.
 $EndSCHEMATC

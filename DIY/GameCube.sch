@@ -392,4 +392,6 @@ Text Label 6500 4300 2    50   ~ 0
 IO26
 Text Label 6500 5000 2    50   ~ 0
 IO27
+Text Notes 6350 6900 0    50   ~ 0
+* Very important for DB25 pin 22 (I39/VN) to be connect to GND for proper system detection.
 $EndSCHEMATC
