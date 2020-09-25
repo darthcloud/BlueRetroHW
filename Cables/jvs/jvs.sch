@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "BlueRetro - JVS cable adapter (RS485)"
-Date "2020-09-05"
-Rev "v1.0"
+Date "2020-09-25"
+Rev "v1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -385,10 +385,8 @@ Wire Wire Line
 Text Label 3900 5100 0    50   ~ 0
 GND
 Wire Wire Line
-	5500 4900 5800 4900
-Wire Wire Line
-	5500 4700 5900 4700
-Text Label 5800 4900 2    50   ~ 0
+	5500 4700 5650 4700
+Text Label 5750 5050 0    50   ~ 0
 GND
 Wire Wire Line
 	4200 4900 4200 4800
@@ -416,10 +414,6 @@ Wire Wire Line
 	5900 4700 6200 4700
 Wire Wire Line
 	5900 4950 5900 5050
-Wire Wire Line
-	5900 5050 5800 5050
-Wire Wire Line
-	5800 5050 5800 4900
 Text Label 4250 3400 0    50   ~ 0
 IO22
 Text Label 4250 3100 0    50   ~ 0
@@ -481,4 +475,13 @@ Wire Wire Line
 	2750 4850 3150 4850
 Text Label 3150 4850 2    50   ~ 0
 IO25
+Wire Wire Line
+	5500 4900 5650 4900
+Wire Wire Line
+	5650 4900 5650 4700
+Connection ~ 5650 4700
+Wire Wire Line
+	5650 4700 5900 4700
+Wire Wire Line
+	5900 5050 5750 5050
 $EndSCHEMATC
