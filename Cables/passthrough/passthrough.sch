@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "BlueRetro - Passthrough cable adapter (3.3V)"
-Date "2020-09-06"
-Rev "v1.1"
+Date "2020-09-25"
+Rev "v1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -596,5 +596,270 @@ Wire Wire Line
 Text Label 4500 5200 2    50   ~ 0
 VOUT
 Text Label 4500 5600 2    50   ~ 0
+GND
+$Comp
+L passthrough:AZ1117-3.3 U1
+U 1 1 5F792DCA
+P 1800 1400
+F 0 "U1" H 1800 1642 50  0000 C CNN
+F 1 "AZ1117-3.3" H 1800 1551 50  0000 C CNN
+F 2 "passthrough:SOT-223-3_TabPin2" H 1800 1650 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 1800 1400 50  0001 C CNN
+	1    1800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L passthrough:C_Small C2
+U 1 1 5F79F9D2
+P 2200 1550
+F 0 "C2" H 2292 1596 50  0000 L CNN
+F 1 "10u" H 2292 1505 50  0000 L CNN
+F 2 "passthrough:C_0805_2012Metric" H 2200 1550 50  0001 C CNN
+F 3 "~" H 2200 1550 50  0001 C CNN
+	1    2200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L passthrough:C_Small C1
+U 1 1 5F79FFEF
+P 1350 1550
+F 0 "C1" H 1442 1596 50  0000 L CNN
+F 1 "10u" H 1442 1505 50  0000 L CNN
+F 2 "passthrough:C_0805_2012Metric" H 1350 1550 50  0001 C CNN
+F 3 "~" H 1350 1550 50  0001 C CNN
+	1    1350 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1400 1350 1400
+Wire Wire Line
+	1350 1400 1350 1450
+Wire Wire Line
+	2200 1450 2200 1400
+Wire Wire Line
+	2200 1400 2100 1400
+Wire Wire Line
+	1350 1650 1350 1700
+Wire Wire Line
+	1350 1700 1800 1700
+Wire Wire Line
+	2200 1700 2200 1650
+Connection ~ 1800 1700
+Wire Wire Line
+	1800 1700 2200 1700
+Wire Wire Line
+	2200 1700 2800 1700
+Connection ~ 2200 1700
+Text Label 2800 1700 2    50   ~ 0
+GND
+Wire Wire Line
+	2200 1400 2800 1400
+Connection ~ 2200 1400
+Text Label 2800 1400 2    50   ~ 0
+VIN
+$Comp
+L passthrough:Conn_01x01 J32
+U 1 1 5F7ACC9A
+P 1150 1400
+F 0 "J32" H 1230 1442 50  0000 L CNN
+F 1 "Conn_01x01" H 1230 1351 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 1150 1400 50  0001 C CNN
+F 3 "~" H 1150 1400 50  0001 C CNN
+	1    1150 1400
+	-1   0    0    1   
+$EndComp
+Connection ~ 1350 1400
+$Comp
+L passthrough:Conn_01x01 J33
+U 1 1 5F7AE63B
+P 1150 1200
+F 0 "J33" H 1230 1242 50  0000 L CNN
+F 1 "Conn_01x01" H 1230 1151 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 1150 1200 50  0001 C CNN
+F 3 "~" H 1150 1200 50  0001 C CNN
+	1    1150 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1350 1200 1350 1400
+$Comp
+L passthrough:Conn_01x01 J34
+U 1 1 5F741B20
+P 8400 700
+F 0 "J34" H 8480 742 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 651 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 700 50  0001 C CNN
+F 3 "~" H 8400 700 50  0001 C CNN
+	1    8400 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 700  7800 700 
+Text Label 7800 700  0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J35
+U 1 1 5F743CBC
+P 8400 900
+F 0 "J35" H 8480 942 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 851 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 900 50  0001 C CNN
+F 3 "~" H 8400 900 50  0001 C CNN
+	1    8400 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 900  7800 900 
+Text Label 7800 900  0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J36
+U 1 1 5F7460F6
+P 8400 1100
+F 0 "J36" H 8480 1142 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 1051 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 1100 50  0001 C CNN
+F 3 "~" H 8400 1100 50  0001 C CNN
+	1    8400 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1100 7800 1100
+Text Label 7800 1100 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J37
+U 1 1 5F748405
+P 8400 1300
+F 0 "J37" H 8480 1342 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 1251 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 1300 50  0001 C CNN
+F 3 "~" H 8400 1300 50  0001 C CNN
+	1    8400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1300 7800 1300
+Text Label 7800 1300 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J38
+U 1 1 5F74EB5A
+P 8400 1500
+F 0 "J38" H 8480 1542 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 1451 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 1500 50  0001 C CNN
+F 3 "~" H 8400 1500 50  0001 C CNN
+	1    8400 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1500 7800 1500
+Text Label 7800 1500 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J39
+U 1 1 5F74EB62
+P 8400 1700
+F 0 "J39" H 8480 1742 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 1651 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 1700 50  0001 C CNN
+F 3 "~" H 8400 1700 50  0001 C CNN
+	1    8400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1700 7800 1700
+Text Label 7800 1700 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J40
+U 1 1 5F74EB6A
+P 8400 1900
+F 0 "J40" H 8480 1942 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 1851 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 1900 50  0001 C CNN
+F 3 "~" H 8400 1900 50  0001 C CNN
+	1    8400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1900 7800 1900
+Text Label 7800 1900 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J41
+U 1 1 5F74EB72
+P 8400 2100
+F 0 "J41" H 8480 2142 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 2051 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 2100 50  0001 C CNN
+F 3 "~" H 8400 2100 50  0001 C CNN
+	1    8400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2100 7800 2100
+Text Label 7800 2100 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J42
+U 1 1 5F754ED3
+P 8400 2300
+F 0 "J42" H 8480 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 2251 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 2300 50  0001 C CNN
+F 3 "~" H 8400 2300 50  0001 C CNN
+	1    8400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2300 7800 2300
+Text Label 7800 2300 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J43
+U 1 1 5F754EDB
+P 8400 2500
+F 0 "J43" H 8480 2542 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 2451 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 2500 50  0001 C CNN
+F 3 "~" H 8400 2500 50  0001 C CNN
+	1    8400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2500 7800 2500
+Text Label 7800 2500 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J44
+U 1 1 5F754EE3
+P 8400 2700
+F 0 "J44" H 8480 2742 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 2651 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 2700 50  0001 C CNN
+F 3 "~" H 8400 2700 50  0001 C CNN
+	1    8400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2700 7800 2700
+Text Label 7800 2700 0    50   ~ 0
+GND
+$Comp
+L passthrough:Conn_01x01 J45
+U 1 1 5F754EEB
+P 8400 2900
+F 0 "J45" H 8480 2942 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 2851 50  0000 L CNN
+F 2 "passthrough:SolderWirePad_1x01_SMD_1x2mm" H 8400 2900 50  0001 C CNN
+F 3 "~" H 8400 2900 50  0001 C CNN
+	1    8400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2900 7800 2900
+Text Label 7800 2900 0    50   ~ 0
 GND
 $EndSCHEMATC

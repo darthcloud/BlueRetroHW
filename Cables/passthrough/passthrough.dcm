@@ -1,5 +1,47 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AZ1117-1.5
+D 1A 20V Fixed LDO Linear Regulator, 1.5V, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117-1.8
+D 1A 20V Fixed LDO Linear Regulator, 1.8V, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117-2.5
+D 1A 20V Fixed LDO Linear Regulator, 2.5V, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117-2.85
+D 1A 20V Fixed LDO Linear Regulator, 2.85V, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117-3.3
+D 1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117-5.0
+D 1A 20V Fixed LDO Linear Regulator, 5.0V, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
 $CMP Conn_01x01
 D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
