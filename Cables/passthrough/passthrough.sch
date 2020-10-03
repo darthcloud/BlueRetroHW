@@ -7,7 +7,7 @@ Sheet 1 1
 Title "BlueRetro - Passthrough cable adapter (3.3V)"
 Date "2020-09-25"
 Rev "v1.2"
-Comp ""
+Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""

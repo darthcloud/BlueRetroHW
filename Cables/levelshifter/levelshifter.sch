@@ -7,7 +7,7 @@ Sheet 1 1
 Title "BlueRetro - Level shifter cable adapter (5V)"
 Date "2020-09-06"
 Rev "v1.1"
-Comp ""
+Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
