@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 7
 Title "BlueRetro DIY"
-Date "2020-08-22"
-Rev "v1.1"
-Comp ""
+Date "2020-10-02"
+Rev "v1.2"
+Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""

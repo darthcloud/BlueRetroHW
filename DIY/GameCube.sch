@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 6 7
 Title "BlueRetro - GameCube adapter cable"
-Date "2020-08-22"
-Rev "v1.1"
-Comp ""
+Date "2020-10-02"
+Rev "v1.2"
+Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -40,243 +40,169 @@ F 3 "" H 6750 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic_Shielded:Conn_01x06_Shielded P?
+L Connector_Gaming:GameCube P?
 U 1 1 5F505081
-P 4350 3000
+P 4600 2850
 AR Path="/5F505081" Ref="P?"  Part="1" 
 AR Path="/5F457D26/5F505081" Ref="P1"  Part="1" 
-F 0 "P1" H 4272 3415 50  0000 C CNN
-F 1 "GC Ctrl slot" H 4272 3324 50  0000 C CNN
-F 2 "" H 4350 3000 50  0001 C CNN
-F 3 "~" H 4350 3000 50  0001 C CNN
-	1    4350 3000
-	-1   0    0    -1  
+F 0 "P1" V 4350 2150 50  0000 C CNN
+F 1 "GC Ctrl slot" H 4522 3174 50  0001 C CNN
+F 2 "" H 4600 2850 50  0001 C CNN
+F 3 "~" H 4600 2850 50  0001 C CNN
+	1    4600 2850
+	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic_Shielded:Conn_01x06_Shielded P?
+L Connector_Gaming:GameCube P?
 U 1 1 5F505087
-P 5450 3000
+P 5750 2850
 AR Path="/5F505087" Ref="P?"  Part="1" 
 AR Path="/5F457D26/5F505087" Ref="P2"  Part="1" 
-F 0 "P2" H 5372 3415 50  0000 C CNN
-F 1 "GC Ctrl slot" H 5372 3324 50  0000 C CNN
-F 2 "" H 5450 3000 50  0001 C CNN
-F 3 "~" H 5450 3000 50  0001 C CNN
-	1    5450 3000
-	-1   0    0    -1  
+F 0 "P2" V 5500 2150 50  0000 C CNN
+F 1 "GC Ctrl slot" H 5672 3174 50  0001 C CNN
+F 2 "" H 5750 2850 50  0001 C CNN
+F 3 "~" H 5750 2850 50  0001 C CNN
+	1    5750 2850
+	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic_Shielded:Conn_01x06_Shielded P?
+L Connector_Gaming:GameCube P?
 U 1 1 5F50508D
-P 5450 4400
+P 5750 4250
 AR Path="/5F50508D" Ref="P?"  Part="1" 
 AR Path="/5F457D26/5F50508D" Ref="P3"  Part="1" 
-F 0 "P3" H 5372 4815 50  0000 C CNN
-F 1 "GC Ctrl slot" H 5372 4724 50  0000 C CNN
-F 2 "" H 5450 4400 50  0001 C CNN
-F 3 "~" H 5450 4400 50  0001 C CNN
-	1    5450 4400
-	-1   0    0    -1  
+F 0 "P3" V 5500 3550 50  0000 C CNN
+F 1 "GC Ctrl slot" H 5672 4574 50  0001 C CNN
+F 2 "" H 5750 4250 50  0001 C CNN
+F 3 "~" H 5750 4250 50  0001 C CNN
+	1    5750 4250
+	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic_Shielded:Conn_01x06_Shielded P?
+L Connector_Gaming:GameCube P?
 U 1 1 5F505093
-P 4350 4400
+P 4600 4250
 AR Path="/5F505093" Ref="P?"  Part="1" 
 AR Path="/5F457D26/5F505093" Ref="P4"  Part="1" 
-F 0 "P4" H 4272 4815 50  0000 C CNN
-F 1 "GC Ctrl slot" H 4272 4724 50  0000 C CNN
-F 2 "" H 4350 4400 50  0001 C CNN
-F 3 "~" H 4350 4400 50  0001 C CNN
-	1    4350 4400
-	-1   0    0    -1  
+F 0 "P4" V 4350 3550 50  0000 C CNN
+F 1 "GC Ctrl slot" H 4522 4574 50  0001 C CNN
+F 2 "" H 4600 4250 50  0001 C CNN
+F 3 "~" H 4600 4250 50  0001 C CNN
+	1    4600 4250
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F505099
-P 5450 4900
+P 5150 4900
 AR Path="/5F505099" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5F505099" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5450 4650 50  0001 C CNN
-F 1 "GND" H 5455 4727 50  0000 C CNN
-F 2 "" H 5450 4900 50  0001 C CNN
-F 3 "" H 5450 4900 50  0001 C CNN
-	1    5450 4900
+F 0 "#PWR?" H 5150 4650 50  0001 C CNN
+F 1 "GND" H 5155 4727 50  0000 C CNN
+F 2 "" H 5150 4900 50  0001 C CNN
+F 3 "" H 5150 4900 50  0001 C CNN
+	1    5150 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F50509F
-P 4350 4900
+P 4000 4900
 AR Path="/5F50509F" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5F50509F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4350 4650 50  0001 C CNN
-F 1 "GND" H 4355 4727 50  0000 C CNN
-F 2 "" H 4350 4900 50  0001 C CNN
-F 3 "" H 4350 4900 50  0001 C CNN
-	1    4350 4900
+F 0 "#PWR?" H 4000 4650 50  0001 C CNN
+F 1 "GND" H 4005 4727 50  0000 C CNN
+F 2 "" H 4000 4900 50  0001 C CNN
+F 3 "" H 4000 4900 50  0001 C CNN
+	1    4000 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F5050A5
-P 5450 3500
+P 5150 3500
 AR Path="/5F5050A5" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5F5050A5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5450 3250 50  0001 C CNN
-F 1 "GND" H 5455 3327 50  0000 C CNN
-F 2 "" H 5450 3500 50  0001 C CNN
-F 3 "" H 5450 3500 50  0001 C CNN
-	1    5450 3500
+F 0 "#PWR?" H 5150 3250 50  0001 C CNN
+F 1 "GND" H 5155 3327 50  0000 C CNN
+F 2 "" H 5150 3500 50  0001 C CNN
+F 3 "" H 5150 3500 50  0001 C CNN
+	1    5150 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F5050AB
-P 4350 3500
+P 4000 3500
 AR Path="/5F5050AB" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5F5050AB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4350 3250 50  0001 C CNN
-F 1 "GND" H 4355 3327 50  0000 C CNN
-F 2 "" H 4350 3500 50  0001 C CNN
-F 3 "" H 4350 3500 50  0001 C CNN
-	1    4350 3500
+F 0 "#PWR?" H 4000 3250 50  0001 C CNN
+F 1 "GND" H 4005 3327 50  0000 C CNN
+F 2 "" H 4000 3500 50  0001 C CNN
+F 3 "" H 4000 3500 50  0001 C CNN
+	1    4000 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F5050B1
-P 5850 2750
+P 5150 2550
 AR Path="/5F5050B1" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5F5050B1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5850 2600 50  0001 C CNN
-F 1 "+5V" H 5865 2923 50  0000 C CNN
-F 2 "" H 5850 2750 50  0001 C CNN
-F 3 "" H 5850 2750 50  0001 C CNN
-	1    5850 2750
+F 0 "#PWR?" H 5150 2400 50  0001 C CNN
+F 1 "+5V" H 5165 2723 50  0000 C CNN
+F 2 "" H 5150 2550 50  0001 C CNN
+F 3 "" H 5150 2550 50  0001 C CNN
+	1    5150 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F5050B7
-P 5850 4150
+P 5150 3950
 AR Path="/5F5050B7" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5F5050B7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5850 4000 50  0001 C CNN
-F 1 "+5V" H 5865 4323 50  0000 C CNN
-F 2 "" H 5850 4150 50  0001 C CNN
-F 3 "" H 5850 4150 50  0001 C CNN
-	1    5850 4150
+F 0 "#PWR?" H 5150 3800 50  0001 C CNN
+F 1 "+5V" H 5165 4123 50  0000 C CNN
+F 2 "" H 5150 3950 50  0001 C CNN
+F 3 "" H 5150 3950 50  0001 C CNN
+	1    5150 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F5050BD
-P 4750 4150
+P 4000 3950
 AR Path="/5F5050BD" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5F5050BD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4750 4000 50  0001 C CNN
-F 1 "+5V" H 4765 4323 50  0000 C CNN
-F 2 "" H 4750 4150 50  0001 C CNN
-F 3 "" H 4750 4150 50  0001 C CNN
-	1    4750 4150
+F 0 "#PWR?" H 4000 3800 50  0001 C CNN
+F 1 "+5V" H 4015 4123 50  0000 C CNN
+F 2 "" H 4000 3950 50  0001 C CNN
+F 3 "" H 4000 3950 50  0001 C CNN
+	1    4000 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F5050C3
-P 4750 2750
+P 4000 2550
 AR Path="/5F5050C3" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5F5050C3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4750 2600 50  0001 C CNN
-F 1 "+5V" H 4765 2923 50  0000 C CNN
-F 2 "" H 4750 2750 50  0001 C CNN
-F 3 "" H 4750 2750 50  0001 C CNN
-	1    4750 2750
+F 0 "#PWR?" H 4000 2400 50  0001 C CNN
+F 1 "+5V" H 4015 2723 50  0000 C CNN
+F 2 "" H 4000 2550 50  0001 C CNN
+F 3 "" H 4000 2550 50  0001 C CNN
+	1    4000 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 2800 4750 2800
-Wire Wire Line
-	4750 2800 4750 2750
-Wire Wire Line
-	5650 2800 5850 2800
-Wire Wire Line
-	5850 2800 5850 2750
-Wire Wire Line
-	5650 4200 5850 4200
-Wire Wire Line
-	5850 4200 5850 4150
-Wire Wire Line
-	4550 4200 4750 4200
-Wire Wire Line
-	4750 4200 4750 4150
-Wire Wire Line
-	5450 3500 5750 3500
-Wire Wire Line
-	5750 3500 5750 3100
-Wire Wire Line
-	5750 3000 5650 3000
-Connection ~ 5450 3500
-Wire Wire Line
-	5650 3100 5750 3100
-Connection ~ 5750 3100
-Wire Wire Line
-	5750 3100 5750 3000
-Wire Wire Line
-	4350 3500 4650 3500
-Wire Wire Line
-	4650 3500 4650 3100
-Wire Wire Line
-	4650 3000 4550 3000
-Connection ~ 4350 3500
-Wire Wire Line
-	4550 3100 4650 3100
-Connection ~ 4650 3100
-Wire Wire Line
-	4650 3100 4650 3000
-Wire Wire Line
-	4350 4900 4650 4900
-Wire Wire Line
-	4650 4900 4650 4500
-Wire Wire Line
-	4650 4400 4550 4400
-Connection ~ 4350 4900
-Wire Wire Line
-	4550 4500 4650 4500
-Connection ~ 4650 4500
-Wire Wire Line
-	4650 4500 4650 4400
-Wire Wire Line
-	5450 4900 5750 4900
-Wire Wire Line
-	5750 4900 5750 4500
-Wire Wire Line
-	5750 4400 5650 4400
-Connection ~ 5450 4900
-Wire Wire Line
-	5650 4500 5750 4500
-Connection ~ 5750 4500
-Wire Wire Line
-	5750 4500 5750 4400
-Wire Wire Line
-	4550 2900 5150 2900
-Wire Wire Line
-	5150 2900 5150 2500
-Wire Wire Line
-	5150 2500 6650 2500
-Wire Wire Line
-	5650 2900 6250 2900
-Wire Wire Line
-	4550 4300 5200 4300
-NoConn ~ 5650 4600
-NoConn ~ 5650 4700
-NoConn ~ 4550 4700
-NoConn ~ 4550 4600
-NoConn ~ 4550 3300
-NoConn ~ 4550 3200
-NoConn ~ 5650 3200
-NoConn ~ 5650 3300
+NoConn ~ 5250 4750
+NoConn ~ 5350 4750
+NoConn ~ 4100 4750
+NoConn ~ 4200 4750
+NoConn ~ 4200 3350
+NoConn ~ 4100 3350
+NoConn ~ 5250 3350
+NoConn ~ 5350 3350
 Wire Wire Line
 	6650 3950 6650 3900
 Wire Wire Line
@@ -369,22 +295,12 @@ Connection ~ 6850 4300
 Wire Wire Line
 	6850 4300 6850 4200
 Wire Wire Line
-	6650 2500 6650 3100
-Wire Wire Line
-	6250 2900 6250 3300
-Wire Wire Line
 	6250 3300 6950 3300
-Wire Wire Line
-	5650 4300 6500 4300
 Wire Wire Line
 	6500 4300 6500 4900
 Wire Wire Line
-	5200 5200 6300 5200
-Wire Wire Line
 	6300 5200 6300 5000
-Wire Wire Line
-	5200 4300 5200 5200
-Text Label 6550 2500 2    50   ~ 0
+Text Label 6550 2200 2    50   ~ 0
 IO19
 Text Label 6500 3300 2    50   ~ 0
 IO5
@@ -394,4 +310,94 @@ Text Label 6500 5000 2    50   ~ 0
 IO27
 Text Notes 6350 6900 0    50   ~ 0
 * Very important for DB25 pin 22 (I39/VN) to be connect to GND for proper system detection.
+Wire Wire Line
+	4000 3500 4000 3450
+Wire Wire Line
+	3700 2950 3700 3450
+Wire Wire Line
+	3700 3450 4000 3450
+Connection ~ 4000 3450
+Wire Wire Line
+	4000 3450 4000 3350
+Wire Wire Line
+	4000 3450 4450 3450
+Wire Wire Line
+	4450 3450 4450 2550
+Wire Wire Line
+	4450 2550 4200 2550
+Wire Wire Line
+	6650 2200 4100 2200
+Wire Wire Line
+	6650 2200 6650 3100
+Wire Wire Line
+	4100 2200 4100 2550
+Wire Wire Line
+	5150 3350 5150 3450
+Wire Wire Line
+	4850 2950 4850 3450
+Wire Wire Line
+	4850 3450 5150 3450
+Connection ~ 5150 3450
+Wire Wire Line
+	5150 3450 5150 3500
+Wire Wire Line
+	5150 3450 5600 3450
+Wire Wire Line
+	5600 3450 5600 2550
+Wire Wire Line
+	5600 2550 5350 2550
+Wire Wire Line
+	6250 2450 5250 2450
+Wire Wire Line
+	5250 2450 5250 2550
+Wire Wire Line
+	6250 2450 6250 3300
+Wire Wire Line
+	6500 4300 5950 4300
+Wire Wire Line
+	5950 4300 5950 3850
+Wire Wire Line
+	5950 3850 5250 3850
+Wire Wire Line
+	5250 3850 5250 3950
+Wire Wire Line
+	5150 4900 5150 4850
+Wire Wire Line
+	4850 4350 4850 4850
+Wire Wire Line
+	4850 4850 5150 4850
+Connection ~ 5150 4850
+Wire Wire Line
+	5150 4850 5150 4750
+Wire Wire Line
+	5150 4850 5600 4850
+Wire Wire Line
+	5600 4850 5600 3950
+Wire Wire Line
+	5600 3950 5350 3950
+Wire Wire Line
+	4000 4900 4000 4850
+Wire Wire Line
+	3700 4350 3700 4850
+Wire Wire Line
+	3700 4850 4000 4850
+Connection ~ 4000 4850
+Wire Wire Line
+	4000 4850 4000 4750
+Wire Wire Line
+	4200 3950 4450 3950
+Wire Wire Line
+	4450 3950 4450 4850
+Wire Wire Line
+	4450 4850 4000 4850
+Wire Wire Line
+	4650 5200 4650 3850
+Wire Wire Line
+	4650 3850 4100 3850
+Wire Wire Line
+	4100 3850 4100 3950
+Wire Wire Line
+	4650 5200 6300 5200
+Text Notes 4250 5350 0    50   ~ 0
+Connectors facing console
 $EndSCHEMATC

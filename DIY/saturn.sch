@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 7
 Title "BlueRetro - Saturn adapter cable"
-Date "2020-08-22"
-Rev "v1.1"
-Comp ""
+Date "2020-10-02"
+Rev "v1.2"
+Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -704,142 +704,131 @@ L2
 Text Label 7750 4950 2    50   ~ 0
 R2
 $Comp
-L Connector_Generic:Conn_01x09 J1
+L Connector_Gaming:Saturn J1
 U 1 1 5F3ABB96
-P 950 2200
-F 0 "J1" H 868 2817 50  0000 C CNN
-F 1 "Conn_01x09" H 868 2726 50  0000 C CNN
-F 2 "" H 950 2200 50  0001 C CNN
-F 3 "~" H 950 2200 50  0001 C CNN
-	1    950  2200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x09 J2
-U 1 1 5F3AD383
-P 950 4050
-F 0 "J2" H 868 4667 50  0000 C CNN
-F 1 "Conn_01x09" H 868 4576 50  0000 C CNN
-F 2 "" H 950 4050 50  0001 C CNN
-F 3 "~" H 950 4050 50  0001 C CNN
-	1    950  4050
-	-1   0    0    -1  
+P 1600 2950
+F 0 "J1" H 1700 2150 50  0000 C CNN
+F 1 "Conn_01x09" H 1700 2150 50  0001 C CNN
+F 2 "" H 1600 2950 50  0001 C CNN
+F 3 "~" H 1600 2950 50  0001 C CNN
+	1    1600 2950
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F3B346E
-P 1250 2750
-F 0 "#PWR?" H 1250 2500 50  0001 C CNN
-F 1 "GND" H 1255 2577 50  0000 C CNN
-F 2 "" H 1250 2750 50  0001 C CNN
-F 3 "" H 1250 2750 50  0001 C CNN
-	1    1250 2750
-	1    0    0    -1  
+P 1950 2650
+F 0 "#PWR?" H 1950 2400 50  0001 C CNN
+F 1 "GND" H 1955 2477 50  0000 C CNN
+F 2 "" H 1950 2650 50  0001 C CNN
+F 3 "" H 1950 2650 50  0001 C CNN
+	1    1950 2650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F3B3833
-P 1250 4600
-F 0 "#PWR?" H 1250 4350 50  0001 C CNN
-F 1 "GND" H 1255 4427 50  0000 C CNN
-F 2 "" H 1250 4600 50  0001 C CNN
-F 3 "" H 1250 4600 50  0001 C CNN
-	1    1250 4600
-	1    0    0    -1  
+P 1950 3500
+F 0 "#PWR?" H 1950 3250 50  0001 C CNN
+F 1 "GND" H 1955 3327 50  0000 C CNN
+F 2 "" H 1950 3500 50  0001 C CNN
+F 3 "" H 1950 3500 50  0001 C CNN
+	1    1950 3500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F3B5AF6
-P 1300 3500
-F 0 "#PWR?" H 1300 3350 50  0001 C CNN
-F 1 "+5V" H 1315 3673 50  0000 C CNN
-F 2 "" H 1300 3500 50  0001 C CNN
-F 3 "" H 1300 3500 50  0001 C CNN
-	1    1300 3500
-	1    0    0    -1  
+P 850 3450
+F 0 "#PWR?" H 850 3300 50  0001 C CNN
+F 1 "+5V" H 865 3623 50  0000 C CNN
+F 2 "" H 850 3450 50  0001 C CNN
+F 3 "" H 850 3450 50  0001 C CNN
+	1    850  3450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F3B6FDE
-P 1300 1650
-F 0 "#PWR?" H 1300 1500 50  0001 C CNN
-F 1 "+5V" H 1315 1823 50  0000 C CNN
-F 2 "" H 1300 1650 50  0001 C CNN
-F 3 "" H 1300 1650 50  0001 C CNN
-	1    1300 1650
-	1    0    0    -1  
+P 850 2600
+F 0 "#PWR?" H 850 2450 50  0001 C CNN
+F 1 "+5V" H 865 2773 50  0000 C CNN
+F 2 "" H 850 2600 50  0001 C CNN
+F 3 "" H 850 2600 50  0001 C CNN
+	1    850  2600
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1150 1800 1300 1800
+	1000 2750 1000 2600
 Wire Wire Line
-	1300 1800 1300 1650
+	1000 2600 850  2600
 Wire Wire Line
-	1150 2600 1250 2600
+	1800 2750 1800 2650
 Wire Wire Line
-	1250 2600 1250 2750
+	1800 2650 1950 2650
 Wire Wire Line
-	1150 3650 1300 3650
+	1000 3600 1000 3450
 Wire Wire Line
-	1300 3650 1300 3500
+	1000 3450 850  3450
 Wire Wire Line
-	1150 4450 1250 4450
+	1800 3600 1800 3500
 Wire Wire Line
-	1250 4450 1250 4600
+	1800 3500 1950 3500
 Wire Wire Line
-	1150 4350 1400 4350
+	1700 3600 1700 3350
 Wire Wire Line
-	1150 4250 1400 4250
+	1600 3600 1600 3350
 Wire Wire Line
-	1150 4150 1400 4150
+	1500 3600 1500 3350
 Wire Wire Line
-	1150 4050 1400 4050
+	1400 3600 1400 3350
 Wire Wire Line
-	1150 3950 1400 3950
+	1300 3600 1300 3350
 Wire Wire Line
-	1150 3850 1400 3850
+	1200 3600 1200 3350
 Wire Wire Line
-	1150 3750 1400 3750
+	1100 3600 1100 3350
 Wire Wire Line
-	1150 2500 1400 2500
+	1700 2750 1700 2500
 Wire Wire Line
-	1150 2400 1400 2400
+	1600 2750 1600 2500
 Wire Wire Line
-	1150 2300 1400 2300
+	1500 2750 1500 2500
 Wire Wire Line
-	1150 2200 1400 2200
+	1400 2750 1400 2500
 Wire Wire Line
-	1150 2100 1400 2100
+	1300 2750 1300 2500
 Wire Wire Line
-	1150 2000 1400 2000
+	1200 2750 1200 2500
 Wire Wire Line
-	1150 1900 1400 1900
-Text Label 1400 1900 2    50   ~ 0
+	1100 2750 1100 2500
+Text Label 1100 2500 3    50   ~ 0
 D1
-Text Label 1400 2000 2    50   ~ 0
+Text Label 1200 2500 3    50   ~ 0
 U1
-Text Label 1400 2100 2    50   ~ 0
+Text Label 1300 2500 3    50   ~ 0
 TH1
-Text Label 1400 2200 2    50   ~ 0
+Text Label 1400 2500 3    50   ~ 0
 TR1
-Text Label 1400 2300 2    50   ~ 0
+Text Label 1500 2500 3    50   ~ 0
 TL1
-Text Label 1400 2400 2    50   ~ 0
+Text Label 1600 2500 3    50   ~ 0
 R1
-Text Label 1400 2500 2    50   ~ 0
+Text Label 1700 2500 3    50   ~ 0
 L1
-Text Label 1400 3750 2    50   ~ 0
+Text Label 1100 3350 3    50   ~ 0
 D2
-Text Label 1400 3850 2    50   ~ 0
+Text Label 1200 3350 3    50   ~ 0
 U2
-Text Label 1400 3950 2    50   ~ 0
+Text Label 1300 3350 3    50   ~ 0
 TH2
-Text Label 1400 4050 2    50   ~ 0
+Text Label 1400 3350 3    50   ~ 0
 TR2
-Text Label 1400 4150 2    50   ~ 0
+Text Label 1500 3350 3    50   ~ 0
 TL2
-Text Label 1400 4250 2    50   ~ 0
+Text Label 1600 3350 3    50   ~ 0
 R2
-Text Label 1400 4350 2    50   ~ 0
+Text Label 1700 3350 3    50   ~ 0
 L2
 Text Label 9050 2200 0    50   ~ 0
 IO19
@@ -923,4 +912,17 @@ Wire Wire Line
 NoConn ~ 9350 3000
 Text Notes 6350 6900 0    50   ~ 0
 * Very important for DB25 pin 22 (I39/VN) to be connect to GND for proper system detection.
+$Comp
+L Connector_Gaming:Saturn J2
+U 1 1 5F3AD383
+P 1600 3800
+F 0 "J2" H 1700 3000 50  0000 C CNN
+F 1 "Conn_01x09" H 1518 4326 50  0001 C CNN
+F 2 "" H 1600 3800 50  0001 C CNN
+F 3 "~" H 1600 3800 50  0001 C CNN
+	1    1600 3800
+	0    1    1    0   
+$EndComp
+Text Notes 950  3250 0    50   ~ 0
+Connectors facing console
 $EndSCHEMATC

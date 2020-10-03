@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 3 7
 Title "BlueRetro - Famicom/NES adapter cable"
-Date "2020-08-22"
-Rev "v1.1"
-Comp ""
+Date "2020-10-02"
+Rev "v1.2"
+Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -344,158 +344,131 @@ IO5
 Text Label 7600 3200 2    50   ~ 0
 IO18
 $Comp
-L Connector_Generic:Conn_01x07 J?
-U 1 1 5F23BDF9
-P 1300 2050
-AR Path="/5F127084/5F23BDF9" Ref="J?"  Part="1" 
-AR Path="/5F1E85DD/5F23BDF9" Ref="J1"  Part="1" 
-F 0 "J1" H 1300 2600 50  0000 C CNN
-F 1 "Conn_01x07" H 1300 2500 50  0000 C CNN
-F 2 "" H 1300 2050 50  0001 C CNN
-F 3 "~" H 1300 2050 50  0001 C CNN
-	1    1300 2050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x07 J?
+L Connector_Gaming:NES J?
 U 1 1 5F23BDFF
-P 1300 3900
+P 1900 2900
 AR Path="/5F127084/5F23BDFF" Ref="J?"  Part="1" 
 AR Path="/5F1E85DD/5F23BDFF" Ref="J2"  Part="1" 
-F 0 "J2" H 1300 4450 50  0000 C CNN
-F 1 "Conn_01x07" H 1300 4350 50  0000 C CNN
-F 2 "" H 1300 3900 50  0001 C CNN
-F 3 "~" H 1300 3900 50  0001 C CNN
-	1    1300 3900
-	-1   0    0    -1  
+F 0 "J2" H 1950 3250 50  0000 C CNN
+F 1 "Conn_01x07" H 1900 3350 50  0001 C CNN
+F 2 "" H 1900 2900 50  0001 C CNN
+F 3 "~" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F23BE05
-P 1600 2450
+P 1600 2050
 AR Path="/5F127084/5F23BE05" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/5F23BE05" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1600 2200 50  0001 C CNN
-F 1 "GND" H 1605 2277 50  0000 C CNN
-F 2 "" H 1600 2450 50  0001 C CNN
-F 3 "" H 1600 2450 50  0001 C CNN
-	1    1600 2450
-	1    0    0    -1  
+F 0 "#PWR?" H 1600 1800 50  0001 C CNN
+F 1 "GND" H 1605 1877 50  0000 C CNN
+F 2 "" H 1600 2050 50  0001 C CNN
+F 3 "" H 1600 2050 50  0001 C CNN
+	1    1600 2050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F23BE0B
-P 1600 4300
+P 1600 3050
 AR Path="/5F127084/5F23BE0B" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/5F23BE0B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1600 4050 50  0001 C CNN
-F 1 "GND" H 1605 4127 50  0000 C CNN
-F 2 "" H 1600 4300 50  0001 C CNN
-F 3 "" H 1600 4300 50  0001 C CNN
-	1    1600 4300
-	1    0    0    -1  
+F 0 "#PWR?" H 1600 2800 50  0001 C CNN
+F 1 "GND" H 1605 2877 50  0000 C CNN
+F 2 "" H 1600 3050 50  0001 C CNN
+F 3 "" H 1600 3050 50  0001 C CNN
+	1    1600 3050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F23BE11
-P 1650 3450
+P 2300 2650
 AR Path="/5F127084/5F23BE11" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/5F23BE11" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1650 3300 50  0001 C CNN
-F 1 "+5V" H 1665 3623 50  0000 C CNN
-F 2 "" H 1650 3450 50  0001 C CNN
-F 3 "" H 1650 3450 50  0001 C CNN
-	1    1650 3450
+F 0 "#PWR?" H 2300 2500 50  0001 C CNN
+F 1 "+5V" H 2315 2823 50  0000 C CNN
+F 2 "" H 2300 2650 50  0001 C CNN
+F 3 "" H 2300 2650 50  0001 C CNN
+	1    2300 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F23BE17
-P 1650 1600
+P 2300 1700
 AR Path="/5F127084/5F23BE17" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/5F23BE17" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1650 1450 50  0001 C CNN
-F 1 "+5V" H 1665 1773 50  0000 C CNN
-F 2 "" H 1650 1600 50  0001 C CNN
-F 3 "" H 1650 1600 50  0001 C CNN
-	1    1650 1600
+F 0 "#PWR?" H 2300 1550 50  0001 C CNN
+F 1 "+5V" H 2315 1873 50  0000 C CNN
+F 2 "" H 2300 1700 50  0001 C CNN
+F 3 "" H 2300 1700 50  0001 C CNN
+	1    2300 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB15_Female J3
+L Connector_Gaming:Atari5200_Famicom_NeoGeoAES_PCGamePort_DA15 J3
 U 1 1 5F2B655C
-P 1200 6100
-F 0 "J3" H 1106 7092 50  0000 C CNN
-F 1 "DB15_Female" H 1106 7001 50  0000 C CNN
-F 2 "" H 1200 6100 50  0001 C CNN
-F 3 " ~" H 1200 6100 50  0001 C CNN
-	1    1200 6100
-	-1   0    0    -1  
+P 1900 4250
+F 0 "J3" H 1900 3400 50  0000 C CNN
+F 1 "DB15_Female" H 1806 5151 50  0001 C CNN
+F 2 "" H 1900 4250 50  0001 C CNN
+F 3 " ~" H 1900 4250 50  0001 C CNN
+	1    1900 4250
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1500 6300 1800 6300
+	2200 4450 2500 4450
 Wire Wire Line
-	1500 6600 1800 6600
-Text Notes 750  5050 0    50   ~ 0
+	2200 4750 2500 4750
+Text Notes 1450 3200 0    50   ~ 0
 *Optional (only for Famicom 4P)
-NoConn ~ 1500 5400
-NoConn ~ 1500 5500
-NoConn ~ 1500 5600
-NoConn ~ 1500 5700
-NoConn ~ 1500 5800
-NoConn ~ 1500 5900
-NoConn ~ 1500 6000
-NoConn ~ 1500 6100
-NoConn ~ 1500 6200
-NoConn ~ 1500 6400
-NoConn ~ 1500 6500
-NoConn ~ 1500 6700
-NoConn ~ 1500 6800
-Text Label 1800 6300 2    50   ~ 0
+NoConn ~ 2200 3550
+NoConn ~ 2200 3650
+NoConn ~ 2200 3750
+NoConn ~ 2200 3850
+NoConn ~ 2200 3950
+NoConn ~ 2200 4050
+NoConn ~ 2200 4150
+NoConn ~ 2200 4250
+NoConn ~ 2200 4350
+NoConn ~ 2200 4550
+NoConn ~ 2200 4650
+NoConn ~ 2200 4850
+NoConn ~ 2200 4950
+Text Label 2500 4450 2    50   ~ 0
 P1-D1
-Text Label 1800 6600 2    50   ~ 0
+Text Label 2500 4750 2    50   ~ 0
 P2-D1
 Wire Wire Line
-	1500 3600 1600 3600
-Wire Wire Line
-	1500 4000 1650 4000
-Wire Wire Line
-	1650 4000 1650 3450
-Text Label 2000 3700 2    50   ~ 0
+	1700 2700 1600 2700
+Text Label 1200 2800 0    50   ~ 0
 P2-CUP
 Wire Wire Line
-	1500 3700 2000 3700
+	1700 2800 1200 2800
 Wire Wire Line
-	1500 3900 2000 3900
-NoConn ~ 1500 4100
-NoConn ~ 1500 4200
-NoConn ~ 1500 3800
-Text Label 2000 3900 2    50   ~ 0
+	1700 3000 1200 3000
+NoConn ~ 2200 2900
+NoConn ~ 2200 3000
+NoConn ~ 1700 2900
+Text Label 1200 3000 0    50   ~ 0
 P2-D0
 Wire Wire Line
-	1600 3600 1600 4300
+	1600 2700 1600 3050
 Wire Wire Line
-	1500 2150 1650 2150
+	1700 1700 1600 1700
 Wire Wire Line
-	1650 1600 1650 2150
-Wire Wire Line
-	1500 1750 1600 1750
-Wire Wire Line
-	1600 1750 1600 2450
-Wire Wire Line
-	1500 1850 2000 1850
-Wire Wire Line
-	1500 1950 2000 1950
-Wire Wire Line
-	1500 2050 2000 2050
-Text Label 2000 1850 2    50   ~ 0
+	1700 1800 1200 1800
+Text Label 1200 1800 0    50   ~ 0
 P1-CUP
-Text Label 2000 1950 2    50   ~ 0
+Text Label 1200 1900 0    50   ~ 0
 OUT0
-Text Label 2000 2050 2    50   ~ 0
+Text Label 1200 2000 0    50   ~ 0
 P1-D0
-NoConn ~ 1500 2250
-NoConn ~ 1500 2350
+NoConn ~ 2200 1900
+NoConn ~ 2200 2000
 Text Label 3550 1350 0    50   ~ 0
 IO19
 Text Label 3550 2250 0    50   ~ 0
@@ -671,4 +644,33 @@ Wire Wire Line
 Connection ~ 9050 2400
 Text Notes 6350 6900 0    50   ~ 0
 * Very important for DB25 pin 22 (I39/VN) to be connect to VOUT (3.3V) for proper system detection.
+Wire Wire Line
+	1700 2000 1200 2000
+Wire Wire Line
+	1700 1900 1200 1900
+Wire Wire Line
+	1600 1700 1600 2050
+$Comp
+L Connector_Gaming:NES J?
+U 1 1 5F23BDF9
+P 1900 1900
+AR Path="/5F127084/5F23BDF9" Ref="J?"  Part="1" 
+AR Path="/5F1E85DD/5F23BDF9" Ref="J1"  Part="1" 
+F 0 "J1" H 1950 2250 50  0000 C CNN
+F 1 "Conn_01x07" H 1900 2350 50  0001 C CNN
+F 2 "" H 1900 1900 50  0001 C CNN
+F 3 "~" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1800 2300 1800
+Wire Wire Line
+	2300 1800 2300 1700
+Text Notes 1750 2350 0    50   ~ 0
+Connectors facing console
+Wire Wire Line
+	2200 2800 2300 2800
+Wire Wire Line
+	2300 2800 2300 2650
 $EndSCHEMATC

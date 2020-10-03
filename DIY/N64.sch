@@ -5,65 +5,65 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 5 7
 Title "BlueRetro - N64 adapter cable"
-Date "2020-08-22"
-Rev "v1.1"
-Comp ""
+Date "2020-10-02"
+Rev "v1.2"
+Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x03 P?
+L Connector_Gaming:N64 P?
 U 1 1 5F47F7C8
-P 4650 2600
+P 4550 2500
 AR Path="/5F47F7C8" Ref="P?"  Part="1" 
 AR Path="/5F457716/5F47F7C8" Ref="P1"  Part="1" 
-F 0 "P1" H 4568 2917 50  0000 C CNN
-F 1 "N64 Ctrl slot" H 4568 2826 50  0000 C CNN
-F 2 "" H 4650 2600 50  0001 C CNN
-F 3 "~" H 4650 2600 50  0001 C CNN
-	1    4650 2600
-	-1   0    0    -1  
+F 0 "P1" H 4550 2250 50  0000 C CNN
+F 1 "N64 Ctrl slot" H 4550 2350 50  0000 C CNN
+F 2 "" H 4550 2500 50  0001 C CNN
+F 3 "~" H 4550 2500 50  0001 C CNN
+	1    4550 2500
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 P?
+L Connector_Gaming:N64 P?
 U 1 1 5F47F7CE
-P 4650 3250
+P 4550 3150
 AR Path="/5F47F7CE" Ref="P?"  Part="1" 
 AR Path="/5F457716/5F47F7CE" Ref="P2"  Part="1" 
-F 0 "P2" H 4568 3567 50  0000 C CNN
-F 1 "N64 Ctrl slot" H 4568 3476 50  0000 C CNN
-F 2 "" H 4650 3250 50  0001 C CNN
-F 3 "~" H 4650 3250 50  0001 C CNN
-	1    4650 3250
-	-1   0    0    -1  
+F 0 "P2" H 4550 2900 50  0000 C CNN
+F 1 "N64 Ctrl slot" H 4550 3000 50  0000 C CNN
+F 2 "" H 4550 3150 50  0001 C CNN
+F 3 "~" H 4550 3150 50  0001 C CNN
+	1    4550 3150
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 P?
+L Connector_Gaming:N64 P?
 U 1 1 5F47F7D4
-P 4650 3900
+P 4550 3800
 AR Path="/5F47F7D4" Ref="P?"  Part="1" 
 AR Path="/5F457716/5F47F7D4" Ref="P3"  Part="1" 
-F 0 "P3" H 4568 4217 50  0000 C CNN
-F 1 "N64 Ctrl slot" H 4568 4126 50  0000 C CNN
-F 2 "" H 4650 3900 50  0001 C CNN
-F 3 "~" H 4650 3900 50  0001 C CNN
-	1    4650 3900
-	-1   0    0    -1  
+F 0 "P3" H 4550 3550 50  0000 C CNN
+F 1 "N64 Ctrl slot" H 4550 3650 50  0000 C CNN
+F 2 "" H 4550 3800 50  0001 C CNN
+F 3 "~" H 4550 3800 50  0001 C CNN
+	1    4550 3800
+	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 P?
+L Connector_Gaming:N64 P?
 U 1 1 5F47F7DA
-P 4650 4550
+P 4550 4450
 AR Path="/5F47F7DA" Ref="P?"  Part="1" 
 AR Path="/5F457716/5F47F7DA" Ref="P4"  Part="1" 
-F 0 "P4" H 4568 4867 50  0000 C CNN
-F 1 "N64 Ctrl slot" H 4568 4776 50  0000 C CNN
-F 2 "" H 4650 4550 50  0001 C CNN
-F 3 "~" H 4650 4550 50  0001 C CNN
-	1    4650 4550
-	-1   0    0    -1  
+F 0 "P4" H 4550 4200 50  0000 C CNN
+F 1 "N64 Ctrl slot" H 4550 4300 50  0000 C CNN
+F 2 "" H 4550 4450 50  0001 C CNN
+F 3 "~" H 4550 4450 50  0001 C CNN
+	1    4550 4450
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -345,4 +345,6 @@ Wire Wire Line
 Connection ~ 6100 4550
 Text Notes 6350 6900 0    50   ~ 0
 * Very important for DB25 pin 22 (I39/VN) to be connect to VIN (3.3V) for proper system detection.
+Text Notes 3250 3500 0    50   ~ 0
+Connectors facing console
 $EndSCHEMATC

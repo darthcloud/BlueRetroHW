@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 7
 Title "BlueRetro - SFC/SNES adapter cable"
-Date "2020-08-22"
-Rev "v1.1"
-Comp ""
+Date "2020-10-02"
+Rev "v1.2"
+Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -426,31 +426,31 @@ IO5
 Text Label 6450 3050 2    50   ~ 0
 IO18
 $Comp
-L Connector_Generic:Conn_01x07 J?
+L Connector_Gaming:SFC_SNES J?
 U 1 1 5F2F19B9
-P 1150 1950
+P 1150 1850
 AR Path="/5F127084/5F2F19B9" Ref="J?"  Part="1" 
 AR Path="/5F1E85DD/5F2F19B9" Ref="J?"  Part="1" 
 AR Path="/5F2C5C0D/5F2F19B9" Ref="J1"  Part="1" 
-F 0 "J1" H 1150 2500 50  0000 C CNN
-F 1 "Conn_01x07" H 1150 2400 50  0000 C CNN
-F 2 "" H 1150 1950 50  0001 C CNN
-F 3 "~" H 1150 1950 50  0001 C CNN
-	1    1150 1950
+F 0 "J1" H 1150 2200 50  0000 C CNN
+F 1 "Conn_01x07" H 1150 2300 50  0001 C CNN
+F 2 "" H 1150 1850 50  0001 C CNN
+F 3 "~" H 1150 1850 50  0001 C CNN
+	1    1150 1850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x07 J?
+L Connector_Gaming:SFC_SNES J?
 U 1 1 5F2F19BF
-P 1150 3800
+P 1150 3700
 AR Path="/5F127084/5F2F19BF" Ref="J?"  Part="1" 
 AR Path="/5F1E85DD/5F2F19BF" Ref="J?"  Part="1" 
 AR Path="/5F2C5C0D/5F2F19BF" Ref="J2"  Part="1" 
-F 0 "J2" H 1150 4350 50  0000 C CNN
-F 1 "Conn_01x07" H 1150 4250 50  0000 C CNN
-F 2 "" H 1150 3800 50  0001 C CNN
-F 3 "~" H 1150 3800 50  0001 C CNN
-	1    1150 3800
+F 0 "J2" H 1150 4050 50  0000 C CNN
+F 1 "Conn_01x07" H 1150 4150 50  0001 C CNN
+F 2 "" H 1150 3700 50  0001 C CNN
+F 3 "~" H 1150 3700 50  0001 C CNN
+	1    1150 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
