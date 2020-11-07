@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "BlueRetro - Controller pinout reference"
-Date "2020-10-02"
-Rev "v1.0"
+Date "2020-11-03"
+Rev "v1.0.1"
 Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
@@ -1190,7 +1190,7 @@ Text Notes 9750 4750 2    50   ~ 0
 PC-FX
 Text Notes 8200 4900 2    50   ~ 0
 PSX / PS2
-Text Notes 1300 6750 2    50   ~ 0
+Text Notes 1350 6750 2    50   ~ 0
 N64
 Text Notes 6250 4800 2    50   ~ 0
 Saturn
@@ -1302,7 +1302,7 @@ GND
 Text Label 950  6850 0    50   ~ 0
 DATA
 Text Label 950  6950 0    50   ~ 0
-5V
+3V3
 Wire Wire Line
 	1250 6850 950  6850
 Wire Wire Line
