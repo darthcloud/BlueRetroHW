@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "BlueRetro - Level shifter cable adapter (5V)"
-Date "2020-09-06"
-Rev "v1.1"
+Date "2020-11-09"
+Rev "v1.2"
 Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
@@ -27,188 +27,177 @@ $EndComp
 $Comp
 L levelshifter:Conn_01x01 J9
 U 1 1 5F4421F4
-P 9850 1850
-F 0 "J9" H 9930 1892 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 1801 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 1850 50  0001 C CNN
-F 3 "~" H 9850 1850 50  0001 C CNN
-	1    9850 1850
+P 9750 900
+F 0 "J9" H 9830 942 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 851 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 900 50  0001 C CNN
+F 3 "~" H 9750 900 50  0001 C CNN
+	1    9750 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J10
 U 1 1 5F4454D6
-P 9850 2050
-F 0 "J10" H 9930 2092 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 2001 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 2050 50  0001 C CNN
-F 3 "~" H 9850 2050 50  0001 C CNN
-	1    9850 2050
+P 9750 1300
+F 0 "J10" H 9830 1342 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 1251 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 1300 50  0001 C CNN
+F 3 "~" H 9750 1300 50  0001 C CNN
+	1    9750 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J12
 U 1 1 5F4457E0
-P 9850 2250
-F 0 "J12" H 9930 2292 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 2201 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 2250 50  0001 C CNN
-F 3 "~" H 9850 2250 50  0001 C CNN
-	1    9850 2250
+P 9750 1700
+F 0 "J12" H 9830 1742 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 1651 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 1700 50  0001 C CNN
+F 3 "~" H 9750 1700 50  0001 C CNN
+	1    9750 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J14
 U 1 1 5F44597F
-P 9850 2650
-F 0 "J14" H 9930 2692 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 2601 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 2650 50  0001 C CNN
-F 3 "~" H 9850 2650 50  0001 C CNN
-	1    9850 2650
+P 9750 2500
+F 0 "J14" H 9830 2542 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 2451 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 2500 50  0001 C CNN
+F 3 "~" H 9750 2500 50  0001 C CNN
+	1    9750 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J16
 U 1 1 5F445B44
-P 9850 3050
-F 0 "J16" H 9930 3092 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 3001 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 3050 50  0001 C CNN
-F 3 "~" H 9850 3050 50  0001 C CNN
-	1    9850 3050
+P 9750 3300
+F 0 "J16" H 9830 3342 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 3251 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 3300 50  0001 C CNN
+F 3 "~" H 9750 3300 50  0001 C CNN
+	1    9750 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J17
 U 1 1 5F445CF5
-P 9850 3250
-F 0 "J17" H 9930 3292 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 3201 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 3250 50  0001 C CNN
-F 3 "~" H 9850 3250 50  0001 C CNN
-	1    9850 3250
+P 7850 3050
+F 0 "J17" H 7930 3092 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 3001 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 3050 50  0001 C CNN
+F 3 "~" H 7850 3050 50  0001 C CNN
+	1    7850 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J19
 U 1 1 5F44621C
-P 9850 3450
-F 0 "J19" H 9930 3492 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 3401 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 3450 50  0001 C CNN
-F 3 "~" H 9850 3450 50  0001 C CNN
-	1    9850 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L levelshifter:Conn_01x01 J20
-U 1 1 5F446432
-P 9850 3650
-F 0 "J20" H 9930 3692 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 3601 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 3650 50  0001 C CNN
-F 3 "~" H 9850 3650 50  0001 C CNN
-	1    9850 3650
+P 9750 3700
+F 0 "J19" H 9830 3742 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 3651 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 3700 50  0001 C CNN
+F 3 "~" H 9750 3700 50  0001 C CNN
+	1    9750 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J21
 U 1 1 5F4468FA
-P 9850 4050
-F 0 "J21" H 9930 4092 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 4001 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 4050 50  0001 C CNN
-F 3 "~" H 9850 4050 50  0001 C CNN
-	1    9850 4050
+P 7850 2850
+F 0 "J21" H 7930 2892 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 2801 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 2850 50  0001 C CNN
+F 3 "~" H 7850 2850 50  0001 C CNN
+	1    7850 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J22
 U 1 1 5F446B0A
-P 9850 4250
-F 0 "J22" H 9930 4292 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 4201 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 4250 50  0001 C CNN
-F 3 "~" H 9850 4250 50  0001 C CNN
-	1    9850 4250
+P 9750 4100
+F 0 "J22" H 9830 4142 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 4051 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 4100 50  0001 C CNN
+F 3 "~" H 9750 4100 50  0001 C CNN
+	1    9750 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J23
 U 1 1 5F446D3B
-P 9850 4450
-F 0 "J23" H 9930 4492 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 4401 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 4450 50  0001 C CNN
-F 3 "~" H 9850 4450 50  0001 C CNN
-	1    9850 4450
+P 7850 2650
+F 0 "J23" H 7930 2692 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 2601 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 2650 50  0001 C CNN
+F 3 "~" H 7850 2650 50  0001 C CNN
+	1    7850 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J13
 U 1 1 5F446F73
-P 9850 2450
-F 0 "J13" H 9930 2492 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 2401 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 2450 50  0001 C CNN
-F 3 "~" H 9850 2450 50  0001 C CNN
-	1    9850 2450
+P 9750 2100
+F 0 "J13" H 9830 2142 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 2051 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 2100 50  0001 C CNN
+F 3 "~" H 9750 2100 50  0001 C CNN
+	1    9750 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J15
 U 1 1 5F447330
-P 9850 2850
-F 0 "J15" H 9930 2892 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 2801 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 2850 50  0001 C CNN
-F 3 "~" H 9850 2850 50  0001 C CNN
-	1    9850 2850
+P 9750 2900
+F 0 "J15" H 9830 2942 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 2851 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 2900 50  0001 C CNN
+F 3 "~" H 9750 2900 50  0001 C CNN
+	1    9750 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J24
 U 1 1 5F463E79
-P 9850 4850
-F 0 "J24" H 9930 4892 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 4801 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 4850 50  0001 C CNN
-F 3 "~" H 9850 4850 50  0001 C CNN
-	1    9850 4850
+P 9750 4500
+F 0 "J24" H 9830 4542 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 4451 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 4500 50  0001 C CNN
+F 3 "~" H 9750 4500 50  0001 C CNN
+	1    9750 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J25
 U 1 1 5F464180
-P 9850 5050
-F 0 "J25" H 9930 5092 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 5001 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 5050 50  0001 C CNN
-F 3 "~" H 9850 5050 50  0001 C CNN
-	1    9850 5050
+P 9750 4900
+F 0 "J25" H 9830 4942 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 4851 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 4900 50  0001 C CNN
+F 3 "~" H 9750 4900 50  0001 C CNN
+	1    9750 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J26
 U 1 1 5F464449
-P 9850 5250
-F 0 "J26" H 9930 5292 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 5201 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 5250 50  0001 C CNN
-F 3 "~" H 9850 5250 50  0001 C CNN
-	1    9850 5250
+P 9750 5300
+F 0 "J26" H 9830 5342 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 5251 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 5300 50  0001 C CNN
+F 3 "~" H 9750 5300 50  0001 C CNN
+	1    9750 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L levelshifter:Conn_01x01 J27
 U 1 1 5F46474D
-P 9850 5450
-F 0 "J27" H 9930 5492 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 5401 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 5450 50  0001 C CNN
-F 3 "~" H 9850 5450 50  0001 C CNN
-	1    9850 5450
+P 9750 5700
+F 0 "J27" H 9830 5742 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 5651 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 5700 50  0001 C CNN
+F 3 "~" H 9750 5700 50  0001 C CNN
+	1    9750 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -254,95 +243,61 @@ Wire Wire Line
 Wire Wire Line
 	1200 5000 1600 5000
 Wire Wire Line
-	9650 1850 9250 1850
+	7650 3050 7250 3050
 Wire Wire Line
-	9650 2050 9250 2050
+	7650 2850 7250 2850
 Wire Wire Line
-	9650 2250 9250 2250
-Wire Wire Line
-	9650 2450 9250 2450
-Wire Wire Line
-	9650 2650 9250 2650
-Wire Wire Line
-	9650 2850 9250 2850
-Wire Wire Line
-	9650 3050 9250 3050
-Wire Wire Line
-	9650 3250 9250 3250
-Wire Wire Line
-	9650 3450 9250 3450
-Wire Wire Line
-	9650 3650 9250 3650
-Wire Wire Line
-	9650 4050 9250 4050
-Wire Wire Line
-	9650 4250 9250 4250
-Wire Wire Line
-	9650 4450 9250 4450
+	7650 2650 7250 2650
 Wire Wire Line
 	1000 1200 600  1200
-Wire Wire Line
-	9650 4850 9250 4850
-Wire Wire Line
-	9650 5050 9250 5050
-Wire Wire Line
-	9650 5250 9250 5250
-Wire Wire Line
-	9650 5450 9250 5450
 $Comp
 L levelshifter:Conn_01x01 J28
 U 1 1 5F48D19B
-P 9850 5650
-F 0 "J28" H 9930 5692 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 5601 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 5650 50  0001 C CNN
-F 3 "~" H 9850 5650 50  0001 C CNN
-	1    9850 5650
+P 9750 6100
+F 0 "J28" H 9830 6142 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 6051 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 6100 50  0001 C CNN
+F 3 "~" H 9750 6100 50  0001 C CNN
+	1    9750 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 5650 9250 5650
-Wire Wire Line
-	9650 5850 9250 5850
-Text Label 9250 1850 0    50   ~ 0
+Text Label 9150 900  0    50   ~ 0
 IO23_C
-Text Label 9250 2050 0    50   ~ 0
+Text Label 9150 1300 0    50   ~ 0
 IO22_C
-Text Label 9250 2250 0    50   ~ 0
+Text Label 9150 1700 0    50   ~ 0
 IO3_C
-Text Label 9250 2450 0    50   ~ 0
+Text Label 9150 2100 0    50   ~ 0
 IO21_C
-Text Label 9250 2650 0    50   ~ 0
+Text Label 9150 2500 0    50   ~ 0
 IO19_C
-Text Label 9250 2850 0    50   ~ 0
+Text Label 9150 2900 0    50   ~ 0
 IO18_C
-Text Label 9250 3050 0    50   ~ 0
+Text Label 9150 3300 0    50   ~ 0
 IO5_C
-Text Label 9250 3250 0    50   ~ 0
+Text Label 7250 3050 0    50   ~ 0
 GND
-Text Label 9250 3450 0    50   ~ 0
+Text Label 9150 3700 0    50   ~ 0
 IO16_C
-Text Label 9250 3650 0    50   ~ 0
-VIN
-Text Label 9250 4050 0    50   ~ 0
+Text Label 7250 2850 0    50   ~ 0
 GND
-Text Label 9250 4250 0    50   ~ 0
+Text Label 9150 4100 0    50   ~ 0
 I36_C
-Text Label 9250 4450 0    50   ~ 0
+Text Label 7250 2650 0    50   ~ 0
 GND
 Text Label 600  1200 0    50   ~ 0
 I39
-Text Label 9250 4850 0    50   ~ 0
+Text Label 9150 4500 0    50   ~ 0
 I35_C
-Text Label 9250 5050 0    50   ~ 0
+Text Label 9150 4900 0    50   ~ 0
 IO32_C
-Text Label 9250 5250 0    50   ~ 0
+Text Label 9150 5300 0    50   ~ 0
 IO33_C
-Text Label 9250 5450 0    50   ~ 0
+Text Label 9150 5700 0    50   ~ 0
 IO25_C
-Text Label 9250 5650 0    50   ~ 0
+Text Label 9150 6100 0    50   ~ 0
 IO26_C
-Text Label 9250 5850 0    50   ~ 0
+Text Label 9150 6500 0    50   ~ 0
 IO27_C
 Text Label 1600 2600 2    50   ~ 0
 IO23
@@ -1451,44 +1406,14 @@ IO26_C
 $Comp
 L levelshifter:Conn_01x01 J29
 U 1 1 5F48D4A9
-P 9850 5850
-F 0 "J29" H 9930 5892 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 5801 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 5850 50  0001 C CNN
-F 3 "~" H 9850 5850 50  0001 C CNN
-	1    9850 5850
+P 9750 6500
+F 0 "J29" H 9830 6542 50  0000 L CNN
+F 1 "Conn_01x01" H 9830 6451 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9750 6500 50  0001 C CNN
+F 3 "~" H 9750 6500 50  0001 C CNN
+	1    9750 6500
 	1    0    0    -1  
 $EndComp
-$Comp
-L levelshifter:Conn_01x01 J6
-U 1 1 5F6ED3F2
-P 9850 3850
-F 0 "J6" H 9930 3892 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 3801 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 3850 50  0001 C CNN
-F 3 "~" H 9850 3850 50  0001 C CNN
-	1    9850 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 3850 9250 3850
-Text Label 9250 3850 0    50   ~ 0
-VIN
-$Comp
-L levelshifter:Conn_01x01 J7
-U 1 1 5F7056EE
-P 9850 4650
-F 0 "J7" H 9930 4692 50  0000 L CNN
-F 1 "Conn_01x01" H 9930 4601 50  0000 L CNN
-F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 9850 4650 50  0001 C CNN
-F 3 "~" H 9850 4650 50  0001 C CNN
-	1    9850 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 4650 9250 4650
-Text Label 9250 4650 0    50   ~ 0
-VIN
 Wire Wire Line
 	1200 4400 1600 4400
 Text Label 1600 4400 2    50   ~ 0
@@ -1506,4 +1431,484 @@ F 3 "~" H 4900 4650 50  0001 C CNN
 $EndComp
 Text Label 4700 4650 2    50   ~ 0
 DIR4
+$Comp
+L levelshifter:Conn_01x01 J18
+U 1 1 5FACFFEA
+P 7850 3450
+F 0 "J18" H 7930 3492 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 3401 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 3450 50  0001 C CNN
+F 3 "~" H 7850 3450 50  0001 C CNN
+	1    7850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3450 7250 3450
+Text Label 7250 3450 0    50   ~ 0
+GND
+$Comp
+L levelshifter:Conn_01x01 J11
+U 1 1 5FACFFF2
+P 7850 3250
+F 0 "J11" H 7930 3292 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 3201 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 3250 50  0001 C CNN
+F 3 "~" H 7850 3250 50  0001 C CNN
+	1    7850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3250 7250 3250
+Text Label 7250 3250 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:Conn_01x01 J31
+U 1 1 5FAE6A67
+P 7850 3850
+F 0 "J31" H 7930 3892 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 3801 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 3850 50  0001 C CNN
+F 3 "~" H 7850 3850 50  0001 C CNN
+	1    7850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3850 7250 3850
+Text Label 7250 3850 0    50   ~ 0
+GND
+$Comp
+L levelshifter:Conn_01x01 J30
+U 1 1 5FAE6A6F
+P 7850 3650
+F 0 "J30" H 7930 3692 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 3601 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 3650 50  0001 C CNN
+F 3 "~" H 7850 3650 50  0001 C CNN
+	1    7850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3650 7250 3650
+Text Label 7250 3650 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:Conn_01x01 J33
+U 1 1 5FAFDEE6
+P 7850 4250
+F 0 "J33" H 7930 4292 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 4201 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 4250 50  0001 C CNN
+F 3 "~" H 7850 4250 50  0001 C CNN
+	1    7850 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4250 7250 4250
+Text Label 7250 4250 0    50   ~ 0
+GND
+$Comp
+L levelshifter:Conn_01x01 J32
+U 1 1 5FAFDEEE
+P 7850 4050
+F 0 "J32" H 7930 4092 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 4001 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 4050 50  0001 C CNN
+F 3 "~" H 7850 4050 50  0001 C CNN
+	1    7850 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4050 7250 4050
+Text Label 7250 4050 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:Conn_01x01 J35
+U 1 1 5FB1578F
+P 7850 4650
+F 0 "J35" H 7930 4692 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 4601 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 4650 50  0001 C CNN
+F 3 "~" H 7850 4650 50  0001 C CNN
+	1    7850 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4650 7250 4650
+Text Label 7250 4650 0    50   ~ 0
+GND
+$Comp
+L levelshifter:Conn_01x01 J34
+U 1 1 5FB15797
+P 7850 4450
+F 0 "J34" H 7930 4492 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 4401 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 4450 50  0001 C CNN
+F 3 "~" H 7850 4450 50  0001 C CNN
+	1    7850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4450 7250 4450
+Text Label 7250 4450 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:Conn_01x01 J37
+U 1 1 5FB2D300
+P 7850 4850
+F 0 "J37" H 7930 4892 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 4801 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 4850 50  0001 C CNN
+F 3 "~" H 7850 4850 50  0001 C CNN
+	1    7850 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4850 7250 4850
+Text Label 7250 4850 0    50   ~ 0
+GND
+$Comp
+L levelshifter:Conn_01x01 J39
+U 1 1 5FB456B7
+P 7850 5250
+F 0 "J39" H 7930 5292 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 5201 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 5250 50  0001 C CNN
+F 3 "~" H 7850 5250 50  0001 C CNN
+	1    7850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5250 7250 5250
+Text Label 7250 5250 0    50   ~ 0
+GND
+$Comp
+L levelshifter:Conn_01x01 J38
+U 1 1 5FB456BF
+P 7850 5050
+F 0 "J38" H 7930 5092 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 5001 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 5050 50  0001 C CNN
+F 3 "~" H 7850 5050 50  0001 C CNN
+	1    7850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5050 7250 5050
+Text Label 7250 5050 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:Conn_01x01 J41
+U 1 1 5FB5DDF6
+P 7850 5650
+F 0 "J41" H 7930 5692 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 5601 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 5650 50  0001 C CNN
+F 3 "~" H 7850 5650 50  0001 C CNN
+	1    7850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5650 7250 5650
+Text Label 7250 5650 0    50   ~ 0
+GND
+$Comp
+L levelshifter:Conn_01x01 J40
+U 1 1 5FB5DDFE
+P 7850 5450
+F 0 "J40" H 7930 5492 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 5401 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 5450 50  0001 C CNN
+F 3 "~" H 7850 5450 50  0001 C CNN
+	1    7850 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5450 7250 5450
+Text Label 7250 5450 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R2
+U 1 1 5FB76B38
+P 9050 1200
+F 0 "R2" H 9118 1246 50  0000 L CNN
+F 1 "DNP" H 9118 1155 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 1200 50  0001 C CNN
+F 3 "~" H 9050 1200 50  0001 C CNN
+	1    9050 1200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1100 8800 1100
+Text Label 8800 1100 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R3
+U 1 1 5FD479C2
+P 9050 1600
+F 0 "R3" H 9118 1646 50  0000 L CNN
+F 1 "DNP" H 9118 1555 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 1600 50  0001 C CNN
+F 3 "~" H 9050 1600 50  0001 C CNN
+	1    9050 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1500 8800 1500
+Text Label 8800 1500 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R1
+U 1 1 5FD60B95
+P 9050 800
+F 0 "R1" H 9118 846 50  0000 L CNN
+F 1 "DNP" H 9118 755 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 800 50  0001 C CNN
+F 3 "~" H 9050 800 50  0001 C CNN
+	1    9050 800 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 700  8800 700 
+Text Label 8800 700  0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R4
+U 1 1 5FD79F3D
+P 9050 2000
+F 0 "R4" H 9118 2046 50  0000 L CNN
+F 1 "DNP" H 9118 1955 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 2000 50  0001 C CNN
+F 3 "~" H 9050 2000 50  0001 C CNN
+	1    9050 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1900 8800 1900
+Text Label 8800 1900 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R5
+U 1 1 5FD935B6
+P 9050 2400
+F 0 "R5" H 9118 2446 50  0000 L CNN
+F 1 "DNP" H 9118 2355 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 2400 50  0001 C CNN
+F 3 "~" H 9050 2400 50  0001 C CNN
+	1    9050 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2300 8800 2300
+Text Label 8800 2300 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R6
+U 1 1 5FDACF67
+P 9050 2800
+F 0 "R6" H 9118 2846 50  0000 L CNN
+F 1 "DNP" H 9118 2755 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 2800 50  0001 C CNN
+F 3 "~" H 9050 2800 50  0001 C CNN
+	1    9050 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2700 8800 2700
+Text Label 8800 2700 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R7
+U 1 1 5FDC6B90
+P 9050 3200
+F 0 "R7" H 9118 3246 50  0000 L CNN
+F 1 "DNP" H 9118 3155 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 3200 50  0001 C CNN
+F 3 "~" H 9050 3200 50  0001 C CNN
+	1    9050 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3100 8800 3100
+Text Label 8800 3100 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R8
+U 1 1 5FDE0A7F
+P 9050 3600
+F 0 "R8" H 9118 3646 50  0000 L CNN
+F 1 "DNP" H 9118 3555 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 3600 50  0001 C CNN
+F 3 "~" H 9050 3600 50  0001 C CNN
+	1    9050 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3500 8800 3500
+Text Label 8800 3500 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R9
+U 1 1 5FDFAC37
+P 9050 4000
+F 0 "R9" H 9118 4046 50  0000 L CNN
+F 1 "DNP" H 9118 3955 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 4000 50  0001 C CNN
+F 3 "~" H 9050 4000 50  0001 C CNN
+	1    9050 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3900 8800 3900
+Text Label 8800 3900 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R10
+U 1 1 5FE150BB
+P 9050 4400
+F 0 "R10" H 9118 4446 50  0000 L CNN
+F 1 "DNP" H 9118 4355 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 4400 50  0001 C CNN
+F 3 "~" H 9050 4400 50  0001 C CNN
+	1    9050 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4300 8800 4300
+Text Label 8800 4300 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R11
+U 1 1 5FE2F943
+P 9050 4800
+F 0 "R11" H 9118 4846 50  0000 L CNN
+F 1 "DNP" H 9118 4755 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 4800 50  0001 C CNN
+F 3 "~" H 9050 4800 50  0001 C CNN
+	1    9050 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4700 8800 4700
+Text Label 8800 4700 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R12
+U 1 1 5FE4A4DC
+P 9050 5200
+F 0 "R12" H 9118 5246 50  0000 L CNN
+F 1 "DNP" H 9118 5155 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 5200 50  0001 C CNN
+F 3 "~" H 9050 5200 50  0001 C CNN
+	1    9050 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5100 8800 5100
+Text Label 8800 5100 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R13
+U 1 1 5FE652D0
+P 9050 5600
+F 0 "R13" H 9118 5646 50  0000 L CNN
+F 1 "DNP" H 9118 5555 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 5600 50  0001 C CNN
+F 3 "~" H 9050 5600 50  0001 C CNN
+	1    9050 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5500 8800 5500
+Text Label 8800 5500 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R14
+U 1 1 5FE8043B
+P 9050 6000
+F 0 "R14" H 9118 6046 50  0000 L CNN
+F 1 "DNP" H 9118 5955 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 6000 50  0001 C CNN
+F 3 "~" H 9050 6000 50  0001 C CNN
+	1    9050 6000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5900 8800 5900
+Text Label 8800 5900 0    50   ~ 0
+VIN
+$Comp
+L levelshifter:R_Small_US R15
+U 1 1 5FE9B709
+P 9050 6400
+F 0 "R15" H 9118 6446 50  0000 L CNN
+F 1 "DNP" H 9118 6355 50  0000 L CNN
+F 2 "levelshifter:R_0402_1005Metric" H 9050 6400 50  0001 C CNN
+F 3 "~" H 9050 6400 50  0001 C CNN
+	1    9050 6400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 6300 8800 6300
+Text Label 8800 6300 0    50   ~ 0
+VIN
+Wire Wire Line
+	9050 900  9550 900 
+Wire Wire Line
+	9050 1300 9550 1300
+Wire Wire Line
+	9050 1700 9550 1700
+Wire Wire Line
+	9050 2100 9550 2100
+Wire Wire Line
+	9050 2500 9550 2500
+Wire Wire Line
+	9050 2900 9550 2900
+Wire Wire Line
+	9050 3300 9550 3300
+Wire Wire Line
+	9050 3700 9550 3700
+Wire Wire Line
+	9050 4100 9550 4100
+Wire Wire Line
+	9050 4500 9550 4500
+Wire Wire Line
+	9050 4900 9550 4900
+Wire Wire Line
+	9050 5300 9550 5300
+Wire Wire Line
+	9050 5700 9550 5700
+Wire Wire Line
+	9050 6100 9550 6100
+Wire Wire Line
+	9050 6500 9550 6500
+$Comp
+L levelshifter:Conn_01x01 J42
+U 1 1 607100C3
+P 7850 5850
+F 0 "J42" H 7930 5892 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 5801 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 5850 50  0001 C CNN
+F 3 "~" H 7850 5850 50  0001 C CNN
+	1    7850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5850 7250 5850
+Text Label 7250 5850 0    50   ~ 0
+GND
+$Comp
+L levelshifter:Conn_01x01 J43
+U 1 1 6072949B
+P 7850 6050
+F 0 "J43" H 7930 6092 50  0000 L CNN
+F 1 "Conn_01x01" H 7930 6001 50  0000 L CNN
+F 2 "levelshifter:SolderWirePad_1x01_SMD_1x2mm" H 7850 6050 50  0001 C CNN
+F 3 "~" H 7850 6050 50  0001 C CNN
+	1    7850 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 6050 7250 6050
+Text Label 7250 6050 0    50   ~ 0
+GND
 $EndSCHEMATC

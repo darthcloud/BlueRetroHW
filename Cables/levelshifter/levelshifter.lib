@@ -180,6 +180,24 @@ X 9 9 -300 400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_Small_US
+#
+DEF R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SolderJumper_3_Open
 #
 DEF SolderJumper_3_Open JP 0 0 Y N 1 F N

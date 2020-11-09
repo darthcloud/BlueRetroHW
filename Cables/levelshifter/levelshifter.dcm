@@ -102,6 +102,12 @@ K male D-SUB connector
 F  ~
 $ENDCMP
 #
+$CMP R_Small_US
+D Resistor, small US symbol
+K r resistor
+F ~
+$ENDCMP
+#
 $CMP SolderJumper_3_Open
 D Solder Jumper, 3-pole, open
 K Solder Jumper SPDT
