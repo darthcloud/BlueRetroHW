@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 7 10
+Sheet 7 11
 Title "BlueRetro - Dreamcast adapter cable"
 Date "2020-10-02"
 Rev "v1.2"

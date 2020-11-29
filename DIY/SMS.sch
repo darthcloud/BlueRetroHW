@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 10
+Sheet 9 11
 Title "BlueRetro - Atario 2600 & SEGA Master System adapter cable"
 Date "2020-11-03"
 Rev "v1.0"
