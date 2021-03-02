@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 11 11
 Title "BlueRetro - PlayStation 1 & 2 adapter cable"
-Date "2020-11-28"
-Rev "v1.0"
+Date "2021-03-02"
+Rev "v1.1"
 Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
@@ -103,96 +103,96 @@ Wire Wire Line
 $Comp
 L Regulator_Linear:AZ1117-5.0 U1
 U 1 1 5FC5044B
-P 5550 2050
-F 0 "U1" H 5550 2292 50  0000 C CNN
-F 1 "AZ1117-5.0" H 5550 2201 50  0000 C CNN
-F 2 "" H 5550 2300 50  0001 C CIN
-F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 5550 2050 50  0001 C CNN
-	1    5550 2050
+P 4200 1800
+F 0 "U1" H 4200 2042 50  0000 C CNN
+F 1 "AZ1117-5.0" H 4200 1951 50  0000 C CNN
+F 2 "" H 4200 2050 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 4200 1800 50  0001 C CNN
+	1    4200 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FC50962
-P 5550 2450
+P 4200 2200
 AR Path="/5FC50962" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5FC50962" Ref="#PWR?"  Part="1" 
 AR Path="/5FC32193/5FC50962" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5550 2200 50  0001 C CNN
-F 1 "GND" H 5555 2277 50  0000 C CNN
-F 2 "" H 5550 2450 50  0001 C CNN
-F 3 "" H 5550 2450 50  0001 C CNN
-	1    5550 2450
+F 0 "#PWR?" H 4200 1950 50  0001 C CNN
+F 1 "GND" H 4205 2027 50  0000 C CNN
+F 2 "" H 4200 2200 50  0001 C CNN
+F 3 "" H 4200 2200 50  0001 C CNN
+	1    4200 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C2
 U 1 1 5FC50D1C
-P 6000 2250
-F 0 "C2" H 6092 2296 50  0000 L CNN
-F 1 "10u" H 6092 2205 50  0000 L CNN
-F 2 "" H 6000 2250 50  0001 C CNN
-F 3 "~" H 6000 2250 50  0001 C CNN
-	1    6000 2250
+P 4650 2000
+F 0 "C2" H 4742 2046 50  0000 L CNN
+F 1 "10u" H 4742 1955 50  0000 L CNN
+F 2 "" H 4650 2000 50  0001 C CNN
+F 3 "~" H 4650 2000 50  0001 C CNN
+	1    4650 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C1
 U 1 1 5FC513BC
-P 5100 2250
-F 0 "C1" H 5192 2296 50  0000 L CNN
-F 1 "10u" H 5192 2205 50  0000 L CNN
-F 2 "" H 5100 2250 50  0001 C CNN
-F 3 "~" H 5100 2250 50  0001 C CNN
-	1    5100 2250
+P 3750 2000
+F 0 "C1" H 3842 2046 50  0000 L CNN
+F 1 "10u" H 3842 1955 50  0000 L CNN
+F 2 "" H 3750 2000 50  0001 C CNN
+F 3 "~" H 3750 2000 50  0001 C CNN
+	1    3750 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 2050 6000 2050
+	4500 1800 4650 1800
 Wire Wire Line
-	6000 2050 6000 2150
+	4650 1800 4650 1900
 Wire Wire Line
-	5250 2050 5100 2050
+	3900 1800 3750 1800
 Wire Wire Line
-	5100 2050 5100 2150
+	3750 1800 3750 1900
 Wire Wire Line
-	5550 2450 5550 2350
+	4200 2200 4200 2100
 Wire Wire Line
-	6000 2350 5550 2350
-Connection ~ 5550 2350
+	4650 2100 4200 2100
+Connection ~ 4200 2100
 Wire Wire Line
-	5550 2350 5100 2350
+	4200 2100 3750 2100
 $Comp
 L power:+5V #PWR?
 U 1 1 5FC55592
-P 6000 1950
+P 4650 1700
 AR Path="/5FC55592" Ref="#PWR?"  Part="1" 
 AR Path="/5F457D26/5FC55592" Ref="#PWR?"  Part="1" 
 AR Path="/5FC32193/5FC55592" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6000 1800 50  0001 C CNN
-F 1 "+5V" H 6015 2123 50  0000 C CNN
-F 2 "" H 6000 1950 50  0001 C CNN
-F 3 "" H 6000 1950 50  0001 C CNN
-	1    6000 1950
+F 0 "#PWR?" H 4650 1550 50  0001 C CNN
+F 1 "+5V" H 4665 1873 50  0000 C CNN
+F 2 "" H 4650 1700 50  0001 C CNN
+F 3 "" H 4650 1700 50  0001 C CNN
+	1    4650 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 2050 6000 1950
-Connection ~ 6000 2050
+	4650 1800 4650 1700
+Connection ~ 4650 1800
 $Comp
 L power:+8V #PWR?
 U 1 1 5FC5968B
-P 5100 1950
-F 0 "#PWR?" H 5100 1800 50  0001 C CNN
-F 1 "+8V" H 5115 2123 50  0000 C CNN
-F 2 "" H 5100 1950 50  0001 C CNN
-F 3 "" H 5100 1950 50  0001 C CNN
-	1    5100 1950
+P 3750 1700
+F 0 "#PWR?" H 3750 1550 50  0001 C CNN
+F 1 "+8V" H 3765 1873 50  0000 C CNN
+F 2 "" H 3750 1700 50  0001 C CNN
+F 3 "" H 3750 1700 50  0001 C CNN
+	1    3750 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 1950 5100 2050
-Connection ~ 5100 2050
+	3750 1700 3750 1800
+Connection ~ 3750 1800
 $Comp
 L power:+8V #PWR?
 U 1 1 5FC621C3
@@ -392,4 +392,55 @@ Text Notes 3250 4500 0    50   ~ 0
 Connectors facing console
 Text Notes 6300 6900 0    50   ~ 0
 * Very important for DB25 pin 22 (I39/VN) to be connect to GND for proper system detection.
+Wire Notes Line
+	5000 1300 5000 2550
+Wire Notes Line
+	5000 2550 3550 2550
+Wire Notes Line
+	3550 2550 3550 1300
+Wire Notes Line
+	3550 1300 5000 1300
+$Comp
+L power:+5V #PWR?
+U 1 1 603F554B
+P 6500 1900
+AR Path="/603F554B" Ref="#PWR?"  Part="1" 
+AR Path="/5F457D26/603F554B" Ref="#PWR?"  Part="1" 
+AR Path="/5FC32193/603F554B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6500 1750 50  0001 C CNN
+F 1 "+5V" H 6515 2073 50  0000 C CNN
+F 2 "" H 6500 1900 50  0001 C CNN
+F 3 "" H 6500 1900 50  0001 C CNN
+	1    6500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+8V #PWR?
+U 1 1 603F5553
+P 5600 1900
+F 0 "#PWR?" H 5600 1750 50  0001 C CNN
+F 1 "+8V" H 5615 2073 50  0000 C CNN
+F 2 "" H 5600 1900 50  0001 C CNN
+F 3 "" H 5600 1900 50  0001 C CNN
+	1    5600 1900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6800 1300 6800 2550
+Wire Notes Line
+	6800 2550 5350 2550
+Wire Notes Line
+	5350 2550 5350 1300
+Wire Notes Line
+	5350 1300 6800 1300
+Text Notes 3600 1400 0    50   ~ 0
+For BlueRetro DevKit
+Wire Wire Line
+	5600 1900 5600 2100
+Wire Wire Line
+	6500 1900 6500 2100
+Wire Wire Line
+	5600 2100 6500 2100
+Text Notes 5400 1400 0    50   ~ 0
+For ESP32-DevKitC DIY
 $EndSCHEMATC

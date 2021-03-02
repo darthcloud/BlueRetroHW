@@ -8,3 +8,4 @@ mv saturn-Saturn.pdf Saturn.pdf
 mv SMS-SMS.pdf SMS.pdf
 mv Genesis-Genesis.pdf Genesis.pdf
 mv NeoGeo-NeoGeo.pdf NeoGeo.pdf
+mv PS-PS.pdf PS.pdf
