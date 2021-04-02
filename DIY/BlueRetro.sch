@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title "BlueRetro DIY"
 Date "2020-10-02"
 Rev "v1.2"
@@ -523,5 +523,11 @@ S 7300 8700 500  150
 U 605F894D
 F0 "3DO" 50
 F1 "3DO.sch" 50
+$EndSheet
+$Sheet
+S 7950 8700 500  150 
+U 6066AE04
+F0 "PCFX" 50
+F1 "PCFX.sch" 50
 $EndSheet
 $EndSCHEMATC
