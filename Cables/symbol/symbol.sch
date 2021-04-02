@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "BlueRetro - Controller pinout reference"
-Date "2020-11-03"
-Rev "v1.0.1"
-Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
+Date "2021-04-01"
+Rev "v1.1"
+Comp "©2020-2021 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -578,7 +578,7 @@ R_II
 Text Label 3200 3400 2    50   ~ 0
 SEL
 Text Label 2500 3200 0    50   ~ 0
-OE
+~OE~
 Text Label 2200 3400 0    50   ~ 0
 GND
 Text Label 2200 3500 0    50   ~ 0
@@ -614,7 +614,7 @@ L_RN
 Text Label 4650 3500 2    50   ~ 0
 R_II
 Text Label 4650 3600 2    50   ~ 0
-OE
+~OE~
 Text Label 3900 3800 0    50   ~ 0
 GND
 Wire Wire Line
@@ -1209,9 +1209,9 @@ CLK
 Text Label 10100 5300 2    50   ~ 0
 DATA
 Text Label 10100 5100 2    50   ~ 0
-?
+~OE~
 Text Label 10100 4900 2    50   ~ 0
-LATCH
+~LATCH~
 Wire Wire Line
 	9850 5500 10100 5500
 Wire Wire Line
