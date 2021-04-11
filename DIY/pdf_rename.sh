@@ -11,3 +11,4 @@ mv NeoGeo-NeoGeo.pdf NeoGeo.pdf
 mv PS-PS.pdf PS.pdf
 mv 3DO-3DO.pdf 3DO.pdf
 mv PCFX-PCFX.pdf PCFX.pdf
+mv CDI-CDI.pdf CDI.pdf

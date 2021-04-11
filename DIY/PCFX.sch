@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 13
+Sheet 13 14
 Title "BlueRetro - PC-FX adapter cable"
-Date "2021-04-01"
-Rev "v1.0"
+Date "2021-04-11"
+Rev "v1.1"
 Comp "©2021 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
@@ -211,11 +211,9 @@ F 3 "" H 10050 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 2150 10050 2150
+	10250 2150 10200 2150
 Wire Wire Line
 	10250 2950 10050 2950
-Wire Wire Line
-	10150 1250 10150 1750
 Wire Wire Line
 	10150 2550 10250 2550
 $Comp
@@ -596,11 +594,6 @@ Wire Wire Line
 Text Label 9850 3450 0    50   ~ 0
 IO33
 Wire Wire Line
-	10250 1750 10150 1750
-Connection ~ 10150 1750
-Wire Wire Line
-	10150 1750 10150 2550
-Wire Wire Line
 	10250 3350 10050 3350
 Connection ~ 10050 3350
 Wire Wire Line
@@ -695,4 +688,13 @@ Text Label 2000 1950 2    50   ~ 0
 P1-CLK
 Text Label 2000 3800 2    50   ~ 0
 P2-CLK
+Wire Wire Line
+	10150 1250 10150 2550
+Wire Wire Line
+	10250 1750 10200 1750
+Wire Wire Line
+	10200 1750 10200 2150
+Connection ~ 10200 2150
+Wire Wire Line
+	10200 2150 10050 2150
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 9 13
+Sheet 9 14
 Title "BlueRetro - Atari 2600/7800 & SEGA SMS adapter cable"
 Date "2021-03-18"
 Rev "v1.1"
