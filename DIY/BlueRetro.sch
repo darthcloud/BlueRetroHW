@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title "BlueRetro DIY"
 Date "2020-10-02"
 Rev "v1.2"
@@ -231,29 +231,6 @@ Wire Wire Line
 	4900 4300 4700 4300
 Wire Wire Line
 	4900 4500 4700 4500
-Wire Wire Line
-	3900 3650 4100 3650
-Wire Wire Line
-	3900 3750 4100 3750
-Wire Wire Line
-	3900 3850 4100 3850
-Wire Wire Line
-	3900 3950 4100 3950
-Wire Wire Line
-	3400 3650 3200 3650
-Wire Wire Line
-	3400 3750 3200 3750
-$Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J5
-U 1 1 5EC73236
-P 3700 3850
-F 0 "J5" H 3750 4267 50  0001 C CNN
-F 1 "PmodMicroSD" H 3750 4175 50  0000 C CNN
-F 2 "" H 3700 3850 50  0001 C CNN
-F 3 "~" H 3700 3850 50  0001 C CNN
-	1    3700 3850
-	-1   0    0    -1  
-$EndComp
 Wire Notes Line width 48 style solid
 	8000 2550 8000 5600
 Wire Notes Line width 48 style solid
@@ -333,62 +310,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 3100 4900 3100
 $Comp
-L power:GND #PWR02
-U 1 1 5F0ECEA2
-P 3650 4300
-F 0 "#PWR02" H 3650 4050 50  0001 C CNN
-F 1 "GND" H 3655 4127 50  0000 C CNN
-F 2 "" H 3650 4300 50  0001 C CNN
-F 3 "" H 3650 4300 50  0001 C CNN
-	1    3650 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 4250 3650 4300
-Wire Wire Line
-	3900 4050 4000 4050
-$Comp
-L power:+3V3 #PWR01
-U 1 1 5F1056D7
-P 3050 4100
-F 0 "#PWR01" H 3050 3950 50  0001 C CNN
-F 1 "+3V3" H 3065 4273 50  0000 C CNN
-F 2 "" H 3050 4100 50  0001 C CNN
-F 3 "" H 3050 4100 50  0001 C CNN
-	1    3050 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 4150 4250 4150
-Wire Wire Line
-	3050 4150 3400 4150
-Wire Wire Line
-	3400 4050 3300 4050
-Wire Wire Line
-	3300 4050 3300 4250
-Wire Wire Line
-	3300 4250 3650 4250
-Connection ~ 3650 4250
-Wire Wire Line
-	4000 4050 4000 4250
-Wire Wire Line
-	4000 4250 3650 4250
-Wire Wire Line
-	3050 4150 3050 4100
-$Comp
-L power:+3V3 #PWR03
-U 1 1 5F146FA2
-P 4250 4100
-F 0 "#PWR03" H 4250 3950 50  0001 C CNN
-F 1 "+3V3" H 4265 4273 50  0000 C CNN
-F 2 "" H 4250 4100 50  0001 C CNN
-F 3 "" H 4250 4100 50  0001 C CNN
-	1    4250 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 4150 4250 4100
-$Comp
 L power:GND #PWR04
 U 1 1 5F15536E
 P 4400 4450
@@ -403,20 +324,6 @@ Wire Wire Line
 	4400 4400 4400 4450
 Wire Wire Line
 	4400 4400 4900 4400
-Text Label 3200 3650 0    50   ~ 0
-IO4
-Text Label 3200 3750 0    50   ~ 0
-IO12
-Text Label 4100 3650 2    50   ~ 0
-IO13
-Text Label 4100 3750 2    50   ~ 0
-IO15
-Text Label 4100 3850 2    50   ~ 0
-IO2
-Text Label 4100 3950 2    50   ~ 0
-IO14
-NoConn ~ 3400 3950
-NoConn ~ 3400 3850
 Wire Wire Line
 	5550 4400 5750 4400
 $Comp
@@ -535,5 +442,104 @@ S 8600 8700 500  150
 U 60737FF4
 F0 "CDI" 50
 F1 "CDI.sch" 50
+$EndSheet
+NoConn ~ 3400 3850
+NoConn ~ 3400 3950
+Text Label 4100 3950 2    50   ~ 0
+IO14
+Text Label 4100 3850 2    50   ~ 0
+IO2
+Text Label 4100 3750 2    50   ~ 0
+IO15
+Text Label 4100 3650 2    50   ~ 0
+IO13
+Text Label 3200 3750 0    50   ~ 0
+IO12
+Text Label 3200 3650 0    50   ~ 0
+IO4
+Wire Wire Line
+	4250 4150 4250 4100
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5F146FA2
+P 4250 4100
+F 0 "#PWR03" H 4250 3950 50  0001 C CNN
+F 1 "+3V3" H 4265 4273 50  0000 C CNN
+F 2 "" H 4250 4100 50  0001 C CNN
+F 3 "" H 4250 4100 50  0001 C CNN
+	1    4250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4150 3050 4100
+Wire Wire Line
+	4000 4250 3650 4250
+Wire Wire Line
+	4000 4050 4000 4250
+Connection ~ 3650 4250
+Wire Wire Line
+	3300 4250 3650 4250
+Wire Wire Line
+	3300 4050 3300 4250
+Wire Wire Line
+	3400 4050 3300 4050
+Wire Wire Line
+	3050 4150 3400 4150
+Wire Wire Line
+	3900 4150 4250 4150
+$Comp
+L power:+3V3 #PWR01
+U 1 1 5F1056D7
+P 3050 4100
+F 0 "#PWR01" H 3050 3950 50  0001 C CNN
+F 1 "+3V3" H 3065 4273 50  0000 C CNN
+F 2 "" H 3050 4100 50  0001 C CNN
+F 3 "" H 3050 4100 50  0001 C CNN
+	1    3050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4050 4000 4050
+Wire Wire Line
+	3650 4250 3650 4300
+$Comp
+L power:GND #PWR02
+U 1 1 5F0ECEA2
+P 3650 4300
+F 0 "#PWR02" H 3650 4050 50  0001 C CNN
+F 1 "GND" H 3655 4127 50  0000 C CNN
+F 2 "" H 3650 4300 50  0001 C CNN
+F 3 "" H 3650 4300 50  0001 C CNN
+	1    3650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J5
+U 1 1 5EC73236
+P 3700 3850
+F 0 "J5" H 3750 4267 50  0001 C CNN
+F 1 "PmodMicroSD" H 3750 4175 50  0000 C CNN
+F 2 "" H 3700 3850 50  0001 C CNN
+F 3 "~" H 3700 3850 50  0001 C CNN
+	1    3700 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3750 3200 3750
+Wire Wire Line
+	3400 3650 3200 3650
+Wire Wire Line
+	3900 3950 4100 3950
+Wire Wire Line
+	3900 3850 4100 3850
+Wire Wire Line
+	3900 3750 4100 3750
+Wire Wire Line
+	3900 3650 4100 3650
+$Sheet
+S 9200 8700 500  150 
+U 6088F484
+F0 "PCE" 50
+F1 "PCE.sch" 50
 $EndSheet
 $EndSCHEMATC

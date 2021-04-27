@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 13 14
+Sheet 13 15
 Title "BlueRetro - PC-FX adapter cable"
 Date "2021-04-11"
 Rev "v1.1"
@@ -76,16 +76,16 @@ $EndComp
 $Comp
 L Connector:DB25_Male J?
 U 1 1 60699691
-P 10550 2550
+P 9950 2700
 AR Path="/5F127084/60699691" Ref="J?"  Part="1" 
 AR Path="/5F1E85DD/60699691" Ref="J?"  Part="1" 
 AR Path="/5F2C5C0D/60699691" Ref="J?"  Part="1" 
 AR Path="/6066AE04/60699691" Ref="J3"  Part="1" 
-F 0 "J3" H 10468 1058 50  0000 C CNN
-F 1 "DB25_Male" H 10468 1149 50  0000 C CNN
-F 2 "" H 10550 2550 50  0001 C CNN
-F 3 " ~" H 10550 2550 50  0001 C CNN
-	1    10550 2550
+F 0 "J3" H 9868 1208 50  0000 C CNN
+F 1 "DB25_Male" H 9868 1299 50  0000 C CNN
+F 2 "" H 9950 2700 50  0001 C CNN
+F 3 " ~" H 9950 2700 50  0001 C CNN
+	1    9950 2700
 	1    0    0    1   
 $EndComp
 $Comp
@@ -179,56 +179,56 @@ F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 1950 10250 1950
+	9350 2100 9650 2100
 $Comp
 L power:+5V #PWR?
 U 1 1 606996BE
-P 10150 1250
+P 9550 1400
 AR Path="/5F127084/606996BE" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/606996BE" Ref="#PWR?"  Part="1" 
 AR Path="/5F2C5C0D/606996BE" Ref="#PWR?"  Part="1" 
 AR Path="/6066AE04/606996BE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10150 1100 50  0001 C CNN
-F 1 "+5V" H 10165 1423 50  0000 C CNN
-F 2 "" H 10150 1250 50  0001 C CNN
-F 3 "" H 10150 1250 50  0001 C CNN
-	1    10150 1250
+F 0 "#PWR?" H 9550 1250 50  0001 C CNN
+F 1 "+5V" H 9565 1573 50  0000 C CNN
+F 2 "" H 9550 1400 50  0001 C CNN
+F 3 "" H 9550 1400 50  0001 C CNN
+	1    9550 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 606996C4
-P 10050 3850
+P 9450 4000
 AR Path="/5F127084/606996C4" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/606996C4" Ref="#PWR?"  Part="1" 
 AR Path="/5F2C5C0D/606996C4" Ref="#PWR?"  Part="1" 
 AR Path="/6066AE04/606996C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10050 3600 50  0001 C CNN
-F 1 "GND" H 10055 3677 50  0000 C CNN
-F 2 "" H 10050 3850 50  0001 C CNN
-F 3 "" H 10050 3850 50  0001 C CNN
-	1    10050 3850
+F 0 "#PWR?" H 9450 3750 50  0001 C CNN
+F 1 "GND" H 9455 3827 50  0000 C CNN
+F 2 "" H 9450 4000 50  0001 C CNN
+F 3 "" H 9450 4000 50  0001 C CNN
+	1    9450 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 2150 10200 2150
+	9650 2300 9600 2300
 Wire Wire Line
-	10250 2950 10050 2950
+	9650 3100 9450 3100
 Wire Wire Line
-	10150 2550 10250 2550
+	9550 2700 9650 2700
 $Comp
 L power:+3.3V #PWR?
 U 1 1 606996CE
-P 9850 2300
+P 9250 2450
 AR Path="/5F127084/606996CE" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/606996CE" Ref="#PWR?"  Part="1" 
 AR Path="/5F2C5C0D/606996CE" Ref="#PWR?"  Part="1" 
 AR Path="/6066AE04/606996CE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9850 2150 50  0001 C CNN
-F 1 "+3.3V" H 9865 2473 50  0000 C CNN
-F 2 "" H 9850 2300 50  0001 C CNN
-F 3 "" H 9850 2300 50  0001 C CNN
-	1    9850 2300
+F 0 "#PWR?" H 9250 2300 50  0001 C CNN
+F 1 "+3.3V" H 9265 2623 50  0000 C CNN
+F 2 "" H 9250 2450 50  0001 C CNN
+F 3 "" H 9250 2450 50  0001 C CNN
+	1    9250 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -467,19 +467,19 @@ F 3 "" H 1600 1450 50  0001 C CNN
 	1    1600 1450
 	1    0    0    -1  
 $EndComp
-Text Label 9950 1850 0    50   ~ 0
+Text Label 9350 2000 0    50   ~ 0
 IO19
-Text Label 9950 1450 0    50   ~ 0
+Text Label 9350 1600 0    50   ~ 0
 IO22
 Wire Wire Line
-	10250 2050 9950 2050
+	9650 2200 9350 2200
 Wire Wire Line
-	9850 2350 9850 2300
+	9250 2500 9250 2450
 Wire Wire Line
-	9850 2350 10250 2350
-Text Label 9950 2050 0    50   ~ 0
+	9250 2500 9650 2500
+Text Label 9350 2200 0    50   ~ 0
 IO5
-Text Label 9950 1950 0    50   ~ 0
+Text Label 9350 2100 0    50   ~ 0
 IO18
 Text Label 3600 1050 0    50   ~ 0
 IO19
@@ -500,44 +500,44 @@ IO33
 Wire Notes Line
 	5850 6000 5850 4350
 Wire Wire Line
-	10050 2150 10050 2750
-Text Label 9850 3650 0    50   ~ 0
+	9450 2300 9450 2900
+Text Label 9250 3800 0    50   ~ 0
 IO26
-Connection ~ 10050 2950
+Connection ~ 9450 3100
 Wire Wire Line
-	10250 2750 10050 2750
-Connection ~ 10050 2750
+	9650 2900 9450 2900
+Connection ~ 9450 2900
 Wire Wire Line
-	10050 2750 10050 2950
+	9450 2900 9450 3100
 Wire Wire Line
-	10250 3050 10050 3050
-Connection ~ 10050 3050
+	9650 3200 9450 3200
+Connection ~ 9450 3200
 Wire Wire Line
-	10050 3050 10050 2950
+	9450 3200 9450 3100
 Wire Wire Line
-	10250 1850 9950 1850
+	9650 2000 9350 2000
 Wire Wire Line
-	10250 1450 9950 1450
+	9650 1600 9350 1600
 Wire Wire Line
-	10250 3650 9850 3650
-NoConn ~ 10250 3750
-NoConn ~ 10250 1550
-NoConn ~ 10250 1650
-NoConn ~ 10250 2250
-NoConn ~ 10250 2450
-NoConn ~ 10250 2650
-NoConn ~ 10250 2850
+	9650 3800 9250 3800
+NoConn ~ 9650 3900
+NoConn ~ 9650 1700
+NoConn ~ 9650 1800
+NoConn ~ 9650 2400
+NoConn ~ 9650 2600
+NoConn ~ 9650 2800
+NoConn ~ 9650 3000
 Wire Wire Line
-	10250 3150 10050 3150
-Connection ~ 10050 3150
+	9650 3300 9450 3300
+Connection ~ 9450 3300
 Wire Wire Line
-	10050 3150 10050 3050
+	9450 3300 9450 3200
 Wire Wire Line
-	10250 3250 10050 3250
-Connection ~ 10050 3250
+	9650 3400 9450 3400
+Connection ~ 9450 3400
 Wire Wire Line
-	10050 3250 10050 3150
-Text Notes 7050 6700 0    50   ~ 0
+	9450 3400 9450 3300
+Text Notes 6300 6900 0    50   ~ 0
 * Very important for DB25 pin 22 (I39/VN) to be connect to GND for proper system detection.
 Wire Notes Line
 	5850 4350 7250 4350
@@ -588,22 +588,22 @@ F 3 " ~" H 1100 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10050 3250 10050 3350
+	9450 3400 9450 3500
 Wire Wire Line
-	9850 3450 10250 3450
-Text Label 9850 3450 0    50   ~ 0
+	9250 3600 9650 3600
+Text Label 9250 3600 0    50   ~ 0
 IO33
 Wire Wire Line
-	10250 3350 10050 3350
-Connection ~ 10050 3350
+	9650 3500 9450 3500
+Connection ~ 9450 3500
 Wire Wire Line
-	10050 3350 10050 3550
+	9450 3500 9450 3700
 Wire Wire Line
-	10250 3550 10050 3550
-Connection ~ 10050 3550
+	9650 3700 9450 3700
+Connection ~ 9450 3700
 Wire Wire Line
-	10050 3550 10050 3850
-NoConn ~ 10250 1350
+	9450 3700 9450 4000
+NoConn ~ 9650 1500
 Text Notes 650  2900 0    50   ~ 0
 Connectors facing console
 Wire Wire Line
@@ -689,12 +689,12 @@ P1-CLK
 Text Label 2000 3800 2    50   ~ 0
 P2-CLK
 Wire Wire Line
-	10150 1250 10150 2550
+	9550 1400 9550 2700
 Wire Wire Line
-	10250 1750 10200 1750
+	9650 1900 9600 1900
 Wire Wire Line
-	10200 1750 10200 2150
-Connection ~ 10200 2150
+	9600 1900 9600 2300
+Connection ~ 9600 2300
 Wire Wire Line
-	10200 2150 10050 2150
+	9600 2300 9450 2300
 $EndSCHEMATC

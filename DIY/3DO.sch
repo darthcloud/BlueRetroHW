@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 12 14
+Sheet 12 15
 Title "BlueRetro - 3DO adapter cable"
 Date "2021-03-27"
 Rev "v1.0"
@@ -527,7 +527,7 @@ Wire Wire Line
 Connection ~ 9550 3550
 Wire Wire Line
 	9550 3550 9550 3450
-Text Notes 7000 6750 0    50   ~ 0
+Text Notes 6300 6950 0    50   ~ 0
 * Very important for DB25 pin 22 (I39/VN) to be connect to GND for proper system detection.\n* Connect IO19 (DB25-16) & IO18 (DB25-4) together (CS signal generator)
 Wire Wire Line
 	9750 3050 9550 3050

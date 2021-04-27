@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 10 14
+Sheet 10 15
 Title "BlueRetro - NeoGeo adapter cable"
 Date "2020-11-03"
 Rev "v1.0"

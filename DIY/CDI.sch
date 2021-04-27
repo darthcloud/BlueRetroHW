@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 14 14
+Sheet 14 15
 Title "BlueRetro CD-i adapter cable"
 Date "2021-04-11"
 Rev "v1.0"
@@ -80,17 +80,17 @@ $EndComp
 $Comp
 L Connector:DB25_Male J?
 U 1 1 607514F4
-P 10500 2500
+P 9950 2550
 AR Path="/5F127084/607514F4" Ref="J?"  Part="1" 
 AR Path="/5F1E85DD/607514F4" Ref="J?"  Part="1" 
 AR Path="/5F2C5C0D/607514F4" Ref="J?"  Part="1" 
 AR Path="/6066AE04/607514F4" Ref="J?"  Part="1" 
 AR Path="/60737FF4/607514F4" Ref="J3"  Part="1" 
-F 0 "J3" H 10418 1008 50  0000 C CNN
-F 1 "DB25_Male" H 10418 1099 50  0000 C CNN
-F 2 "" H 10500 2500 50  0001 C CNN
-F 3 " ~" H 10500 2500 50  0001 C CNN
-	1    10500 2500
+F 0 "J3" H 9868 1058 50  0000 C CNN
+F 1 "DB25_Male" H 9868 1149 50  0000 C CNN
+F 2 "" H 9950 2550 50  0001 C CNN
+F 3 " ~" H 9950 2550 50  0001 C CNN
+	1    9950 2550
 	1    0    0    1   
 $EndComp
 $Comp
@@ -192,55 +192,55 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6075151F
-P 10100 1200
+P 9550 1250
 AR Path="/5F127084/6075151F" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/6075151F" Ref="#PWR?"  Part="1" 
 AR Path="/5F2C5C0D/6075151F" Ref="#PWR?"  Part="1" 
 AR Path="/6066AE04/6075151F" Ref="#PWR?"  Part="1" 
 AR Path="/60737FF4/6075151F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10100 1050 50  0001 C CNN
-F 1 "+5V" H 10115 1373 50  0000 C CNN
-F 2 "" H 10100 1200 50  0001 C CNN
-F 3 "" H 10100 1200 50  0001 C CNN
-	1    10100 1200
+F 0 "#PWR?" H 9550 1100 50  0001 C CNN
+F 1 "+5V" H 9565 1423 50  0000 C CNN
+F 2 "" H 9550 1250 50  0001 C CNN
+F 3 "" H 9550 1250 50  0001 C CNN
+	1    9550 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60751525
-P 10000 3800
+P 9450 3850
 AR Path="/5F127084/60751525" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/60751525" Ref="#PWR?"  Part="1" 
 AR Path="/5F2C5C0D/60751525" Ref="#PWR?"  Part="1" 
 AR Path="/6066AE04/60751525" Ref="#PWR?"  Part="1" 
 AR Path="/60737FF4/60751525" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10000 3550 50  0001 C CNN
-F 1 "GND" H 10005 3627 50  0000 C CNN
-F 2 "" H 10000 3800 50  0001 C CNN
-F 3 "" H 10000 3800 50  0001 C CNN
-	1    10000 3800
+F 0 "#PWR?" H 9450 3600 50  0001 C CNN
+F 1 "GND" H 9455 3677 50  0000 C CNN
+F 2 "" H 9450 3850 50  0001 C CNN
+F 3 "" H 9450 3850 50  0001 C CNN
+	1    9450 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10200 2100 10000 2100
+	9650 2150 9450 2150
 Wire Wire Line
-	10200 2900 10000 2900
+	9650 2950 9450 2950
 Wire Wire Line
-	10100 2500 10200 2500
+	9550 2550 9650 2550
 $Comp
 L power:+3.3V #PWR?
 U 1 1 6075152F
-P 9800 2250
+P 9250 2300
 AR Path="/5F127084/6075152F" Ref="#PWR?"  Part="1" 
 AR Path="/5F1E85DD/6075152F" Ref="#PWR?"  Part="1" 
 AR Path="/5F2C5C0D/6075152F" Ref="#PWR?"  Part="1" 
 AR Path="/6066AE04/6075152F" Ref="#PWR?"  Part="1" 
 AR Path="/60737FF4/6075152F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9800 2100 50  0001 C CNN
-F 1 "+3.3V" H 9815 2423 50  0000 C CNN
-F 2 "" H 9800 2250 50  0001 C CNN
-F 3 "" H 9800 2250 50  0001 C CNN
-	1    9800 2250
+F 0 "#PWR?" H 9250 2150 50  0001 C CNN
+F 1 "+3.3V" H 9265 2473 50  0000 C CNN
+F 2 "" H 9250 2300 50  0001 C CNN
+F 3 "" H 9250 2300 50  0001 C CNN
+	1    9250 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -471,14 +471,14 @@ F 3 "" H 1000 2200 50  0001 C CNN
 	1    1000 2200
 	1    0    0    -1  
 $EndComp
-Text Label 9900 1800 0    50   ~ 0
+Text Label 9350 1850 0    50   ~ 0
 IO19
-Text Label 9900 1400 0    50   ~ 0
+Text Label 9350 1450 0    50   ~ 0
 IO22
 Wire Wire Line
-	9800 2300 9800 2250
+	9250 2350 9250 2300
 Wire Wire Line
-	9800 2300 10200 2300
+	9250 2350 9650 2350
 Text Label 3550 1000 0    50   ~ 0
 IO22
 Text Label 3550 1900 0    50   ~ 0
@@ -496,40 +496,40 @@ IO23
 Wire Notes Line
 	5800 5950 5800 4300
 Wire Wire Line
-	10000 2100 10000 2700
-Connection ~ 10000 2900
+	9450 2150 9450 2750
+Connection ~ 9450 2950
 Wire Wire Line
-	10200 2700 10000 2700
-Connection ~ 10000 2700
+	9650 2750 9450 2750
+Connection ~ 9450 2750
 Wire Wire Line
-	10000 2700 10000 2900
+	9450 2750 9450 2950
 Wire Wire Line
-	10200 3000 10000 3000
-Connection ~ 10000 3000
+	9650 3050 9450 3050
+Connection ~ 9450 3050
 Wire Wire Line
-	10000 3000 10000 2900
+	9450 3050 9450 2950
 Wire Wire Line
-	10200 1800 9900 1800
+	9650 1850 9350 1850
 Wire Wire Line
-	10200 1400 9900 1400
-NoConn ~ 10200 3700
-NoConn ~ 10200 1500
-NoConn ~ 10200 1600
-NoConn ~ 10200 2200
-NoConn ~ 10200 2400
-NoConn ~ 10200 2600
-NoConn ~ 10200 2800
+	9650 1450 9350 1450
+NoConn ~ 9650 3750
+NoConn ~ 9650 1550
+NoConn ~ 9650 1650
+NoConn ~ 9650 2250
+NoConn ~ 9650 2450
+NoConn ~ 9650 2650
+NoConn ~ 9650 2850
 Wire Wire Line
-	10200 3100 10000 3100
-Connection ~ 10000 3100
+	9650 3150 9450 3150
+Connection ~ 9450 3150
 Wire Wire Line
-	10000 3100 10000 3000
+	9450 3150 9450 3050
 Wire Wire Line
-	10200 3200 10000 3200
-Connection ~ 10000 3200
+	9650 3250 9450 3250
+Connection ~ 9450 3250
 Wire Wire Line
-	10000 3200 10000 3100
-Text Notes 7000 6900 0    50   ~ 0
+	9450 3250 9450 3150
+Text Notes 6300 7100 0    50   ~ 0
 * External power required as CD-i look for peripheral once before BlueRetro is fully\n  done reading it's config. Power up BlueRetro externally first, then 1 sec later power on CD-i.\n* Do not use CD-i 5V.\n* Very important for DB25 pin 22 (I39/VN) to be connect to GND for proper system detection.
 Wire Notes Line
 	5800 4300 7200 4300
@@ -550,17 +550,17 @@ Wire Wire Line
 	3850 3950 3850 3700
 Connection ~ 4150 3950
 Wire Wire Line
-	10000 3200 10000 3300
+	9450 3250 9450 3350
 Wire Wire Line
-	10200 3300 10000 3300
-Connection ~ 10000 3300
+	9650 3350 9450 3350
+Connection ~ 9450 3350
 Wire Wire Line
-	10000 3300 10000 3400
+	9450 3350 9450 3450
 Wire Wire Line
-	10200 3500 10000 3500
-Connection ~ 10000 3500
+	9650 3550 9450 3550
+Connection ~ 9450 3550
 Wire Wire Line
-	10000 3500 10000 3800
+	9450 3550 9450 3850
 Text Notes 850  2950 0    50   ~ 0
 Facing console connectors 
 NoConn ~ 6700 2800
@@ -613,23 +613,23 @@ F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" V 1390 3690
 	1    1400 3700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10200 1900
-NoConn ~ 10200 2050
-NoConn ~ 10200 3600
-Connection ~ 10000 3400
+NoConn ~ 9650 1950
+NoConn ~ 9650 2100
+NoConn ~ 9650 3650
+Connection ~ 9450 3450
 Wire Wire Line
-	10000 3400 10200 3400
+	9450 3450 9650 3450
 Wire Wire Line
-	10000 3400 10000 3500
+	9450 3450 9450 3550
 Wire Wire Line
-	10100 1200 10100 2500
+	9550 1250 9550 2550
 Wire Wire Line
-	10200 1700 9900 1700
+	9650 1750 9350 1750
 Wire Wire Line
-	10200 1300 9900 1300
-Text Label 9900 1300 0    50   ~ 0
+	9650 1350 9350 1350
+Text Label 9350 1350 0    50   ~ 0
 IO23
-Text Label 9900 1700 0    50   ~ 0
+Text Label 9350 1750 0    50   ~ 0
 IO21
 Wire Wire Line
 	1100 1900 1000 1900
