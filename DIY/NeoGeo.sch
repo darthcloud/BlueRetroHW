@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 10 15
+Sheet 10 16
 Title "BlueRetro - NeoGeo adapter cable"
 Date "2020-11-03"
 Rev "v1.0"
@@ -529,6 +529,7 @@ P 1750 3600
 AR Path="/5F9FC91E/5FF6F492" Ref="J?"  Part="1" 
 AR Path="/5FD29386/5FF6F492" Ref="J?"  Part="1" 
 AR Path="/5FD296AA/5FF6F492" Ref="J1"  Part="1" 
+AR Path="/5FF6F492" Ref="J1"  Part="1" 
 F 0 "J1" V 1850 4400 50  0000 L CNN
 F 1 "Atari_SEGA_DE9" V 1713 4155 50  0001 L CNN
 F 2 "" H 1750 3600 50  0001 C CNN

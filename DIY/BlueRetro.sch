@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title "BlueRetro DIY"
 Date "2020-10-02"
 Rev "v1.2"
@@ -541,5 +541,11 @@ S 9200 8700 500  150
 U 6088F484
 F0 "PCE" 50
 F1 "PCE.sch" 50
+$EndSheet
+$Sheet
+S 9800 8700 500  150 
+U 60BA3094
+F0 "JAG" 50
+F1 "JAG.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 15 15
+Sheet 15 16
 Title "BlueRetro - NEC PCE / TG16 adapter cable"
 Date "2021-04-27"
 Rev "v1.0"

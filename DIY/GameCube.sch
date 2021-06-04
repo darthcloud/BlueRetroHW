@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 15
+Sheet 6 16
 Title "BlueRetro - GameCube adapter cable"
 Date "2020-10-02"
 Rev "v1.2"

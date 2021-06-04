@@ -13,3 +13,4 @@ mv 3DO-3DO.pdf 3DO.pdf
 mv PCFX-PCFX.pdf PCFX.pdf
 mv CDI-CDI.pdf CDI.pdf
 mv PCE-PCE.pdf PCE.pdf
+mv JAG-JAG.pdf JAG.pdf

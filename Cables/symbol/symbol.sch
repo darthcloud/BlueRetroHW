@@ -1135,29 +1135,29 @@ GND
 Text Label 5100 4950 2    50   ~ 0
 5V
 Text Label 3650 4750 0    50   ~ 0
-COL0_147*
+J1_J6
 Text Label 5100 4850 2    50   ~ 0
-COL1_2580
+J2_J5
 Text Label 5100 5050 2    50   ~ 0
-COL2_369#
+J3_J4
 Text Label 3650 4950 0    50   ~ 0
-COL3_UDLR
+J0_J7
 Text Label 5100 5750 2    50   ~ 0
-ROW0_123
+J11_J15
 Wire Wire Line
 	4700 5750 5100 5750
 Text Label 5100 5900 2    50   ~ 0
-ROW1_456
+J10_J14
 Text Label 5100 6050 2    50   ~ 0
-ROW2_789
+J9_J13
 Text Label 3650 5900 0    50   ~ 0
-ROW3_*0#
+J8_J12
 Wire Wire Line
 	4500 5900 5100 5900
 Wire Wire Line
 	4300 6050 5100 6050
 Text Label 3650 5050 0    50   ~ 0
-ROW4_ABCO
+B1_B3
 Wire Wire Line
 	3650 5050 4000 5050
 Wire Wire Line
@@ -1177,7 +1177,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4850 5100 4850
 Text Label 5100 5150 2    50   ~ 0
-PAUSE
+B0_B2
 Text Label 3650 5150 0    50   ~ 0
 POTA
 Text Label 3650 5750 0    50   ~ 0
@@ -1398,4 +1398,6 @@ Text Notes 4050 6150 0    50   ~ 0
 Facing console
 Text Notes 5750 4050 0    50   ~ 0
 Facing console
+Text Notes 3600 6300 0    39   ~ 0
+* Pin 8 is pull-up to 5V on TeamTap ports\n* ADC pin POTA & POTB available only on early Jaguar
 $EndSCHEMATC
