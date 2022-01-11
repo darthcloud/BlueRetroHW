@@ -5,9 +5,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "BlueRetro - Controller pinout reference"
-Date "2021-04-01"
-Rev "v1.1"
-Comp "©2020-2021 Jacques Gagnon, licensed under CC-BY-4.0"
+Date "2022-01-10"
+Rev "v1.2"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -38,23 +38,23 @@ $EndComp
 $Comp
 L Connector_Gaming:GameCube J7
 U 1 1 5F78A04A
-P 4700 7150
-F 0 "J7" H 4800 7101 50  0001 C CNN
-F 1 "GameCube" H 4800 7010 50  0001 C CNN
-F 2 "" H 4700 7150 50  0001 C CNN
-F 3 "" H 4700 7150 50  0001 C CNN
-	1    4700 7150
+P 5100 7150
+F 0 "J7" H 5200 7101 50  0001 C CNN
+F 1 "GameCube" H 5200 7010 50  0001 C CNN
+F 2 "" H 5100 7150 50  0001 C CNN
+F 3 "" H 5100 7150 50  0001 C CNN
+	1    5100 7150
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Gaming:Dreamcast J10
 U 1 1 5F78F2E6
-P 3200 7150
-F 0 "J10" H 3300 7065 50  0001 C CNN
-F 1 "Dreamcast" H 3300 6974 50  0001 C CNN
-F 2 "" H 3200 7150 50  0001 C CNN
-F 3 "" H 3200 7150 50  0001 C CNN
-	1    3200 7150
+P 3950 7150
+F 0 "J10" H 4050 7065 50  0001 C CNN
+F 1 "Dreamcast" H 4050 6974 50  0001 C CNN
+F 2 "" H 3950 7150 50  0001 C CNN
+F 3 "" H 3950 7150 50  0001 C CNN
+	1    3950 7150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -146,59 +146,59 @@ CLK
 Text Label 10200 3350 2    50   ~ 0
 LATCH
 Wire Wire Line
-	4100 6850 3900 6850
+	4500 6850 4300 6850
 Wire Wire Line
-	3800 7250 3600 7250
+	4200 7250 4000 7250
 Wire Wire Line
-	4300 6850 4500 6850
+	4700 6850 4900 6850
 Wire Wire Line
-	4300 7650 4500 7650
+	4700 7650 4900 7650
 Wire Wire Line
-	4100 7650 3900 7650
+	4500 7650 4300 7650
 Wire Wire Line
-	4200 6850 4200 6750
+	4600 6850 4600 6750
 Wire Wire Line
-	4200 6750 3900 6750
+	4600 6750 4300 6750
 Wire Wire Line
-	4200 7650 4200 7750
+	4600 7650 4600 7750
 Wire Wire Line
-	4200 7750 3900 7750
-Text Label 3600 7250 0    50   ~ 0
+	4600 7750 4300 7750
+Text Label 4000 7250 0    50   ~ 0
 SHIELD
-Text Label 3900 6850 0    50   ~ 0
+Text Label 4300 6850 0    50   ~ 0
 5V
-Text Label 3900 6750 0    50   ~ 0
+Text Label 4300 6750 0    50   ~ 0
 DATA
-Text Label 3900 7650 0    50   ~ 0
+Text Label 4300 7650 0    50   ~ 0
 GND
-Text Label 3900 7750 0    50   ~ 0
+Text Label 4300 7750 0    50   ~ 0
 SENSE
-Text Label 4500 6850 2    50   ~ 0
+Text Label 4900 6850 2    50   ~ 0
 GND
-Text Label 4500 7650 2    50   ~ 0
+Text Label 4900 7650 2    50   ~ 0
 3V3
 Wire Wire Line
-	2600 6850 2400 6850
+	3350 6850 3150 6850
 Wire Wire Line
-	2800 6850 3000 6850
+	3550 6850 3750 6850
 Wire Wire Line
-	2600 7650 2400 7650
+	3350 7650 3150 7650
 Wire Wire Line
-	2700 6850 2700 6750
+	3450 6850 3450 6750
 Wire Wire Line
-	2700 6750 2400 6750
-Text Label 2400 6850 0    50   ~ 0
+	3450 6750 3150 6750
+Text Label 3150 6850 0    50   ~ 0
 D0
-Text Label 2400 7650 0    50   ~ 0
+Text Label 3150 7650 0    50   ~ 0
 5V
-Text Label 2400 6750 0    50   ~ 0
+Text Label 3150 6750 0    50   ~ 0
 GND
-Text Label 3000 6850 2    50   ~ 0
+Text Label 3750 6850 2    50   ~ 0
 D1
-Text Label 3100 7650 2    50   ~ 0
+Text Label 3850 7650 2    50   ~ 0
 SENSE
 Wire Wire Line
-	2800 7650 3100 7650
+	3550 7650 3850 7650
 Wire Wire Line
 	8850 1450 8650 1450
 Wire Wire Line
@@ -377,9 +377,9 @@ START
 Text Label 5100 2800 0    50   ~ 0
 C
 NoConn ~ 5400 3500
-Text Notes 3950 7850 0    50   ~ 0
+Text Notes 4350 7850 0    50   ~ 0
 Facing console
-Text Notes 2450 7750 0    50   ~ 0
+Text Notes 3200 7750 0    50   ~ 0
 Facing console
 Text Notes 9400 3900 0    50   ~ 0
 Facing console
@@ -824,50 +824,50 @@ Facing console
 $Comp
 L Connector_Gaming:Wii J?
 U 1 1 5FA65026
-P 6250 7100
-F 0 "J?" V 6304 6880 50  0001 L CNN
-F 1 "Wii" V 6395 6880 50  0001 L CNN
-F 2 "" H 6250 7100 50  0001 C CNN
-F 3 "" H 6250 7100 50  0001 C CNN
-	1    6250 7100
+P 6250 7150
+F 0 "J?" V 6304 6930 50  0001 L CNN
+F 1 "Wii" V 6395 6930 50  0001 L CNN
+F 2 "" H 6250 7150 50  0001 C CNN
+F 3 "" H 6250 7150 50  0001 C CNN
+	1    6250 7150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5650 6800 5450 6800
+	5650 6850 5450 6850
 Wire Wire Line
-	5350 7200 5150 7200
+	5350 7250 5150 7250
 Wire Wire Line
-	5850 6800 6050 6800
+	5850 6850 6050 6850
 Wire Wire Line
-	5850 7600 6050 7600
+	5850 7650 6050 7650
 Wire Wire Line
-	5650 7600 5450 7600
+	5650 7650 5450 7650
 Wire Wire Line
-	5750 7600 5750 7700
+	5750 7650 5750 7750
 Wire Wire Line
-	5750 7700 5450 7700
-Text Label 5150 7200 0    50   ~ 0
+	5750 7750 5450 7750
+Text Label 5150 7250 0    50   ~ 0
 SHIELD
-Text Label 5450 6800 0    50   ~ 0
+Text Label 5450 6850 0    50   ~ 0
 GND
-Text Label 5450 7600 0    50   ~ 0
+Text Label 5450 7650 0    50   ~ 0
 SDA
-Text Label 5450 7700 0    50   ~ 0
+Text Label 5450 7750 0    50   ~ 0
 SENSE
-Text Label 6050 6800 2    50   ~ 0
+Text Label 6050 6850 2    50   ~ 0
 SCL
-Text Label 6050 7600 2    50   ~ 0
+Text Label 6050 7650 2    50   ~ 0
 3V3
-Text Notes 5500 7800 0    50   ~ 0
+Text Notes 5500 7850 0    50   ~ 0
 Facing console
-NoConn ~ 5750 6800
+NoConn ~ 5750 6850
 Text Notes 1300 3200 2    50   ~ 0
 NES
 Text Notes 9850 3200 2    50   ~ 0
 SFC/SNES
-Text Notes 4400 6650 2    50   ~ 0
+Text Notes 4800 6650 2    50   ~ 0
 GameCube
-Text Notes 2850 6650 2    50   ~ 0
+Text Notes 3600 6650 2    50   ~ 0
 Dreamcast
 Text Notes 2700 4700 2    50   ~ 0
 3DO
@@ -887,7 +887,7 @@ Text Notes 1200 4850 2    50   ~ 0
 CD-i
 Text Notes 4400 3100 2    50   ~ 0
 Turbografx-16
-Text Notes 5900 6700 2    50   ~ 0
+Text Notes 5900 6750 2    50   ~ 0
 Wii ext.
 Wire Wire Line
 	5000 1450 5350 1450
@@ -1190,7 +1190,7 @@ Text Notes 9750 4750 2    50   ~ 0
 PC-FX
 Text Notes 8200 4900 2    50   ~ 0
 PSX / PS2
-Text Notes 1350 6750 2    50   ~ 0
+Text Notes 2400 6750 2    50   ~ 0
 N64
 Text Notes 6250 4800 2    50   ~ 0
 Saturn
@@ -1291,26 +1291,26 @@ Wire Wire Line
 	8400 5350 8600 5350
 Text Notes 5850 5750 0    50   ~ 0
 Facing console
-Text Notes 1000 7550 0    50   ~ 0
+Text Notes 2050 7550 0    50   ~ 0
 Facing console
-Text Label 2100 7250 0    50   ~ 0
+Text Label 2850 7250 0    50   ~ 0
 SHIELD
 Wire Wire Line
-	2300 7250 2100 7250
-Text Label 1550 6950 2    50   ~ 0
+	3050 7250 2850 7250
+Text Label 2600 6950 2    50   ~ 0
 GND
-Text Label 950  6850 0    50   ~ 0
+Text Label 2000 6850 0    50   ~ 0
 DATA
-Text Label 950  6950 0    50   ~ 0
+Text Label 2000 6950 0    50   ~ 0
 3V3
 Wire Wire Line
-	1250 6850 950  6850
+	2300 6850 2000 6850
 Wire Wire Line
-	1250 6950 1250 6850
+	2300 6950 2300 6850
 Wire Wire Line
-	1350 6950 1550 6950
+	2400 6950 2600 6950
 Wire Wire Line
-	1150 6950 950  6950
+	2200 6950 2000 6950
 Text Label 6750 5250 2    50   ~ 0
 GND
 Text Label 6750 5150 2    50   ~ 0
@@ -1375,12 +1375,12 @@ $EndComp
 $Comp
 L Connector_Gaming:N64 J4
 U 1 1 5F784AB6
-P 1150 7250
-F 0 "J4" H 1358 7396 50  0001 L CNN
-F 1 "N64" H 1358 7305 50  0001 L CNN
-F 2 "" H 1190 7310 50  0001 C CNN
-F 3 "" H 1190 7310 50  0001 C CNN
-	1    1150 7250
+P 2200 7250
+F 0 "J4" H 2408 7396 50  0001 L CNN
+F 1 "N64" H 2408 7305 50  0001 L CNN
+F 2 "" H 2240 7310 50  0001 C CNN
+F 3 "" H 2240 7310 50  0001 C CNN
+	1    2200 7250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1400,4 +1400,47 @@ Text Notes 5750 4050 0    50   ~ 0
 Facing console
 Text Notes 3600 6300 0    39   ~ 0
 * Pin 8 is pull-up to 5V on TeamTap ports\n* ADC pin POTA & POTB available only on early Jaguar
+$Comp
+L Connector_Gaming:VB J?
+U 1 1 61E14252
+P 1200 7200
+F 0 "J?" H 1250 7557 50  0001 C CNN
+F 1 "VB" H 1250 7466 50  0001 C CNN
+F 2 "" H 1240 7260 50  0001 C CNN
+F 3 "" H 1240 7260 50  0001 C CNN
+	1    1200 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 6900 1550 6900
+Wire Wire Line
+	1300 7600 1550 7600
+Wire Wire Line
+	850  6900 1100 6900
+Wire Wire Line
+	850  7600 1100 7600
+Wire Wire Line
+	1200 6900 1200 6800
+Wire Wire Line
+	1200 6800 850  6800
+Wire Wire Line
+	1200 7600 1200 7700
+Wire Wire Line
+	1200 7700 850  7700
+Text Notes 1400 6700 2    50   ~ 0
+Virtual Boy
+Text Notes 900  7850 0    50   ~ 0
+Facing console
+Text Label 850  6900 0    50   ~ 0
+DATA
+Text Label 1550 6900 2    50   ~ 0
+LATCH
+Text Label 850  7600 0    50   ~ 0
+CLK
+Text Label 850  7700 0    50   ~ 0
+GND
+Text Label 1550 7600 2    50   ~ 0
+VBAT
+Text Label 850  6800 0    50   ~ 0
+5V
 $EndSCHEMATC
