@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 16 16
+Sheet 16 17
 Title "BlueRetro - Atari Jaguar adapter cable"
 Date "2021-06-03"
 Rev "v1.0"

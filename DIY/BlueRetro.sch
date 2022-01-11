@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 16
+Sheet 1 17
 Title "BlueRetro DIY"
 Date "2020-10-02"
 Rev "v1.2"
@@ -492,4 +492,10 @@ Wire Wire Line
 	5500 4150 5500 4250
 Wire Wire Line
 	5500 4850 5500 4950
+$Sheet
+S 10400 8700 500  150 
+U 61DD00EA
+F0 "VB" 50
+F1 "VB.sch" 50
+$EndSheet
 $EndSCHEMATC

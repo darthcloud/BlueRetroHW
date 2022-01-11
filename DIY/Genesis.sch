@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 8 16
+Sheet 8 17
 Title "BlueRetro - Genesis adapter cable"
 Date "2020-11-01"
 Rev "v1.0"

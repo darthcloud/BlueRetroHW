@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 11 16
+Sheet 11 17
 Title "BlueRetro - PlayStation 1 & 2 adapter cable"
 Date "2021-03-02"
 Rev "v1.1"
