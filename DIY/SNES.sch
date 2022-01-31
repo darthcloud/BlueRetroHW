@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 17
+Sheet 4 19
 Title "BlueRetro - SFC/SNES adapter cable"
 Date "2020-11-03"
 Rev "v1.2.1"

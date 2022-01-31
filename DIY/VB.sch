@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 17 17
+Sheet 17 19
 Title "BlueRetro - Virtual Boy adapter cable"
 Date "2022-01-10"
 Rev "v1.0"

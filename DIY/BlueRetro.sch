@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 17
+Sheet 1 19
 Title "BlueRetro DIY"
 Date "2020-10-02"
 Rev "v1.2"
@@ -381,47 +381,47 @@ $EndSheet
 $Sheet
 S 5250 8700 500  150 
 U 5FD29386
-F0 "SMS" 50
-F1 "SMS.sch" 50
+F0 "Para2P_PP" 50
+F1 "Para2P_PP.sch" 50
 $EndSheet
 $Sheet
-S 5950 8700 500  150 
+S 6050 8700 500  150 
 U 5FD296AA
-F0 "NeoGeo" 50
-F1 "NeoGeo.sch" 50
+F0 "Para1P_PP" 50
+F1 "Para1P_PP.sch" 50
 $EndSheet
 $Sheet
-S 6650 8700 500  150 
+S 6850 8700 500  150 
 U 5FC32193
 F0 "PS" 50
 F1 "PS.sch" 50
 $EndSheet
 $Sheet
-S 7300 8700 500  150 
+S 7400 8700 500  150 
 U 605F894D
 F0 "3DO" 50
 F1 "3DO.sch" 50
 $EndSheet
 $Sheet
-S 7950 8700 500  150 
+S 8050 8700 500  150 
 U 6066AE04
 F0 "PCFX" 50
 F1 "PCFX.sch" 50
 $EndSheet
 $Sheet
-S 8600 8700 500  150 
+S 8700 8700 500  150 
 U 60737FF4
 F0 "CDI" 50
 F1 "CDI.sch" 50
 $EndSheet
 $Sheet
-S 9200 8700 500  150 
+S 9300 8700 500  150 
 U 6088F484
 F0 "PCE" 50
 F1 "PCE.sch" 50
 $EndSheet
 $Sheet
-S 9800 8700 500  150 
+S 9900 8700 500  150 
 U 60BA3094
 F0 "JAG" 50
 F1 "JAG.sch" 50
@@ -493,9 +493,21 @@ Wire Wire Line
 Wire Wire Line
 	5500 4850 5500 4950
 $Sheet
-S 10400 8700 500  150 
+S 10500 8700 500  150 
 U 61DD00EA
 F0 "VB" 50
 F1 "VB.sch" 50
+$EndSheet
+$Sheet
+S 5250 9050 500  150 
+U 6200C8A8
+F0 "Para2P_OD" 50
+F1 "Para2P_OD.sch" 50
+$EndSheet
+$Sheet
+S 6050 9050 500  150 
+U 61F7F68C
+F0 "Para1P_OD" 50
+F1 "Para1P_OD.sch" 50
 $EndSheet
 $EndSCHEMATC
