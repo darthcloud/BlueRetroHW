@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name opendrain)(type KiCad)(uri ${KIPRJMOD}/opendrain.pretty)(options "")(descr ""))
+)

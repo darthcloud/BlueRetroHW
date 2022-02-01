@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name opendrain)(type Legacy)(uri ${KIPRJMOD}/opendrain.lib)(options "")(descr ""))
+)
