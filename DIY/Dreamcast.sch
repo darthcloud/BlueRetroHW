@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 7 19
+Sheet 7 20
 Title "BlueRetro - Dreamcast adapter cable"
 Date "2021-02-05"
 Rev "v1.2.1"
-Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""

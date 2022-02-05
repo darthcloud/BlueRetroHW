@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 14 19
+Sheet 14 20
 Title "BlueRetro CD-i adapter cable"
 Date "2021-04-11"
 Rev "v1.0"
-Comp "©2021 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""

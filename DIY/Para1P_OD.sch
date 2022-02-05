@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 19 19
+Sheet 19 20
 Title "BlueRetro - Parallel 1P Open Drain adapter cable"
 Date "2022-01-30"
 Rev "v1.0"
-Comp "©2022 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -761,8 +761,6 @@ F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3
 	4    3750 4450
 	1    0    0    -1  
 $EndComp
-Text Notes 6350 6900 0    50   ~ 0
-* Very important for DB25 pin 22 (I39/VN) to be connect to 3.3v for proper system detection.
 $Comp
 L power:GND #PWR?
 U 1 1 61F99D7D
@@ -924,4 +922,8 @@ Text Label 4050 2000 2    50   ~ 0
 IO27
 Wire Wire Line
 	3750 2000 4050 2000
+Text Notes 1250 3900 0    50   ~ 0
+Connectors facing console
+Text Notes 6350 7100 0    79   ~ 16
+* BlueRetro "Parallel_1P_PP" firmware or configuration required.\n  Yes Push-Pull, Open drain is handled by the 74AHCT125N.
 $EndSCHEMATC

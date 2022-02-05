@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 11 19
+Sheet 11 20
 Title "BlueRetro - PlayStation 1 & 2 adapter cable"
 Date "2021-03-02"
 Rev "v1.1"
-Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""

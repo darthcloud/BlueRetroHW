@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 17 19
+Sheet 17 20
 Title "BlueRetro - Virtual Boy adapter cable"
 Date "2022-01-10"
 Rev "v1.0"
-Comp "©2022 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -664,7 +664,7 @@ L Connector:Barrel_Jack J1
 U 1 1 61E5B66F
 P 2000 2700
 F 0 "J1" H 1771 2658 50  0000 R CNN
-F 1 "Barrel_Jack" H 1771 2749 50  0000 R CNN
+F 1 "Barrel Jack" H 1771 2749 50  0000 R CNN
 F 2 "" H 2050 2660 50  0001 C CNN
 F 3 "~" H 2050 2660 50  0001 C CNN
 	1    2000 2700
@@ -705,8 +705,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 2600 3100 2600
 Wire Wire Line
-	3100 2600 3100 3750
-Wire Wire Line
 	3100 3750 2750 3750
 Text Label 3100 3750 2    50   ~ 0
 VBAT
@@ -719,5 +717,20 @@ Wire Notes Line
 Wire Notes Line
 	1300 2200 1300 3200
 Text Notes 1300 2150 0    50   ~ 0
-* VB need 9V-10V supply\nAs an example this schematic use a\nFamicom 10VDC supply with barrel jack center pin negative.\nAdapt this to the supply you got.
+* VB need 6V-15V supply\nAs an example this schematic use a\nFamicom 10VDC supply with barrel jack center pin negative.\nAdapt this to the supply you got.
+$Comp
+L Diode:1N5400 D1
+U 1 1 62235F33
+P 3100 2900
+F 0 "D1" V 3150 2750 50  0000 L CNN
+F 1 "1N5400" V 3050 2550 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 3100 2725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 3100 2900 50  0001 C CNN
+	1    3100 2900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3100 2600 3100 2750
+Wire Wire Line
+	3100 3050 3100 3750
 $EndSCHEMATC

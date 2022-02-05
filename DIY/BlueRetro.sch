@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 19
+Sheet 1 20
 Title "BlueRetro DIY"
 Date "2020-10-02"
 Rev "v1.2"
-Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -509,5 +509,11 @@ S 6050 9050 500  150
 U 61F7F68C
 F0 "Para1P_OD" 50
 F1 "Para1P_OD.sch" 50
+$EndSheet
+$Sheet
+S 4550 9050 500  150 
+U 62040EBA
+F0 "7800" 50
+F1 "7800.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 10 19
+Sheet 10 20
 Title "BlueRetro - Parallel 1P Push-Pull adapter cable"
 Date "2022-01-30"
 Rev "v1.1"
-Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -770,8 +770,6 @@ F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3
 	4    3750 4450
 	1    0    0    -1  
 $EndComp
-Text Notes 6350 6900 0    50   ~ 0
-* Very important for DB25 pin 22 (I39/VN) to be connect to 3.3v for proper system detection.
 $Comp
 L power:GND #PWR?
 U 1 1 5FF6F510
@@ -884,4 +882,6 @@ Text Label 2600 3000 2    50   ~ 0
 DOWN
 Text Label 2600 3100 2    50   ~ 0
 U
+Text Notes 1200 3900 0    50   ~ 0
+Connectors facing console
 $EndSCHEMATC

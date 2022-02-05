@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 19
+Sheet 3 20
 Title "BlueRetro - Famicom/NES adapter cable"
 Date "2020-11-03"
 Rev "v1.2.1"
-Comp "©2020 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 18 19
+Sheet 18 20
 Title "BlueRetro - Parallel 2P Open Drain adapter cable"
 Date "2022-01-30"
 Rev "v1.0"
-Comp "©2022 Jacques Gagnon, licensed under CC-BY-4.0"
+Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -158,94 +158,94 @@ R2
 $Comp
 L power:GND #PWR?
 U 1 1 6202A354
-P 2300 2300
+P 2300 1350
 AR Path="/5F127084/6202A354" Ref="#PWR?"  Part="1" 
 AR Path="/5F9FC91E/6202A354" Ref="#PWR?"  Part="1" 
 AR Path="/5FD29386/6202A354" Ref="#PWR?"  Part="1" 
 AR Path="/6200C8A8/6202A354" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2300 2050 50  0001 C CNN
-F 1 "GND" H 2305 2127 50  0000 C CNN
-F 2 "" H 2300 2300 50  0001 C CNN
-F 3 "" H 2300 2300 50  0001 C CNN
-	1    2300 2300
+F 0 "#PWR?" H 2300 1100 50  0001 C CNN
+F 1 "GND" H 2305 1177 50  0000 C CNN
+F 2 "" H 2300 1350 50  0001 C CNN
+F 3 "" H 2300 1350 50  0001 C CNN
+	1    2300 1350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6202A35A
-P 2350 3750
+P 2350 2800
 AR Path="/5F127084/6202A35A" Ref="#PWR?"  Part="1" 
 AR Path="/5F9FC91E/6202A35A" Ref="#PWR?"  Part="1" 
 AR Path="/5FD29386/6202A35A" Ref="#PWR?"  Part="1" 
 AR Path="/6200C8A8/6202A35A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2350 3500 50  0001 C CNN
-F 1 "GND" H 2355 3577 50  0000 C CNN
-F 2 "" H 2350 3750 50  0001 C CNN
-F 3 "" H 2350 3750 50  0001 C CNN
-	1    2350 3750
+F 0 "#PWR?" H 2350 2550 50  0001 C CNN
+F 1 "GND" H 2355 2627 50  0000 C CNN
+F 2 "" H 2350 2800 50  0001 C CNN
+F 3 "" H 2350 2800 50  0001 C CNN
+	1    2350 2800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6202A360
-P 2350 4050
+P 2350 3100
 AR Path="/5F127084/6202A360" Ref="#PWR?"  Part="1" 
 AR Path="/5F9FC91E/6202A360" Ref="#PWR?"  Part="1" 
 AR Path="/5FD29386/6202A360" Ref="#PWR?"  Part="1" 
 AR Path="/6200C8A8/6202A360" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2350 3900 50  0001 C CNN
-F 1 "+5V" H 2365 4223 50  0000 C CNN
-F 2 "" H 2350 4050 50  0001 C CNN
-F 3 "" H 2350 4050 50  0001 C CNN
-	1    2350 4050
+F 0 "#PWR?" H 2350 2950 50  0001 C CNN
+F 1 "+5V" H 2365 3273 50  0000 C CNN
+F 2 "" H 2350 3100 50  0001 C CNN
+F 3 "" H 2350 3100 50  0001 C CNN
+	1    2350 3100
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6202A366
-P 2300 2600
+P 2300 1650
 AR Path="/5F127084/6202A366" Ref="#PWR?"  Part="1" 
 AR Path="/5F9FC91E/6202A366" Ref="#PWR?"  Part="1" 
 AR Path="/5FD29386/6202A366" Ref="#PWR?"  Part="1" 
 AR Path="/6200C8A8/6202A366" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2300 2450 50  0001 C CNN
-F 1 "+5V" H 2315 2773 50  0000 C CNN
-F 2 "" H 2300 2600 50  0001 C CNN
-F 3 "" H 2300 2600 50  0001 C CNN
-	1    2300 2600
+F 0 "#PWR?" H 2300 1500 50  0001 C CNN
+F 1 "+5V" H 2315 1823 50  0000 C CNN
+F 2 "" H 2300 1650 50  0001 C CNN
+F 3 "" H 2300 1650 50  0001 C CNN
+	1    2300 1650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1350 2700 1350 2550
+	1350 1750 1350 1600
 Wire Wire Line
-	1350 2550 1200 2550
+	1350 1600 1200 1600
 Wire Wire Line
-	1400 4150 1400 4000
+	1400 3200 1400 3050
 Wire Wire Line
-	1400 4000 1250 4000
+	1400 3050 1250 3050
 Wire Wire Line
-	1500 4150 1500 3900
+	1500 3200 1500 2950
 Wire Wire Line
-	1450 2700 1450 2450
-Text Label 1200 2350 0    50   ~ 0
+	1450 1750 1450 1500
+Text Label 1200 1400 0    50   ~ 0
 D1
-Text Label 1200 2550 0    50   ~ 0
+Text Label 1200 1600 0    50   ~ 0
 U1
-Text Label 1200 2450 0    50   ~ 0
+Text Label 1200 1500 0    50   ~ 0
 FIRE1
-Text Label 2300 2400 2    50   ~ 0
+Text Label 2300 1450 2    50   ~ 0
 R1
-Text Label 1200 2150 0    50   ~ 0
+Text Label 1200 1200 0    50   ~ 0
 L1
-Text Label 1250 3800 0    50   ~ 0
+Text Label 1250 2850 0    50   ~ 0
 D2
-Text Label 1250 4000 0    50   ~ 0
+Text Label 1250 3050 0    50   ~ 0
 U2
-Text Label 1250 3900 0    50   ~ 0
+Text Label 1250 2950 0    50   ~ 0
 FIRE2
-Text Label 2350 3850 2    50   ~ 0
+Text Label 2350 2900 2    50   ~ 0
 R2
-Text Label 1250 3600 0    50   ~ 0
+Text Label 1250 2650 0    50   ~ 0
 L2
 Text Label 9500 2300 0    50   ~ 0
 IO19
@@ -304,72 +304,72 @@ Wire Wire Line
 	9800 3600 9600 3600
 Connection ~ 9600 3600
 NoConn ~ 9800 3100
-Text Notes 1250 3400 0    50   ~ 0
+Text Notes 1250 2450 0    50   ~ 0
 Connectors facing console
 $Comp
 L Connector_Gaming:Atari_SEGA_DE9 J?
 U 1 1 6202A3A3
-P 1750 3000
+P 1750 2050
 AR Path="/5F9FC91E/6202A3A3" Ref="J?"  Part="1" 
 AR Path="/5FD29386/6202A3A3" Ref="J?"  Part="1" 
 AR Path="/6200C8A8/6202A3A3" Ref="J1"  Part="1" 
-F 0 "J1" V 1668 3555 50  0000 L CNN
-F 1 "Atari_SEGA_DE9" V 1713 3555 50  0001 L CNN
-F 2 "" H 1750 3000 50  0001 C CNN
-F 3 " ~" H 1750 3000 50  0001 C CNN
-	1    1750 3000
+F 0 "J1" V 1668 2605 50  0000 L CNN
+F 1 "Atari_SEGA_DE9" V 1713 2605 50  0001 L CNN
+F 2 "" H 1750 2050 50  0001 C CNN
+F 3 " ~" H 1750 2050 50  0001 C CNN
+	1    1750 2050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Gaming:Atari_SEGA_DE9 J?
 U 1 1 6202A3A9
-P 1800 4450
+P 1800 3500
 AR Path="/5F9FC91E/6202A3A9" Ref="J?"  Part="1" 
 AR Path="/5FD29386/6202A3A9" Ref="J?"  Part="1" 
 AR Path="/6200C8A8/6202A3A9" Ref="J2"  Part="1" 
-F 0 "J2" V 1718 5005 50  0000 L CNN
-F 1 "Atari_SEGA_DE9" V 1763 5005 50  0001 L CNN
-F 2 "" H 1800 4450 50  0001 C CNN
-F 3 " ~" H 1800 4450 50  0001 C CNN
-	1    1800 4450
+F 0 "J2" V 1718 4055 50  0000 L CNN
+F 1 "Atari_SEGA_DE9" V 1763 4055 50  0001 L CNN
+F 2 "" H 1800 3500 50  0001 C CNN
+F 3 " ~" H 1800 3500 50  0001 C CNN
+	1    1800 3500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 2450 1200 2450
+	1450 1500 1200 1500
 Wire Wire Line
-	1550 2350 1200 2350
+	1550 1400 1200 1400
 Wire Wire Line
-	1550 2350 1550 2700
+	1550 1400 1550 1750
 Wire Wire Line
-	1750 2150 1200 2150
+	1750 1200 1200 1200
 Wire Wire Line
-	1750 2150 1750 2700
+	1750 1200 1750 1750
 Wire Wire Line
-	1950 2400 2300 2400
+	1950 1450 2300 1450
 Wire Wire Line
-	1950 2400 1950 2700
+	1950 1450 1950 1750
 Wire Wire Line
-	1850 2300 2300 2300
+	1850 1350 2300 1350
 Wire Wire Line
-	1850 2300 1850 2700
+	1850 1350 1850 1750
 Wire Wire Line
-	1500 3900 1250 3900
+	1500 2950 1250 2950
 Wire Wire Line
-	1600 3800 1250 3800
+	1600 2850 1250 2850
 Wire Wire Line
-	1600 3800 1600 4150
+	1600 2850 1600 3200
 Wire Wire Line
-	1800 3600 1250 3600
+	1800 2650 1250 2650
 Wire Wire Line
-	1800 3600 1800 4150
+	1800 2650 1800 3200
 Wire Wire Line
-	2000 3850 2350 3850
+	2000 2900 2350 2900
 Wire Wire Line
-	2000 3850 2000 4150
+	2000 2900 2000 3200
 Wire Wire Line
-	1900 3750 2350 3750
+	1900 2800 2350 2800
 Wire Wire Line
-	1900 3750 1900 4150
+	1900 2800 1900 3200
 Wire Wire Line
 	4200 2300 4500 2300
 Wire Wire Line
@@ -510,22 +510,18 @@ Wire Wire Line
 Wire Wire Line
 	4500 4100 4200 4100
 Wire Wire Line
-	1700 4050 1700 4150
+	1700 3100 1700 3200
 Wire Wire Line
-	1650 2600 1650 2700
+	1650 1650 1650 1750
 Wire Wire Line
-	1650 2600 2300 2600
+	1650 1650 2300 1650
 Wire Wire Line
-	1700 4050 2350 4050
-NoConn ~ 2150 2700
-NoConn ~ 2050 2700
-NoConn ~ 2100 4150
-NoConn ~ 2200 4150
+	1700 3100 2350 3100
+NoConn ~ 2150 1750
+NoConn ~ 2050 1750
+NoConn ~ 2100 3200
+NoConn ~ 2200 3200
 NoConn ~ -1100 4000
-Text Label 4850 3850 2    50   ~ 0
-EXTRA1
-Text Label 4850 4750 2    50   ~ 0
-EXTRA2
 $Comp
 L power:GND #PWR?
 U 1 1 6202A425
@@ -940,5 +936,219 @@ Wire Notes Line
 Wire Notes Line
 	3500 5300 3500 3400
 Text Notes 3550 5250 0    50   ~ 0
-Optional buttons
+GND pin 10 & 13 if unused (Atari)
+$Comp
+L power:GND #PWR?
+U 1 1 61FFB835
+P 2350 4550
+AR Path="/5F127084/61FFB835" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FC91E/61FFB835" Ref="#PWR?"  Part="1" 
+AR Path="/5FD29386/61FFB835" Ref="#PWR?"  Part="1" 
+AR Path="/6200C8A8/61FFB835" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 4300 50  0001 C CNN
+F 1 "GND" H 2355 4377 50  0000 C CNN
+F 2 "" H 2350 4550 50  0001 C CNN
+F 3 "" H 2350 4550 50  0001 C CNN
+	1    2350 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61FFB83B
+P 2400 6000
+AR Path="/5F127084/61FFB83B" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FC91E/61FFB83B" Ref="#PWR?"  Part="1" 
+AR Path="/5FD29386/61FFB83B" Ref="#PWR?"  Part="1" 
+AR Path="/6200C8A8/61FFB83B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2400 5750 50  0001 C CNN
+F 1 "GND" H 2405 5827 50  0000 C CNN
+F 2 "" H 2400 6000 50  0001 C CNN
+F 3 "" H 2400 6000 50  0001 C CNN
+	1    2400 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61FFB841
+P 2400 6300
+AR Path="/5F127084/61FFB841" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FC91E/61FFB841" Ref="#PWR?"  Part="1" 
+AR Path="/5FD29386/61FFB841" Ref="#PWR?"  Part="1" 
+AR Path="/6200C8A8/61FFB841" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2400 6150 50  0001 C CNN
+F 1 "+5V" H 2415 6473 50  0000 C CNN
+F 2 "" H 2400 6300 50  0001 C CNN
+F 3 "" H 2400 6300 50  0001 C CNN
+	1    2400 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61FFB847
+P 2350 4850
+AR Path="/5F127084/61FFB847" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FC91E/61FFB847" Ref="#PWR?"  Part="1" 
+AR Path="/5FD29386/61FFB847" Ref="#PWR?"  Part="1" 
+AR Path="/6200C8A8/61FFB847" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 4700 50  0001 C CNN
+F 1 "+5V" H 2365 5023 50  0000 C CNN
+F 2 "" H 2350 4850 50  0001 C CNN
+F 3 "" H 2350 4850 50  0001 C CNN
+	1    2350 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4950 1400 4800
+Wire Wire Line
+	1400 4800 1250 4800
+Wire Wire Line
+	2200 4950 2200 4850
+Wire Wire Line
+	2200 4850 2350 4850
+Wire Wire Line
+	1450 6400 1450 6250
+Wire Wire Line
+	1450 6250 1300 6250
+Wire Wire Line
+	2250 6400 2250 6300
+Wire Wire Line
+	2250 6300 2400 6300
+Wire Wire Line
+	2150 6400 2150 6200
+Wire Wire Line
+	1550 6400 1550 6150
+Wire Wire Line
+	2100 4950 2100 4750
+Wire Wire Line
+	1500 4950 1500 4700
+Text Label 1250 4600 0    50   ~ 0
+D1
+Text Label 1250 4800 0    50   ~ 0
+U1
+Text Label 2350 4750 2    50   ~ 0
+TR1
+Text Label 1250 4700 0    50   ~ 0
+TL1
+Text Label 2350 4650 2    50   ~ 0
+R1
+Text Label 1250 4400 0    50   ~ 0
+L1
+Text Label 1300 6050 0    50   ~ 0
+D2
+Text Label 1300 6250 0    50   ~ 0
+U2
+Text Label 1300 6150 0    50   ~ 0
+TL2
+Text Label 2400 6100 2    50   ~ 0
+R2
+Text Label 1300 5850 0    50   ~ 0
+L2
+Text Notes 1300 5650 0    50   ~ 0
+Connectors facing console
+$Comp
+L Connector_Gaming:Atari_SEGA_DE9 J?
+U 1 1 61FFB865
+P 1800 5250
+AR Path="/5F9FC91E/61FFB865" Ref="J?"  Part="1" 
+AR Path="/5FD29386/61FFB865" Ref="J?"  Part="1" 
+AR Path="/6200C8A8/61FFB865" Ref="J1"  Part="1" 
+F 0 "J1" V 1718 5805 50  0000 L CNN
+F 1 "Atari_SEGA_DE9" V 1763 5805 50  0001 L CNN
+F 2 "" H 1800 5250 50  0001 C CNN
+F 3 " ~" H 1800 5250 50  0001 C CNN
+	1    1800 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Gaming:Atari_SEGA_DE9 J?
+U 1 1 61FFB86B
+P 1850 6700
+AR Path="/5F9FC91E/61FFB86B" Ref="J?"  Part="1" 
+AR Path="/5FD29386/61FFB86B" Ref="J?"  Part="1" 
+AR Path="/6200C8A8/61FFB86B" Ref="J2"  Part="1" 
+F 0 "J2" V 1768 7255 50  0000 L CNN
+F 1 "Atari_SEGA_DE9" V 1813 7255 50  0001 L CNN
+F 2 "" H 1850 6700 50  0001 C CNN
+F 3 " ~" H 1850 6700 50  0001 C CNN
+	1    1850 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 4700 1250 4700
+Wire Wire Line
+	1600 4600 1250 4600
+Wire Wire Line
+	1600 4600 1600 4950
+Wire Wire Line
+	1800 4400 1250 4400
+Wire Wire Line
+	1800 4400 1800 4950
+Wire Wire Line
+	2100 4750 2350 4750
+Wire Wire Line
+	2000 4650 2350 4650
+Wire Wire Line
+	2000 4650 2000 4950
+Wire Wire Line
+	1900 4550 2350 4550
+Wire Wire Line
+	1900 4550 1900 4950
+Wire Wire Line
+	1550 6150 1300 6150
+Wire Wire Line
+	1650 6050 1300 6050
+Wire Wire Line
+	1650 6050 1650 6400
+Wire Wire Line
+	1850 5850 1300 5850
+Wire Wire Line
+	1850 5850 1850 6400
+Wire Wire Line
+	2150 6200 2400 6200
+Wire Wire Line
+	2050 6100 2400 6100
+Wire Wire Line
+	2050 6100 2050 6400
+Wire Wire Line
+	1950 6000 2400 6000
+Wire Wire Line
+	1950 6000 1950 6400
+Text Label 2400 6200 2    50   ~ 0
+TR2
+Text Label 4850 2150 2    50   ~ 0
+TL1
+Wire Wire Line
+	4850 2150 4850 2050
+Text Label 4850 3050 2    50   ~ 0
+TL2
+Wire Wire Line
+	4850 3050 4850 2950
+NoConn ~ 1700 4950
+NoConn ~ 1750 6400
+Wire Notes Line
+	2700 3800 2700 1000
+Wire Notes Line
+	2700 1000 1000 1000
+Wire Notes Line
+	1000 1000 1000 3800
+Wire Notes Line
+	1000 3800 2700 3800
+Wire Notes Line
+	2700 4200 1000 4200
+Wire Notes Line
+	1000 4200 1000 7000
+Wire Notes Line
+	1000 7000 2700 7000
+Wire Notes Line
+	2700 7000 2700 4200
+Text Notes 1000 4150 0    50   ~ 0
+Option #2: SEGA SG1000 / SMS
+Text Notes 1000 950  0    50   ~ 0
+Option #1: Atari 2600 and compatible
+Text Label 4850 3850 2    50   ~ 0
+TR1
+Text Label 4850 4750 2    50   ~ 0
+TR2
+Text Notes 6300 7100 0    79   ~ 16
+* BlueRetro "Parallel_2P_PP" firmware or configuration required.\n  Yes Push-Pull, Open drain is handled by the 74AHCT125N.
 $EndSCHEMATC
