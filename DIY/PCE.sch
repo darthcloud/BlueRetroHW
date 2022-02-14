@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 15 20
 Title "BlueRetro - NEC PCE / TG16 adapter cable"
-Date "2021-04-27"
-Rev "v1.0"
+Date "2022-02-14"
+Rev "v1.1"
 Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
@@ -508,9 +508,9 @@ Text Label 3550 1050 0    50   ~ 0
 IO3
 Text Label 3550 1950 0    50   ~ 0
 IO5
-Text Label 5750 1050 0    50   ~ 0
-~OE~
 Text Label 5750 1950 0    50   ~ 0
+~OE~
+Text Label 5750 1050 0    50   ~ 0
 SEL
 Text Label 4800 1050 2    50   ~ 0
 U_I
