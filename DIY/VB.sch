@@ -668,7 +668,7 @@ F 1 "Barrel Jack" H 1771 2749 50  0000 R CNN
 F 2 "" H 2050 2660 50  0001 C CNN
 F 3 "~" H 2050 2660 50  0001 C CNN
 	1    2000 2700
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_SPST SW1
@@ -717,7 +717,7 @@ Wire Notes Line
 Wire Notes Line
 	1300 2200 1300 3200
 Text Notes 1300 2150 0    50   ~ 0
-* VB need 6V-15V supply\nAs an example this schematic use a\nFamicom 10VDC supply with barrel jack center pin negative.\nAdapt this to the supply you got.
+* VB need 6V-15V supply\nAs an example this schematic use a\nbarrel jack with center pin positive.\nAdapt this to the supply you got.
 $Comp
 L Diode:1N5400 D1
 U 1 1 62235F33
