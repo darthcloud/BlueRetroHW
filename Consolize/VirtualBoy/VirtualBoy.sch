@@ -1084,8 +1084,8 @@ NoConn ~ 3400 2200
 NoConn ~ 2800 2000
 NoConn ~ 2800 1900
 NoConn ~ 3750 7300
-Text Notes 950  6800 0    100  ~ 0
-* VirtualTap <-> Virtual Boy ribbon cable connection not shown\n* Virtual Boy <-> Virtual Boy audio amp / TRS not shown 
+Text Notes 950  7000 0    100  ~ 0
+* VirtualTap <-> Virtual Boy ribbon cable connection not shown\n* Virtual Boy <-> Servo emulator connection not shown\n* Virtual Boy <-> Virtual Boy audio amp connection not shown 
 Wire Wire Line
 	5850 5350 6150 5350
 $Comp
