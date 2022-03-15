@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 5 20
 Title "BlueRetro - N64 adapter cable"
-Date "2020-10-02"
-Rev "v1.2"
+Date "2022-03-15"
+Rev "v1.3"
 Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
@@ -204,42 +204,33 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5F47F822
-P 6000 3350
+P 6000 4150
 AR Path="/5F47F822" Ref="#PWR?"  Part="1" 
 AR Path="/5F457716/5F47F822" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 6000 3200 50  0001 C CNN
-F 1 "+3V3" H 5950 3500 50  0000 C CNN
-F 2 "" H 6000 3350 50  0001 C CNN
-F 3 "" H 6000 3350 50  0001 C CNN
-	1    6000 3350
+F 0 "#PWR0101" H 6000 4000 50  0001 C CNN
+F 1 "+3V3" H 5950 4300 50  0000 C CNN
+F 2 "" H 6000 4150 50  0001 C CNN
+F 3 "" H 6000 4150 50  0001 C CNN
+	1    6000 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F47F828
-P 5900 3800
+P 5900 4500
 AR Path="/5F47F828" Ref="#PWR?"  Part="1" 
 AR Path="/5F457716/5F47F828" Ref="#PWR0100"  Part="1" 
-F 0 "#PWR0100" H 5900 3550 50  0001 C CNN
-F 1 "GND" H 5905 3627 50  0000 C CNN
-F 2 "" H 5900 3800 50  0001 C CNN
-F 3 "" H 5900 3800 50  0001 C CNN
-	1    5900 3800
+F 0 "#PWR0100" H 5900 4250 50  0001 C CNN
+F 1 "GND" H 5905 4327 50  0000 C CNN
+F 2 "" H 5900 4500 50  0001 C CNN
+F 3 "" H 5900 4500 50  0001 C CNN
+	1    5900 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 3800 5900 3750
-Wire Wire Line
-	5900 3750 6100 3750
-Wire Wire Line
-	6100 3750 6100 3250
-Wire Wire Line
 	6100 3250 6200 3250
 Wire Wire Line
-	6100 3750 6100 3850
-Wire Wire Line
 	6100 4050 6200 4050
-Connection ~ 6100 3750
 Wire Wire Line
 	4850 2600 5600 2600
 Wire Wire Line
@@ -268,10 +259,6 @@ F 3 " ~" H 6500 3650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6200 3650 6000 3650
-Wire Wire Line
-	6000 3350 6000 3650
-Wire Wire Line
 	6200 2950 5600 2950
 Wire Wire Line
 	5600 2950 5600 2600
@@ -299,15 +286,11 @@ NoConn ~ 6200 2650
 NoConn ~ 6200 2750
 NoConn ~ 6200 3050
 NoConn ~ 6200 3350
-NoConn ~ 6200 3450
 NoConn ~ 6200 3550
 NoConn ~ 6200 3750
 NoConn ~ 6200 3950
 Wire Wire Line
 	6200 4150 6000 4150
-Wire Wire Line
-	6000 4150 6000 3650
-Connection ~ 6000 3650
 Wire Wire Line
 	6200 2550 6100 2550
 Wire Wire Line
@@ -347,4 +330,60 @@ Text Notes 6350 6900 0    50   ~ 0
 * Very important for DB25 pin 22 (I39/VN) to be connect to VIN (3.3V) for proper system detection.
 Text Notes 3250 3500 0    50   ~ 0
 Connectors facing console
+Wire Wire Line
+	6100 3250 6100 3850
+Wire Wire Line
+	6100 4450 5900 4450
+Wire Wire Line
+	5900 4450 5900 4500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6231F5C1
+P 6000 3450
+AR Path="/6231F5C1" Ref="#PWR?"  Part="1" 
+AR Path="/5F457716/6231F5C1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6000 3300 50  0001 C CNN
+F 1 "+3V3" H 5950 3600 50  0000 C CNN
+F 2 "" H 6000 3450 50  0001 C CNN
+F 3 "" H 6000 3450 50  0001 C CNN
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3450 6000 3450
+Wire Wire Line
+	6200 3650 5850 3650
+Text Label 5850 3650 0    50   ~ 0
+VIN
+Wire Notes Line
+	7000 4000 7000 3000
+Text Notes 7050 3100 0    50   ~ 0
+For BlueRetro DevKit only
+Wire Notes Line
+	8250 3000 8250 4000
+Wire Notes Line
+	7000 3000 8250 3000
+Wire Notes Line
+	7000 4000 8250 4000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 623261D3
+P 7800 3450
+AR Path="/623261D3" Ref="#PWR?"  Part="1" 
+AR Path="/5F457716/623261D3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7800 3300 50  0001 C CNN
+F 1 "+3V3" H 7750 3600 50  0000 C CNN
+F 2 "" H 7800 3450 50  0001 C CNN
+F 3 "" H 7800 3450 50  0001 C CNN
+	1    7800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3450 7800 3600
+Wire Wire Line
+	7800 3600 7350 3600
+Text Label 7350 3600 0    50   ~ 0
+VIN
+Text Notes 7050 3950 0    50   ~ 0
+(Leave VIN unconnected\notherwise)
 $EndSCHEMATC
