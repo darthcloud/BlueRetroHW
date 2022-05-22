@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 19 20
+Sheet 19 21
 Title "BlueRetro - Parallel 1P Open Drain adapter cable"
 Date "2022-01-30"
 Rev "v1.0"

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 20
+Sheet 1 21
 Title "BlueRetro DIY"
 Date "2020-10-02"
 Rev "v1.2"
@@ -515,5 +515,11 @@ S 4550 9050 500  150
 U 62040EBA
 F0 "7800" 50
 F1 "7800.sch" 50
+$EndSheet
+$Sheet
+S 6850 9050 500  150 
+U 628AEB0A
+F0 "Wii" 50
+F1 "Wii.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 13 20
+Sheet 13 21
 Title "BlueRetro - PC-FX adapter cable"
 Date "2021-04-11"
 Rev "v1.1"

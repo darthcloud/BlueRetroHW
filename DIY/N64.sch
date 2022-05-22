@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 20
+Sheet 5 21
 Title "BlueRetro - N64 adapter cable"
 Date "2022-03-15"
 Rev "v1.3"
