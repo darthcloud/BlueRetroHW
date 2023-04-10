@@ -56,6 +56,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_01x07
+D Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_02x06_Odd_Even
 D Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
@@ -170,6 +176,12 @@ $CMP S8050
 D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92
 K S8050 NPN Low Voltage High Current Transistor
 F http://www.unisonic.com.tw/datasheet/S8050.pdf
+$ENDCMP
+#
+$CMP SD_Card
+D SD Card Reader
+K connector SD
+F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
 $ENDCMP
 #
 $CMP SPX2920M3-5.0_SOT223
