@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 12 21
+Sheet 12 23
 Title "BlueRetro - 3DO adapter cable"
 Date "2021-03-27"
 Rev "v1.0"

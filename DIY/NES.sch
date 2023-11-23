@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 21
-Title "BlueRetro - Famicom/NES adapter cable"
+Sheet 3 23
+Title "BlueRetro - NES adapter cable"
 Date "2020-11-03"
-Rev "v1.2.1"
+Rev "v1.3"
 Comp "©2020-2022 Jacques Gagnon, licensed under CC-BY-4.0"
 Comment1 ""
 Comment2 ""
@@ -24,32 +24,6 @@ F 1 "74AHCT125N" H 4150 1576 50  0000 C CNN
 F 2 "" H 4150 1350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4150 1350 50  0001 C CNN
 	1    4150 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS125 U?
-U 2 1 5F23BC86
-P 4150 2250
-AR Path="/5F127084/5F23BC86" Ref="U?"  Part="2" 
-AR Path="/5F1E85DD/5F23BC86" Ref="U1"  Part="2" 
-F 0 "U1" H 4150 2567 50  0000 C CNN
-F 1 "74AHCT125N" H 4150 2476 50  0000 C CNN
-F 2 "" H 4150 2250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4150 2250 50  0001 C CNN
-	2    4150 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS125 U?
-U 3 1 5F23BC8C
-P 4150 3150
-AR Path="/5F127084/5F23BC8C" Ref="U?"  Part="3" 
-AR Path="/5F1E85DD/5F23BC8C" Ref="U1"  Part="3" 
-F 0 "U1" H 4150 3467 50  0000 C CNN
-F 1 "74AHCT125N" H 4150 3376 50  0000 C CNN
-F 2 "" H 4150 3150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4150 3150 50  0001 C CNN
-	3    4150 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -197,58 +171,6 @@ F 3 "" H 6900 2550 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5F23BD36
-P 4150 2500
-AR Path="/5F127084/5F23BD36" Ref="#PWR?"  Part="1" 
-AR Path="/5F1E85DD/5F23BD36" Ref="#PWR049"  Part="1" 
-F 0 "#PWR049" H 4150 2250 50  0001 C CNN
-F 1 "GND" H 4155 2327 50  0000 C CNN
-F 2 "" H 4150 2500 50  0001 C CNN
-F 3 "" H 4150 2500 50  0001 C CNN
-	1    4150 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F23BD3C
-P 4150 4300
-AR Path="/5F127084/5F23BD3C" Ref="#PWR?"  Part="1" 
-AR Path="/5F1E85DD/5F23BD3C" Ref="#PWR051"  Part="1" 
-F 0 "#PWR051" H 4150 4050 50  0001 C CNN
-F 1 "GND" H 4155 4127 50  0000 C CNN
-F 2 "" H 4150 4300 50  0001 C CNN
-F 3 "" H 4150 4300 50  0001 C CNN
-	1    4150 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F23BD42
-P 4150 1600
-AR Path="/5F127084/5F23BD42" Ref="#PWR?"  Part="1" 
-AR Path="/5F1E85DD/5F23BD42" Ref="#PWR048"  Part="1" 
-F 0 "#PWR048" H 4150 1350 50  0001 C CNN
-F 1 "GND" H 4155 1427 50  0000 C CNN
-F 2 "" H 4150 1600 50  0001 C CNN
-F 3 "" H 4150 1600 50  0001 C CNN
-	1    4150 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F23BD48
-P 4150 3400
-AR Path="/5F127084/5F23BD48" Ref="#PWR?"  Part="1" 
-AR Path="/5F1E85DD/5F23BD48" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 4150 3150 50  0001 C CNN
-F 1 "GND" H 4155 3227 50  0000 C CNN
-F 2 "" H 4150 3400 50  0001 C CNN
-F 3 "" H 4150 3400 50  0001 C CNN
-	1    4150 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 5F23BD7E
 P 6550 6050
 AR Path="/5F127084/5F23BD7E" Ref="#PWR?"  Part="1" 
@@ -310,21 +232,9 @@ Wire Notes Line
 Text Notes 6400 4800 0    50   ~ 0
 Inputs level shifter VCC is 3.3V
 Wire Wire Line
-	3850 1350 3550 1350
-Wire Wire Line
-	3850 2250 3550 2250
-Wire Wire Line
-	3850 3150 3550 3150
-Wire Wire Line
-	3850 4050 3550 4050
+	4150 1600 3850 1600
 Wire Wire Line
 	4450 1350 4800 1350
-Wire Wire Line
-	4450 2250 4800 2250
-Wire Wire Line
-	4450 3150 4800 3150
-Wire Wire Line
-	4450 4050 4800 4050
 Wire Wire Line
 	6600 1400 6250 1400
 Wire Wire Line
@@ -408,40 +318,6 @@ F 3 "" H 2300 1700 50  0001 C CNN
 	1    2300 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Gaming:Atari5200_Famicom_NeoGeoAES_PCGamePort_DA15 J3
-U 1 1 5F2B655C
-P 1900 4250
-F 0 "J3" H 1900 3400 50  0000 C CNN
-F 1 "DB15_Female" H 1806 5151 50  0001 C CNN
-F 2 "" H 1900 4250 50  0001 C CNN
-F 3 " ~" H 1900 4250 50  0001 C CNN
-	1    1900 4250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2200 4450 2500 4450
-Wire Wire Line
-	2200 4750 2500 4750
-Text Notes 1450 5250 0    50   ~ 0
-*Optional (only for Famicom 4P)
-NoConn ~ 2200 3550
-NoConn ~ 2200 3650
-NoConn ~ 2200 3750
-NoConn ~ 2200 3850
-NoConn ~ 2200 3950
-NoConn ~ 2200 4050
-NoConn ~ 2200 4150
-NoConn ~ 2200 4250
-NoConn ~ 2200 4350
-NoConn ~ 2200 4550
-NoConn ~ 2200 4650
-NoConn ~ 2200 4850
-NoConn ~ 2200 4950
-Text Label 2500 4450 2    50   ~ 0
-P1-D1
-Text Label 2500 4750 2    50   ~ 0
-P2-D1
 Wire Wire Line
 	1700 2700 1600 2700
 Text Label 950  2800 0    50   ~ 0
@@ -465,14 +341,8 @@ Text Label 1200 2000 0    50   ~ 0
 P1-D0
 NoConn ~ 2200 1900
 NoConn ~ 2200 2000
-Text Label 3550 1350 0    50   ~ 0
+Text Label 3850 1600 0    50   ~ 0
 IO19
-Text Label 3550 2250 0    50   ~ 0
-IO21
-Text Label 3550 3150 0    50   ~ 0
-IO22
-Text Label 3550 4050 0    50   ~ 0
-IO25
 Text Label 6250 1400 0    50   ~ 0
 OUT0
 Text Label 6250 2300 0    50   ~ 0
@@ -481,12 +351,6 @@ Text Label 6250 3200 0    50   ~ 0
 P2-CUP
 Text Label 4800 1350 2    50   ~ 0
 P1-D0
-Text Label 4800 3150 2    50   ~ 0
-P2-D0
-Text Label 4800 2250 2    50   ~ 0
-P1-D1
-Text Label 4800 4050 2    50   ~ 0
-P2-D1
 Text Label 7600 1400 2    50   ~ 0
 IO32
 $Comp
@@ -517,8 +381,6 @@ F 3 " ~" H 9750 2600 50  0001 C CNN
 	1    9750 2600
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	9150 1800 9450 1800
 Wire Wire Line
 	9150 2000 9450 2000
 $Comp
@@ -573,12 +435,8 @@ F 3 "" H 9050 2350 50  0001 C CNN
 $EndComp
 Text Label 9150 1900 0    50   ~ 0
 IO19
-Text Label 9150 1800 0    50   ~ 0
-IO21
 Text Label 9150 1500 0    50   ~ 0
 IO22
-Text Label 9050 3600 0    50   ~ 0
-IO25
 Wire Wire Line
 	9450 2100 9150 2100
 Wire Wire Line
@@ -605,8 +463,6 @@ Wire Wire Line
 	9450 1900 9150 1900
 Wire Wire Line
 	9450 1500 9150 1500
-Wire Wire Line
-	9450 3600 9050 3600
 Wire Wire Line
 	9450 3400 9050 3400
 NoConn ~ 9450 3800
@@ -759,5 +615,139 @@ Connection ~ 1300 1900
 Wire Wire Line
 	1300 1900 1700 1900
 Text Notes 900  1100 0    50   ~ 0
-* Pull-ups R1, R2 & R3 only required for PAL system.
+* Pull-ups R1, R2 & R3 only required for PAL system.\n  But doesn't hurt on NTSC ones
+Wire Wire Line
+	3850 1350 3500 1350
+$Comp
+L power:GND #PWR?
+U 1 1 656342E9
+P 3500 1350
+AR Path="/5F127084/656342E9" Ref="#PWR?"  Part="1" 
+AR Path="/5F1E85DD/656342E9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3500 1100 50  0001 C CNN
+F 1 "GND" H 3505 1177 50  0000 C CNN
+F 2 "" H 3500 1350 50  0001 C CNN
+F 3 "" H 3500 1350 50  0001 C CNN
+	1    3500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4050 3500 4050
+$Comp
+L power:GND #PWR?
+U 1 1 656396C9
+P 3500 4050
+AR Path="/5F127084/656396C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F1E85DD/656396C9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3500 3800 50  0001 C CNN
+F 1 "GND" H 3505 3877 50  0000 C CNN
+F 2 "" H 3500 4050 50  0001 C CNN
+F 3 "" H 3500 4050 50  0001 C CNN
+	1    3500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65637ACC
+P 3500 3150
+AR Path="/5F127084/65637ACC" Ref="#PWR?"  Part="1" 
+AR Path="/5F1E85DD/65637ACC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3500 2900 50  0001 C CNN
+F 1 "GND" H 3505 2977 50  0000 C CNN
+F 2 "" H 3500 3150 50  0001 C CNN
+F 3 "" H 3500 3150 50  0001 C CNN
+	1    3500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3150 3500 3150
+Text Label 4800 2250 2    50   ~ 0
+P2-D0
+Text Label 3850 2500 0    50   ~ 0
+IO22
+$Comp
+L 74xx:74LS125 U?
+U 3 1 5F23BC8C
+P 4150 3150
+AR Path="/5F127084/5F23BC8C" Ref="U?"  Part="3" 
+AR Path="/5F1E85DD/5F23BC8C" Ref="U1"  Part="3" 
+F 0 "U1" H 4150 3467 50  0000 C CNN
+F 1 "74AHCT125N" H 4150 3376 50  0000 C CNN
+F 2 "" H 4150 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4150 3150 50  0001 C CNN
+	3    4150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65635E7D
+P 3500 2250
+AR Path="/5F127084/65635E7D" Ref="#PWR?"  Part="1" 
+AR Path="/5F1E85DD/65635E7D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3500 2000 50  0001 C CNN
+F 1 "GND" H 3505 2077 50  0000 C CNN
+F 2 "" H 3500 2250 50  0001 C CNN
+F 3 "" H 3500 2250 50  0001 C CNN
+	1    3500 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2250 3500 2250
+Wire Wire Line
+	4450 2250 4800 2250
+Wire Wire Line
+	4150 2500 3850 2500
+$Comp
+L 74xx:74LS125 U?
+U 2 1 5F23BC86
+P 4150 2250
+AR Path="/5F127084/5F23BC86" Ref="U?"  Part="2" 
+AR Path="/5F1E85DD/5F23BC86" Ref="U1"  Part="2" 
+F 0 "U1" H 4150 2567 50  0000 C CNN
+F 1 "74AHCT125N" H 4150 2476 50  0000 C CNN
+F 2 "" H 4150 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4150 2250 50  0001 C CNN
+	2    4150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6567C781
+P 4150 4300
+AR Path="/5F127084/6567C781" Ref="#PWR?"  Part="1" 
+AR Path="/5F1E85DD/6567C781" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 4050 50  0001 C CNN
+F 1 "GND" H 4155 4127 50  0000 C CNN
+F 2 "" H 4150 4300 50  0001 C CNN
+F 3 "" H 4150 4300 50  0001 C CNN
+	1    4150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6567CAF2
+P 4150 3400
+AR Path="/5F127084/6567CAF2" Ref="#PWR?"  Part="1" 
+AR Path="/5F1E85DD/6567CAF2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 3150 50  0001 C CNN
+F 1 "GND" H 4155 3227 50  0000 C CNN
+F 2 "" H 4150 3400 50  0001 C CNN
+F 3 "" H 4150 3400 50  0001 C CNN
+	1    4150 3400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 3150
+NoConn ~ 4450 4050
+Wire Notes Line
+	8150 950  10450 950 
+Wire Notes Line
+	10450 4250 8150 4250
+Text Notes 8200 1050 0    50   ~ 0
+(Optional) BlueRetro universal interface
+Wire Notes Line
+	10450 950  10450 4250
+Wire Notes Line
+	8150 950  8150 4250
+NoConn ~ 9450 1800
+NoConn ~ 9450 3600
 $EndSCHEMATC
